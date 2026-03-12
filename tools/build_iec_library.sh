@@ -3,8 +3,10 @@
 # Conversion pipeline: qelectrotech-elements -> draw.io library
 #
 # Usage:
-#   bash tools/build_iec_library.sh               # auto-detects repo root
-#   bash tools/build_iec_library.sh /path/to/fork # explicit override
+#   bash tools/build_iec_library.sh                        # per-category libraries (default)
+#   bash tools/build_iec_library.sh --combined             # also build IEC_Electrical.xml
+#   bash tools/build_iec_library.sh /path/to/fork          # explicit repo root override
+#   bash tools/build_iec_library.sh /path/to/fork --combined
 
 set -euo pipefail
 
@@ -33,11 +35,17 @@ log_err()  { printf "  ${C_RED}[ERR]${C_RESET} %s\n" "$1" >&2; }
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-if [ "${1:-}" != "" ]; then
-    FORK_DIR="$1"
-else
-    FORK_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
-fi
+BUILD_COMBINED=0
+FORK_DIR=""
+
+for arg in "$@"; do
+    case "$arg" in
+        --combined) BUILD_COMBINED=1 ;;
+        *)          [ -z "$FORK_DIR" ] && FORK_DIR="$arg" ;;
+    esac
+done
+
+[ -z "$FORK_DIR" ] && FORK_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 if [ ! -d "$FORK_DIR" ]; then
     log_err "Directory not found: $FORK_DIR"
@@ -123,7 +131,7 @@ log_info "Converting .elmt -> stencil XML to source/ ..."
 log_ok "Conversion complete -> $SOURCE_DIR"
 
 # ---------------------------------------------------------------------------
-# Step 6 — Run build_library.py (source/ -> repo root)
+# Step 6 — Build per-category libraries (default output)
 # ---------------------------------------------------------------------------
 
 BUILD_SCRIPT="$FORK_DIR/tools/build_library.py"
@@ -133,14 +141,28 @@ if [ ! -f "$BUILD_SCRIPT" ]; then
     exit 1
 fi
 
-LIB_OUT="$FORK_DIR/IEC_Electrical.xml"
-STENCIL_OUT="$FORK_DIR/IEC_Stencils.xml"
+SPLIT_OUT="$FORK_DIR/libraries"
 
-log_info "Building draw.io library..."
-"$PYTHON_CMD" "$BUILD_SCRIPT" "$SOURCE_DIR" "$LIB_OUT" --stencils "$STENCIL_OUT"
+log_info "Building per-category libraries..."
+"$PYTHON_CMD" "$BUILD_SCRIPT" "$SOURCE_DIR" --split "$SPLIT_OUT"
+log_ok "Category libraries -> $SPLIT_OUT"
 
 # ---------------------------------------------------------------------------
-# Step 7 — Success summary
+# Step 7 — (optional) Build combined single-file library
+# ---------------------------------------------------------------------------
+
+LIB_OUT="$FORK_DIR/libraries/combined/IEC_Electrical.xml"
+STENCIL_OUT="$FORK_DIR/libraries/combined/IEC_Stencils.xml"
+
+if [ "$BUILD_COMBINED" -eq 1 ]; then
+    log_info "Building combined library..."
+    mkdir -p "$FORK_DIR/libraries/combined"
+    "$PYTHON_CMD" "$BUILD_SCRIPT" "$SOURCE_DIR" "$LIB_OUT" --stencils "$STENCIL_OUT"
+    log_ok "Combined library -> $LIB_OUT"
+fi
+
+# ---------------------------------------------------------------------------
+# Step 8 — Success summary
 # ---------------------------------------------------------------------------
 
 printf "\n"
@@ -148,9 +170,20 @@ printf "  ${C_CYAN}============================================${C_RESET}\n"
 printf "  ${C_CYAN}IEC library built successfully${C_RESET}\n"
 printf "  ${C_CYAN}============================================${C_RESET}\n"
 printf "\n"
-log_ok "Library  : $LIB_OUT"
-log_ok "Stencils : $STENCIL_OUT"
+log_ok "Categories : $SPLIT_OUT/categorized/"
+log_ok "Stencils   : $SPLIT_OUT/categorized/stencils/"
+log_ok "MCP context: $SPLIT_OUT/mcp_context.md"
+if [ "$BUILD_COMBINED" -eq 1 ]; then
+    log_ok "Library    : $LIB_OUT"
+    log_ok "Stencils   : $STENCIL_OUT"
+fi
 printf "\n"
 printf "  ${C_CYAN}Load in draw.io:${C_RESET}\n"
-printf "  Extras -> Edit Library -> Open from File -> %s\n" "$LIB_OUT"
+printf "  File -> Open Library from -> This Device -> pick files from %s/categorized/\n" "$SPLIT_OUT"
+if [ "$BUILD_COMBINED" -eq 1 ]; then
+    printf "  or load the combined library: %s\n" "$LIB_OUT"
+fi
+printf "\n"
+printf "  ${C_CYAN}MCP / AI context:${C_RESET}\n"
+printf "  Provide %s/mcp_context.md to your AI\n" "$SPLIT_OUT"
 printf "\n"
