@@ -1,4 +1,5 @@
 scratch.drawio
 *.drawio.bkp
 *.drawio.dtmp
-
+build-src
+.idea
