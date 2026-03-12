@@ -37,6 +37,16 @@ jobs:
           tag_name: ${{ steps.meta.outputs.tag }}
           prerelease: ${{ steps.meta.outputs.prerelease }}
           generate_release_notes: true
+          body: |
+            ## Assets
+
+            | File | Purpose |
+            |------|---------|
+            | `IEC_Electrical_libraries.zip` | **Recommended download.** All 20 per-category draw.io libraries in one zip. Import individual files from the zip via *Extras → Edit Diagram* or the draw.io library panel to keep your shape panel organised by topic. |
+            | `IEC_Electrical.xml` | Single combined draw.io library containing every IEC symbol. Useful if you prefer one library file over many. Import via *Extras → Edit Diagram* or the draw.io library panel. |
+            | `IEC_Stencils.xml` | Raw stencil bundle (draw.io `<shapes>` format). Use this to register all symbols as a custom stencil library or for tooling that consumes the stencil XML directly. |
+
+            ## Changelog
           files: |
             IEC_Electrical_libraries.zip
             libraries/combined/IEC_Electrical.xml
