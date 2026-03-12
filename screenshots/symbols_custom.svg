@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" style="background:#ffffff; font-family:monospace;">
+<rect x="0" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 12.00 44.00 L 24.00 44.00 L 26.67 37.33 L 32.00 50.67 L 37.33 37.33 L 42.67 50.67 L 48.00 37.33 L 53.33 50.67 L 56.00 44.00 L 68.00 44.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="40" y="96" text-anchor="middle" font-size="8" fill="#555">RES</text>
+<rect x="80" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 120.00 16.00 L 120.00 39.80 M 106.00 39.80 L 134.00 39.80 M 106.00 48.20 L 134.00 48.20 M 120.00 48.20 L 120.00 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="120" y="96" text-anchor="middle" font-size="8" fill="#555">CAP</text>
+<rect x="160" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 197.20 30.00 L 197.20 58.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 204.67 25.33 L 204.67 62.67" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 218.67 16.00 L 218.67 30.00 L 204.67 30.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 204.67 58.00 L 218.67 58.00 L 218.67 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="181.33" y="16.00" width="9.33" height="9.33" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 213.07 55.20 L 216.80 58.00 L 213.07 60.80 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="200" y="96" text-anchor="middle" font-size="8" fill="#555">NMOS</text>
+<rect x="240" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 277.20 30.00 L 277.20 58.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 284.67 25.33 L 284.67 62.67" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 298.67 16.00 L 298.67 30.00 L 284.67 30.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 284.67 58.00 L 298.67 58.00 L 298.67 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="261.33" y="16.00" width="9.33" height="9.33" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 291.20 27.20 L 287.47 30.00 L 291.20 32.80 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="280" y="96" text-anchor="middle" font-size="8" fill="#555">PMOS</text>
+<rect x="320" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 360.00 30.00 L 360.00 58.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 374.00 16.00 L 374.00 30.00 L 360.00 39.33" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 360.00 48.67 L 374.00 58.00 L 374.00 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="346.00" y="16.00" width="9.33" height="9.33" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 373.07 57.07 L 372.13 54.27 L 370.27 57.07 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="360" y="96" text-anchor="middle" font-size="8" fill="#555">NPN</text>
+<rect x="400" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 440.00 30.00 L 440.00 58.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 454.00 16.00 L 454.00 30.00 L 440.00 39.33" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 440.00 48.67 L 454.00 58.00 L 454.00 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="426.00" y="16.00" width="9.33" height="9.33" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 445.60 37.47 L 443.73 34.67 L 442.80 37.47 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="440" y="96" text-anchor="middle" font-size="8" fill="#555">PNP</text>
+<rect x="480" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="520" y="96" text-anchor="middle" font-size="8" fill="#555">DIODE</text>
+<rect x="560" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 585.07 34.67 L 600.00 53.33 L 614.93 34.67 Z M 600.00 16.00 L 600.00 34.67" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 585.07 49.60 L 585.07 55.20 L 614.93 55.20 L 614.93 60.80 M 600.00 53.33 L 600.00 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="600" y="96" text-anchor="middle" font-size="8" fill="#555">ZENER</text>
+<rect x="640" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 665.07 34.67 L 680.00 53.33 L 694.93 34.67 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 680.00 16.00 L 680.00 34.67 M 668.80 49.60 L 663.20 49.60 L 663.20 55.20 L 696.80 55.20 L 696.80 60.80 L 691.20 60.80 M 680.00 53.33 L 680.00 72.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="680" y="96" text-anchor="middle" font-size="8" fill="#555">SCHOTTKY</text>
+<rect x="720" y="4" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 732.00 25.33 L 788.00 25.33 M 760.00 25.33 L 760.00 62.67" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="760" y="96" text-anchor="middle" font-size="8" fill="#555">SUPPLY</text>
+<rect x="0" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="40" y="190" text-anchor="middle" font-size="8" fill="#555">GND</text>
+<rect x="80" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="120" y="190" text-anchor="middle" font-size="8" fill="#555">INPUT</text>
+<rect x="160" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="200" y="190" text-anchor="middle" font-size="8" fill="#555">OUTPUT</text>
+<rect x="240" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 269.50 110.00 L 290.50 110.00 L 290.50 138.00 L 269.50 138.00 L 269.50 110.00 Z M 280.00 138.00 L 280.00 166.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="280" y="190" text-anchor="middle" font-size="8" fill="#555">PORT</text>
+<rect x="320" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <ellipse cx="341.80" cy="138.00" rx="2.80" ry="2.80" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+  <ellipse cx="378.20" cy="138.00" rx="2.80" ry="2.80" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 332.00 138.00 L 339.00 138.00 M 344.60 138.00 L 376.80 135.20 M 381.00 138.00 L 388.00 138.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="360" y="190" text-anchor="middle" font-size="8" fill="#555">SWITCH NC</text>
+<rect x="400" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <ellipse cx="421.80" cy="138.00" rx="2.80" ry="2.80" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+  <ellipse cx="458.20" cy="138.00" rx="2.80" ry="2.80" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 412.00 138.00 L 419.00 138.00 M 424.60 136.60 L 452.60 124.00 M 461.00 138.00 L 468.00 138.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="440" y="190" text-anchor="middle" font-size="8" fill="#555">SWITCH NO</text>
+<rect x="480" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="520" y="190" text-anchor="middle" font-size="8" fill="#555">AMP</text>
+<rect x="560" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="600" y="190" text-anchor="middle" font-size="8" fill="#555">GM</text>
+<rect x="640" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="680" y="190" text-anchor="middle" font-size="8" fill="#555">GM</text>
+<rect x="720" y="98" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 732.00 129.60 L 740.40 129.60 M 732.00 146.40 L 740.40 146.40 M 776.80 138.00 L 788.00 138.00 M 737.60 121.20 A 33.60 33.60 0 0 1 737.60 154.80" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="760" y="190" text-anchor="middle" font-size="8" fill="#555">XOR</text>
+<rect x="0" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 12.00 223.60 L 20.40 223.60 M 12.00 240.40 L 20.40 240.40 M 59.04 232.00 L 68.00 232.00 M 17.60 215.20 A 33.60 33.60 0 0 1 17.60 248.80" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <ellipse cx="59.04" cy="232.00" rx="2.24" ry="2.69" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="40" y="284" text-anchor="middle" font-size="8" fill="#555">XNOR</text>
+<rect x="80" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 92.00 220.80 L 103.20 220.80 M 92.00 243.20 L 103.20 243.20 M 136.80 220.80 L 148.00 220.80 M 130.64 239.28 L 135.12 239.28 M 103.20 240.40 L 108.80 243.20 L 103.20 246.00 M 136.80 243.20 L 148.00 243.20" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="120" y="284" text-anchor="middle" font-size="8" fill="#555">DFF</text>
+<rect x="160" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 172.00 220.80 L 183.20 220.80 M 172.00 243.20 L 183.20 243.20 M 216.80 220.80 L 228.00 220.80 M 216.80 243.20 L 228.00 243.20" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 210.64 239.28 L 215.12 239.28" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="200" y="284" text-anchor="middle" font-size="8" fill="#555">SR LATCH</text>
+<rect x="240" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="280" y="284" text-anchor="middle" font-size="8" fill="#555">SCHMITT</text>
+<rect x="320" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 353.47 220.80 L 366.53 220.80 M 360.00 214.27 L 360.00 227.33 M 353.47 243.20 L 366.53 243.20" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="360" y="284" text-anchor="middle" font-size="8" fill="#555">VDC</text>
+<rect x="400" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 426.00 232.00 A 11.20 44.80 0 0 1 440.00 232.00 A 11.20 44.80 0 0 0 454.00 232.00" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="440" y="284" text-anchor="middle" font-size="8" fill="#555">VAC</text>
+<rect x="480" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+  <path d="M 506.00 232.00 L 534.00 232.00 M 525.60 227.33 L 534.00 232.00 L 525.60 236.67 L 525.60 227.33 Z" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="520" y="284" text-anchor="middle" font-size="8" fill="#555">IDC</text>
+<rect x="560" y="192" width="80" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="600" y="284" text-anchor="middle" font-size="8" fill="#555">DOT</text>
+</svg>
