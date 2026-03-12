@@ -18,18 +18,6 @@ IEC electrical schematic symbols for draw.io/diagrams.net, converted from the
 
 ![Custom Library Symbols](screenshots/symbols_custom.svg)
 
-## Configuration
-
-The default draw.io style is not ideal for schematic wiring. `config.json` applies:
-
-- No arrows on connectors
-- No minimum line segment length before changing direction
-- 2pt line width
-
-In draw.io: **Extras → Edit Diagram → Configuration** → paste the contents of `config.json`.
-
-![Config Screenshot](screenshots/config.png)
-
 ## Building from source
 
 Requires Python 3 and MSYS2/Git Bash (or Linux/macOS).
