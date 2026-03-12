@@ -10,9 +10,7 @@ IEC electrical schematic symbols for draw.io/diagrams.net, converted from the
 ### IEC library (converted from QElectroTech)
 
 1. Download `IEC_Electrical.xml` from this repository.
-2. In draw.io: **Extras → Edit Library → Open from File** → select `IEC_Electrical.xml`.
-
-![Import Screenshot](screenshots/import.png)
+2. In draw.io: **File → Open Library from → This Device** → select `IEC_Electrical.xml`.
 
 ### Original hand-crafted library
 
