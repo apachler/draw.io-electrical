@@ -35,6 +35,21 @@ git submodule update --init --recursive
 
 The build script runs this automatically when `qelectrotech-elements/10_electric/` is missing or empty.
 
+## mcp_context.md — always regenerate after builds
+
+`libraries/mcp_context.md` is **auto-generated** by `build_library.py --split` and must never
+be edited by hand. It is regenerated on every normal build run (step 6 of
+`build_iec_library.sh`).
+
+**Claude Code rule:** If any file under `libraries/categorized/`, `libraries/combined/`, or
+`build-src/` is added, modified, or removed, `libraries/mcp_context.md` MUST be rebuilt by
+running:
+
+    bash tools/build_iec_library.sh
+
+Do not commit changes to `libraries/` without also committing the regenerated
+`libraries/mcp_context.md` from the same build run.
+
 ## Running the Python tools directly
 
 ```bash
