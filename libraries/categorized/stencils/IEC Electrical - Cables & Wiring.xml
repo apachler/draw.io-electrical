@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes name="mxgraph.iec_electrical.cables_wiring">
+  <shape name="+ (cable)" w="120" h="40" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="103.0" y="27.9" />
+        <line x="107.0" y="31.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="84.0" y="28.0" />
+        <line x="88.0" y="32.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.1" y="30.0" />
+        <line x="113.9" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="44.0" y="28.0" />
+        <line x="48.0" y="32.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="+ (cable1)" w="120" h="40" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="64.0" y="27.9" />
+        <line x="68.0" y="31.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="103.0" y="27.9" />
+        <line x="107.0" y="31.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="84.0" y="28.0" />
+        <line x="88.0" y="32.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.1" y="30.0" />
+        <line x="113.9" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="44.0" y="28.0" />
+        <line x="48.0" y="32.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="cable2" w="100" h="40" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="85.0" y="27.9" />
+        <line x="89.0" y="31.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="65.0" y="27.9" />
+        <line x="69.0" y="31.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.8" y="30.0" />
+        <line x="94.3" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="45.0" y="28.0" />
+        <line x="49.0" y="32.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="cable3" w="130" h="40" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="58.0" y="30.9" />
+        <line x="62.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="78.0" y="30.9" />
+        <line x="82.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="118.0" y="31.0" />
+        <line x="122.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.0" y="31.0" />
+        <line x="102.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="33.0" />
+        <line x="120.0" y="33.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Cable 5G" w="100" h="20" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="6.0" y="10.9" />
+        <line x="10.0" y="14.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.9" y="10.9" />
+        <line x="29.9" y="14.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="66.0" y="11.0" />
+        <line x="70.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="86.0" y="10.9" />
+        <line x="90.0" y="14.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.0" y="11.0" />
+        <line x="50.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="8.0" y="13.0" />
+        <line x="88.0" y="13.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="cable 3G (cable6)" w="60" h="20" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="6.9" y="10.9" />
+        <line x="10.9" y="14.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.9" y="10.9" />
+        <line x="30.9" y="14.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="47.0" y="11.0" />
+        <line x="51.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="9.0" y="13.0" />
+        <line x="50.0" y="13.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Cable 3 wires" w="120" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5417" y="0.3333" perimeter="0" />
+      <constraint name="" x="0.7083" y="0.3333" perimeter="0" />
+      <constraint name="" x="0.875" y="0.3333" perimeter="0" />
+      <constraint name="" x="0.5417" y="0.6667" perimeter="0" />
+      <constraint name="" x="0.7083" y="0.6667" perimeter="0" />
+      <constraint name="" x="0.875" y="0.6667" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="55.0" y="15.0" />
+        <line x="115.0" y="15.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Screen" w="60" h="20" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.1167" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+    </foreground>
+  </shape>
+  <shape name="Wire of cable" w="30" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5" y="0.6667" perimeter="0" />
+      <constraint name="" x="0.5" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="5.2" y="15.0" />
+        <line x="24.8" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="10.9" />
+        <line x="15.0" y="19.1" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Wiring" w="20" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5" y="0.3333" perimeter="0" />
+      <constraint name="" x="0.5" y="0.6667" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.0" y="10.0" />
+        <line x="5.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="cable 3G (kabel3g)" w="100" h="30" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="61.0" y="15.9" />
+        <line x="65.0" y="19.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="81.0" y="16.0" />
+        <line x="85.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="33.1" y="18.0" />
+        <line x="93.0" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="16.0" />
+        <line x="45.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Cable trifasic + terra" w="110" h="30" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="57.0" y="16.9" />
+        <line x="61.0" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="97.0" y="16.9" />
+        <line x="101.0" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="77.0" y="17.0" />
+        <line x="81.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="29.1" y="19.0" />
+        <line x="106.9" y="19.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="37.0" y="17.0" />
+        <line x="41.0" y="21.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Cable de 6 fases + terra" w="180" h="30" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="159.9" y="16.9" />
+        <line x="163.9" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="16.9" />
+        <line x="64.0" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="139.9" y="16.9" />
+        <line x="143.9" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="120.0" y="16.9" />
+        <line x="124.0" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="100.0" y="16.9" />
+        <line x="104.0" y="20.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="17.0" />
+        <line x="84.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.1" y="19.0" />
+        <line x="173.0" y="19.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="17.0" />
+        <line x="44.0" y="21.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Wiring section" w="40" h="20" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+    </foreground>
+  </shape>
+  <shape name="Seccio 1 conductor" w="30" h="10" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="4.2" y="5.0" />
+        <line x="24.9" y="5.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="13.0" y="3.0" />
+        <line x="17.0" y="7.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Seccio 2 conductors (section2-1conducteurs)" w="70" h="10" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="54.0" y="3.0" />
+        <line x="58.0" y="7.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="5.8" y="5.0" />
+        <line x="63.3" y="5.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="14.0" y="3.0" />
+        <line x="18.0" y="7.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Seccio 2 conductors (section2conducteurs)" w="40" h="10" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="31.9" y="3.0" />
+        <line x="36.0" y="7.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="3.2" y="5.0" />
+        <line x="33.9" y="5.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="12.0" y="3.0" />
+        <line x="16.0" y="7.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Seccio 3 conductors" w="70" h="10" aspect="fixed">
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="54.0" y="3.0" />
+        <line x="58.0" y="7.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.0" y="3.0" />
+        <line x="38.0" y="7.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="5.8" y="5.0" />
+        <line x="63.3" y="5.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="14.0" y="3.0" />
+        <line x="18.0" y="7.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+</shapes>

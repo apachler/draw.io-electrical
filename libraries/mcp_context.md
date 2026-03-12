@@ -1,0 +1,2953 @@
+# IEC Electrical Stencil Shape Names
+
+Register the stencil files from `libraries/categorized/stencils/` in draw.io via
+**Extras -> Edit Stencils**, then reference shapes in cell styles as:
+
+    shape=stencil(NAME)
+
+where NAME is one of the values listed below.
+
+## Folio References
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Folio References.xml`  
+Namespace: `mxgraph.iec_electrical.folio_references`
+
+- `Coming arrow`
+- `Going arrow`
+
+## Network Supplies
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Network Supplies.xml`  
+Namespace: `mxgraph.iec_electrical.network_supplies`
+
+- `Three-pole source + PEN (3_pen_pravy)`
+- `Three-pole source + N + PE`
+- `Ground (ground1)`
+- `Chassis`
+- `Single-pole source + PE +N`
+- `Single-pole source +PEN`
+- `Single-pole source + neutral`
+- `Three-pole source`
+- `Three-pole source + PE +N`
+- `Three-pole source + PEN (src_3p_pen)`
+- `Three-pole source + neutral`
+- `Three-pole source + PE`
+- `Neutral source`
+- `Phase source`
+- `Distribution point TN-C TN-S`
+- `Ground (terre)`
+
+## Connections
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Connections.xml`  
+Namespace: `mxgraph.iec_electrical.connections`
+
+- `connection`
+- `Combine`
+- `Corner`
+- `Cross`
+- `Jump`
+- `Punt de fixacio (3)`
+- `Splice`
+- `Thru left`
+- `Thru right`
+
+## Cables & Wiring
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Cables & Wiring.xml`  
+Namespace: `mxgraph.iec_electrical.cables_wiring`
+
+- `+ (cable)`
+- `+ (cable1)`
+- `cable2`
+- `cable3`
+- `Cable 5G`
+- `cable 3G (cable6)`
+- `Cable 3 wires`
+- `Screen`
+- `Wire of cable`
+- `Wiring`
+- `cable 3G (kabel3g)`
+- `Cable trifasic + terra`
+- `Cable de 6 fases + terra`
+- `Wiring section`
+- `Seccio 1 conductor`
+- `Seccio 2 conductors (section2-1conducteurs)`
+- `Seccio 2 conductors (section2conducteurs)`
+- `Seccio 3 conductors`
+
+## Terminals
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Terminals.xml`  
+Namespace: `mxgraph.iec_electrical.terminals`
+
+- `Terminal strip label`
+- `Terminal (feed-through)`
+- `Terminal (Grounding)`
+- `Discontinuation terminal strip`
+- `Terminal double-level (feed-through)`
+- `Insertion bridge`
+- `Insertion bridge (double width)`
+- `Connector 25 pins`
+- `Device (connection on bottom)`
+- `Device (connection on top) (90-20-0002)`
+- `Device (connection on bottom) - beginning`
+- `Device (connection on bottom) - middle`
+- `Device (connection on bottom) - end`
+- `Device (connection on top) (90-21-0001)`
+- `Device (connection on top) - beginning`
+- `Device (connection on top) - middle`
+- `Device (connection on top) - end`
+- `Cable tag`
+- `Cable wire towards top`
+- `Cable wire towards bottom`
+- `Wire definition`
+- `Cable`
+- `distributor`
+- `Terminal 12G1`
+- `Terminal19G1`
+- `Terminal3G1`
+- `Terminal4G1`
+- `Terminal5G1`
+- `Terminal7G1`
+- `Wire Connector 2-Port`
+- `Wire Connector 3-Port`
+- `Wire Connector 4-Port`
+- `Wire Connector 5-Port`
+- `Wire Connector 8-Port`
+- `Wire Connector Splitter 2 Input-4 Output`
+- `Wire Connector Splitter 2 Input-6 Output`
+- `Ground bar`
+- `Bar interconnection TN`
+- `Terminal strip, closed`
+- `Terminal block (borne_2)`
+- `Terminal block (borne_21)`
+- `Terminal block (borne_3)`
+- `Terminal block (borne_31)`
+- `Terminal block (borne_5)`
+- `Terminal block (borne_continuite)`
+- `Terminal block (borne_continuite2)`
+- `Terminal block (borne_finale)`
+- `Terminal block (borne_finale1)`
+- `Terminal fuse`
+- `Terminal block (bornedouble)`
+- `Terminal block 3P+N+PE`
+- `Disconnecting switch fused`
+
+## Connectors & Plugs
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Connectors & Plugs.xml`  
+Namespace: `mxgraph.iec_electrical.connectors_plugs`
+
+- `24 pin connector female+male`
+- `Connector C091D femella de 3 polzades`
+- `Connector C091D mascle de 3 polzades`
+- `Connector C091A mascle de 4 polzades`
+- `Connector C091D femella de 4 polzades`
+- `Connector C16 femella de 4 polzades`
+- `Connector C16 mascle de 4 polzades`
+- `Connector C16 femella de 7 polzades`
+- `Connector C16 mascle de 7 polzades`
+- `Female connector`
+- `Male connector`
+- `Connector`
+- `plug male`
+- `Connector de 10 pins mascle dret`
+- `Connector de 10 pins mascle esquerre`
+- `Connector femella + mascle`
+- `Plug and socket`
+- `Plug multipolar`
+- `Endoll de connexio 3F+N+PE`
+- `Presa amb interruptor Schurter`
+- `Pin 17`
+- `22 Pin Male Connector`
+- `2-pin DIN socket with center pin flat`
+- `3-pin DIN socket 180 degrees`
+- `4-pin DIN socket`
+- `5-pin DIN socket`
+- `5-pin DIN socket 180 degrees`
+- `5-pin DIN socket 270 degrees`
+- `5-pin DIN socket 360 degrees with central terminal`
+- `8-pin DIN socket`
+- `Base 8 pin mini-DIN`
+- `Encoder plug 17 Pin`
+- `Encoder plug receptacle 12 points`
+- `D-SUB HD 20 pin (female)`
+- `D-SUB HD 20 pin (male)`
+- `D-SUB HD 15 pin (female)`
+- `D-SUB HD 15 pin (male)`
+- `D-SUB 15 pin (female)`
+- `D-SUB 15 pin (male)`
+- `D-SUB 25 pin (female)`
+- `D-SUB 25 pin (male)`
+- `D-SUB 9 pin (female)`
+- `D-SUB 9 pin (male)`
+- `Plugs 3 PC 2P+T 230v 16A`
+- `Outlet 3 poles (pc16pnt)`
+- `PC 2P+T`
+- `Outlet 5 poles`
+- `Outlet 3 poles (pc_mono)`
+- `Outlet 3 poles (pc_mono2)`
+- `Socket cabinet`
+- `Socket 3P+N+PE`
+- `Socket 3P+N`
+- `Connector, 1 pin`
+- `Connector, 2 pin`
+- `Connector, 4 pin`
+- `Connector, 5 pin`
+- `Connector, 6 pin`
+
+## Fuses & Protection
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Fuses & Protection.xml`  
+Namespace: `mxgraph.iec_electrical.fuses_protection`
+
+- `Portafusibles`
+- `Portafusibles 2p`
+- `Portafusibles 3p`
+- `Fuse 1p`
+- `Fuse 2p`
+- `Fuse 3p`
+- `switchfuse P+N`
+- `switchfuses (sec_fus4)`
+- `switchfuses (sec_fus5)`
+- `switchfuses (sectionneur_3_fusibles+neutre)`
+- `switchfuses (sectionneur_3_fusibles)`
+- `Fuse-disconnector`
+- `Circuit-breaker (disjonct-m_1f)`
+- `Circuit-breaker (disjonct-m_1fn)`
+- `Circuit-breaker (disjonct-m_2f)`
+- `Circuit-breaker (disjonct-m_2f2)`
+- `Circuit-breaker 3p`
+- `Circuit-breaker (disjonct-m_3fn)`
+- `Circuit-breaker (disjonct-m_4fn)`
+- `Circuit-breaker (disjoncteur2)`
+- `Circuit-breaker (disjoncteur4)`
+- `Circuit-breaker (disjoncteur5)`
+- `Miniatur circuit breaker (over current switch) 3-poles`
+- `Circuit-breaker (jistic_3p)`
+- `Magneto-thermal circuit breaker1P+N`
+- `Magneto-thermal circuit breaker GV 2P`
+- `Magneto-thermal circuit breaker GV (dis_mag_term_3f-1)`
+- `Magneto-thermal circuit breaker GV (dis_mag_term_3f-2)`
+- `Magneto-thermal circuit breaker (dis_mag_term_4f-1)`
+- `Magneto-thermal circuit breaker GV (dis_mag_term_4f-2)`
+- `Magneto-thermal circuit breaker GV (disjoncteur_magneto-thermique)`
+- `Motor circuit breaker`
+- `Motor circuit breaker with neutral`
+- `Magneto-thermal circuit breaker GV (gv2p)`
+- `Interruptor-seccionador TETRA`
+- `Four pole switch disconnector`
+- `Interruptor seccionador trifasic`
+- `Interruptor-seccionador bifasic`
+- `itcv`
+- `Disconnecting switch`
+- `break isolator (sectionneur4)`
+- `break isolator (sectionneur_general)`
+- `break isolator (sectionneur_monophase)`
+- `Thermal relay (relais_mono)`
+- `Thermal relay (relais_therm4)`
+- `Thermal relay (relais_therm4_1)`
+- `Thermal relay (relais_therm4_1_wide)`
+- `Thermal relay wide`
+- `Residual Circuit Breaker with Overload (ddr2)`
+- `Residual Circuit Breaker with Overload (ddr3)`
+- `Residual Circuit Breaker with Overload (ddr4)`
+- `Residual Circuit Breaker with Overload (ddr5)`
+- `Residual Circuit Breaker with Overload (ddr6)`
+- `Circuit-breaker (disjoncteur_differentiel_ph_n)`
+- `Differential switch (int_diff2)`
+- `Differential switch (int_diff3)`
+- `Differential switch (int_diff4)`
+- `Interruptor diferencial 1P+N`
+- `Magneto-thermal circuit breaker (int_diff6)`
+- `Interruptor diferencial 2P`
+- `Magneto-thermal circuit breaker (int_diff8)`
+- `Magneto-thermal circuit breaker (int_diff9)`
+- `Residual Circuit Breaker with Overload (int_diff_1f-1)`
+- `Residual Circuit Breaker with Overload (int_diff_1f-2)`
+- `Residual Circuit Breaker with Overload (int_diff_3f-1)`
+- `Residual Circuit Breaker with Overload (int_diff_3f-2)`
+- `Circuit-breaker (interdiff_40a)`
+- `Differential switch (interrupteur_differentiel)`
+- `Residual current circuit breaker with circuit breaker`
+- `Spark-gap`
+- `Metal-Oxide Varistor`
+- `Surge protection (parafoudre-2)`
+- `Surge protector (parafoudre)`
+- `Surge protection (parafoudre4)`
+- `Surge protector (parafoudre_3)`
+- `Protective gas discharge tube`
+- `Symmetric protective gas discharge tube`
+
+## Relays & Contactors
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Relays & Contactors.xml`  
+Namespace: `mxgraph.iec_electrical.relays_contactors`
+
+- `Coil (bobine3)`
+- `Coil (bobine_ka_a_remanence)`
+- `Coil (bobine_ka_a_verrouillage_mecanique)`
+- `Coil with on/off delay`
+- `Coil with off delay`
+- `Coil with on delay`
+- `Timer`
+- `AC Relais`
+- `DC Relais`
+- `Electronic relay`
+- `Relay insensitive to AC`
+- `Polarized relay (comm_polarise)`
+- `Fast relay`
+- `Remanence relay`
+- `Relay delay rest`
+- `Relay delay at activation and rest`
+- `Thermal overload relay`
+- `Relay operating delay at excitation`
+- `Relay with mechanical interlock`
+- `Flasher relay`
+- `Polarized relay (relais_polarise_retournant)`
+- `Solid State relay`
+- `Relay Focus rest delayed withe external command`
+- `Coil (relbistable)`
+- `Remote controlled switch`
+- `Timed relay`
+- `Timer T 816`
+- `Timer TMR48`
+- `Simple contact (con_simple)`
+- `Simple contact (NC)`
+- `Simple contact (contnonc)`
+- `Mirror contact NC`
+- `Contact power contactor (com_puiss1)`
+- `Contact power contactor (com_puiss4)`
+- `Contact power contactor (com_puiss6)`
+- `Contactor 1 changeover 3 poles`
+- `Contactor 2 changeover 3 poles`
+- `Contactor 1 changeover 4 poles`
+- `Contactor 2 changeover 4 poles`
+- `Contact power contactor (NC) (com_puiss_nf1)`
+- `Contact power contactor (NC) (com_puiss_nf4)`
+- `Contact power contactor (NC) (com_puiss_nf6)`
+- `Contact power contactor (contact_puissance_2ph)`
+- `Simple contact (NC / switch-off delay timer)`
+- `Simple contact (NC / switch-on delay timer)`
+- `Simple contact (switch-on delay timer) (con_simple_tmp_r)`
+- `Simple contact (switch-on delay timer) (con_simple_tmp_t)`
+- `Timed switch rest`
+- `timed switch work`
+- `Timed switch rest and work`
+- `Simple contact (NC / switch-on and off delay timer)`
+- `Simple contact (switch-on and off delay timer)`
+- `Contacte retardat`
+- `Thermal relay NO`
+- `Thermal relay NC`
+- `Fuse NO`
+- `Fuse NC`
+- `Contacte NC per interruptor magnetotermic GV`
+- `Contacte NO per a interruptor magnetotermic GV`
+- `Contact thermal relay (NC)`
+- `Contact thermal relay (NO)`
+- `Electronic switching device with NC contact`
+- `Electronic switching device with N/O contact`
+- `Electronic switching device with NO/NC contact`
+- `Normally open counter`
+- `Electromagnetic relay NC`
+- `Electromagnetic relay NO`
+- `Contact NC pneumatically or hydraulically controlled, two-way`
+- `Contact NO pneumatically or hydraulically controlled, two-way`
+- `Contact NC/NO pneumatically or hydraulically controlled, two-way`
+- `Contact NC pneumatically or hydraulically controlled`
+- `Contact NO pneumatically or hydraulically controlled`
+- `Contact NO pneumatically or hydraulically controlled, one-way`
+- `Contact NO/NC pneumatically or hydraulically controlled, one-way`
+- `Contact NC-controlled clock`
+- `Contact NO-controlled clock`
+- `Contact NC/NO-controlled clock`
+- `Contact Motorized NC`
+- `Contact Motorized NO`
+- `Contact Motorized NC/NO`
+- `Centrifugal contact (NC)`
+- `Centrifugal contact (No)`
+- `Simple contact (tight)`
+- `Simple contact (NC / tight)`
+- `Contact NC circuit-breaker magneto-thermal GV`
+- `Contact NO circuit-breaker magneto-thermal GV`
+- `Contact relais thermique (NO)`
+- `Contact relais thermique (NC)`
+
+## Transformers
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Transformers.xml`  
+Namespace: `mxgraph.iec_electrical.transformers`
+
+- `Single phase autotransducer`
+- `Three-phase autotransducer`
+- `Three-phase autotransducer + neutral`
+- `Autotransformer`
+- `autotransformer single phase`
+- `Three-phase Autotransformer Yd`
+- `Adjustable autotransformer`
+- `Transformador`
+- `Transformador de dos bobinatges`
+- `Transformador de tres bobinatges`
+- `Transformador de tres bobinatges sense aixetes`
+- `Transformador 230/400-12/24V`
+- `Single phase transducer (transfo_mono)`
+- `Single phase transducer (transfo_mono_2)`
+- `Three-phase transducer (transfo_tri)`
+- `Three-phase transducer (transformateur_triphase)`
+- `Three-phase + neutral transducer`
+- `Two winding transformer (transformator_1f_2)`
+- `Two winding transformer (transformator_2_2)`
+- `Transformer`
+- `Three-phase transformer Yd`
+- `Three-phase transformer Yyd`
+- `Transformer with screen`
+- `Transformer controllable`
+- `Power Supply AC/DC 1-ph. DC 24V`
+- `One-phase alternating Direct`
+- `Rectifier`
+- `24V DC supply one phase`
+- `Power supply AC/DC 3 poles`
+- `UPS`
+
+## Converters
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Converters.xml`  
+Namespace: `mxgraph.iec_electrical.converters`
+
+- `One-phase alternating One-phase alternating`
+- `One-phase alternating Direct (ac1_dc)`
+- `One-phase alternating Direct (ac1_dc1)`
+- `Rectifier (alim)`
+- `DC/DC converter`
+- `AC/DC tri converter`
+- `Three phase converter single phase`
+- `Direct One-phase alternating`
+- `Direct Direct`
+- `Inverter hybrid 2 strings`
+- `Single line phases direction inverter`
+- `Inverter`
+- `Convertidor RS232/RS485`
+- `Convertidor RS485/I2C`
+- `Rectifier (rectifier)`
+- `Rectifier (redresseur)`
+- `Voltage regulator`
+- `Frequencyconverter`
+- `Measure converter Pt100/TC`
+- `Pressure converter / power`
+- `1-pole toroidal core`
+- `2-poles toroidal core`
+- `3-poles toroidal core`
+- `4-poles toroidal core`
+- `Current transformer, pulse transformer`
+- `Transformer or current pulse, with three through primary conductors`
+- `Current transformer, two cores with a secondary winding on each core`
+- `Current transformer with two secondary windings on a common magnetic circuit`
+- `Filtre TS 811 1751`
+- `TSK 6711`
+- `TSK 6741`
+- `Line filter`
+- `Line filter 3P`
+- `Filtre KFS 4300`
+
+## Signaling
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Signaling.xml`  
+Namespace: `mxgraph.iec_electrical.signaling`
+
+- `Touch panel 1`
+- `Touch panel 2`
+- `Targeta LED (carte_voyant)`
+- `Targeta LED (carte_voyant2)`
+- `Flashing light (gyrophare)`
+- `Light (lampara-azul)`
+- `Light (lampara-red)`
+- `Light (lampara-verde)`
+- `Light (lampe2)`
+- `Flashing light (lampe_clignotante)`
+- `Clock motor`
+- `Light with transformer`
+- `LED of an illuminated push-button`
+- `Flashing light (voyant_flash)`
+- `Horn`
+- `Buzzer`
+- `Speaker`
+- `Siren`
+- `Bell`
+- `1 bell ringer has`
+- `Push-button (arret-urgence_no)`
+- `Emergency stop key release`
+- `Emergency turn stop deverouiller`
+- `Emergency stop (LATCH)`
+- `Emergency stop (NC) (au)`
+- `Emergency stop trip switches 2NC`
+- `Push-button (contact_012)`
+- `Foot Switch (NO/NC) (contattiausiliari)`
+- `Emergency stop (NC) (e-stop3p)`
+- `Emergency stop (NC) (e_stop_1p)`
+- `Foot Switch (NC)`
+- `Foot Switch (NO)`
+- `Foot Switch (NO/NC) (foot_no_nc)`
+- `Emergency stop (NC) (mag_spinac)`
+- `Interruptor rotatiu`
+- `Push-button (poussoir)`
+- `Push-button (NC)`
+- `Boto Expandir`
+- `Boto dencesa`
+- `Switch with LED (switch_led_green)`
+- `Switch with LED (switch_led_red)`
+- `Pull switch`
+- `Switch`
+- `Switch, DPST, n.o.`
+- `Switch 2 positions (015_inter_2)`
+- `Switch 3 positions (020_switch_3_contacts)`
+- `Switch 3 positions (021_switch_3pos)`
+- `Switch 3 positions including neutral (022_inter_2n)`
+- `Selector switch 2-position stay put, key withdrawal from LH (bouton_tournant_01)`
+- `Selector switch 2-position stay put, key withdrawal from LH (bouton_tournant_02)`
+- `Switch 3 positions including neutral (bp1-0-2)`
+- `Switch 3 positions including neutral (bp1-0-2inv)`
+- `2 position switch`
+- `Interruptor de 3 posicions A/0/M`
+- `3 position switch (commutateur-a-3-positions-)`
+- `3 position switch (commutateur-a-3-positions-a-m)`
+- `2 position key switch`
+- `3 position switch (comut_ppe1_ppe2)`
+- `Switch 2 positions (contact_001)`
+- `Switch 2 positions (contact_002)`
+- `Switch 2 positions (contact_008)`
+- `Two-positions luminous rotative button`
+- `Switch 3 positions including neutral (interruptor_001)`
+- `Switch 3 positions including neutral (interruptor_002)`
+- `Interruptor de tres posicions amb zero al mig (1-0-2)`
+- `Key switch 3 position`
+- `Key switch 3 positions`
+- `Lever switch 2 poles 2 directions latched`
+- `Lever switch 2 poles 2 directions tentative`
+- `Lever switch 4 poles 4 directions latched`
+- `Lever switch 4 poles 4 directions tentative`
+
+## Sensors & Instruments
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Sensors & Instruments.xml`  
+Namespace: `mxgraph.iec_electrical.sensors_instruments`
+
+- `Capacitive sensor 3 terminals`
+- `Capacitive sensor 4 terminals`
+- `Capacitive sensor NC`
+- `Capacitive sensor 3 terminals NC`
+- `Capacitive sensor NO`
+- `Capacitive sensor 3 terminals NO`
+- `Limit switch NO`
+- `Inductif sensor 2 terminals NC`
+- `Inductif sensor 3 terminals NC`
+- `Inductif sensor 2 terminals NO`
+- `Inductif sensor 3 terminals NO`
+- `Inductive sensor 3 terminals (capteur_inductif2_3)`
+- `Inductive sensor 2 terminals`
+- `Inductive sensor 3 terminals (capteur_inductif_3)`
+- `Inductive sensor 4 terminals`
+- `Inductif sensor NC`
+- `Inductif sensor NO`
+- `Inductif sensor`
+- `Magnetic sensor 3 terminals`
+- `Magnetic sensor 3 terminals NO (capteur_magnetique_2)`
+- `Magnetic sensor 3 terminals NO (capteur_magnetique_3)`
+- `Magnetic sensor NC`
+- `Magnetic sensor NO`
+- `Optic sensor (NC) (capteur_opt_nc_3p)`
+- `Optic sensor (NC) (capteur_opt_nc_4p)`
+- `Optic sensor (NO) (capteur_opt_no_2p)`
+- `Optic sensor (NO) (capteur_opt_no_3p)`
+- `Optic sensor (NO) (capteur_optique_no)`
+- `Brightness sensor`
+- `Photo-electric sensor -transmitter`
+- `Photo-electric sensor receptor`
+- `Relleu Crepuscular`
+- `Actuated by the flow of a fluid NC`
+- `Actuated by the flow of a fluid NC/NO`
+- `Actuated by the flow of a fluid NO`
+- `Actuated by the flow of a gas NC`
+- `Actuated by the flow of a gas NC/NO`
+- `Actuated by the flow of a gas NO`
+- `NF Actuated by the level of a liquid`
+- `NC/NO Actuated by the level of a liquid`
+- `NO Actuated by the level of a liquid`
+- `Level sensor`
+- `Pressure sensor`
+- `Presostat (NO) (pressostat)`
+- `Presostat (NC) (pressostat2)`
+- `Presostat (NC) (pressostat_nc)`
+- `Presostat (NO) (pressostat_no)`
+- `Pressure switch (NO)`
+- `NC controlled relative humidity`
+- `NC/NO controlled relative humidity`
+- `NO controlled relative humidity`
+- `Temperature sensor`
+- `Temperature sensor 4 wire`
+- `Thermocouple`
+- `Temperature switch NO`
+- `Temperature switch NC`
+- `Ultrasonic sensor 3 terminals`
+- `Ultrasonic sensor 3 terminals NO (capteurs_ultrasons_2)`
+- `Ultrasonic sensor 3 terminals NO (capteurs_ultrasons_3)`
+- `Ultrasonic sensor NC`
+- `Ultrasonic sensor NO`
+- `Limitswitch (NC) (fin_course_nc)`
+- `Limitswitch (NC) (fin_de_course_came_2_nf)`
+- `Limitswitch (NO) (fin_de_course_came_2_no)`
+- `Cam switch (NC)`
+- `Cam switch (NO)`
+- `Limitswitch (NC) (fin_de_course_nf)`
+- `Limitswitch (NO) (fin_de_course_no)`
+- `Timer NO`
+- `Timer NC/NO`
+- `Timer 2x NC/NO`
+- `Ampere Hour Meter`
+- `Horizontal ammeter`
+- `Vertical ammeter`
+- `Flow sensor pulsmeter`
+- `Comptador`
+- `220V single phase meter (compteur_220v_monophase)`
+- `220V single phase meter (compteur_220v_monophase_2)`
+- `Energy meter (compteur_energie)`
+- `Energy meter (compteur_energie_2)`
+- `Energy meter (compteur_energie_3phase)`
+- `Excess watt-hour meter`
+- `Hour counter`
+- `Hour counter(en60617)`
+- `Flowmeter pulse`
+- `Frequency meter h`
+- `Frequency meter v`
+- `Galvanometer h`
+- `galvanometer v`
+- `Horizontal ohmmeter`
+- `Vertical ohmmeter`
+- `reactive energy meter`
+- `Var hour meter (varheuremetre)`
+- `Var hour meter (varheuremetre_2)`
+- `Horizontal voltmeter`
+- `Vertical voltmeter`
+- `Watt hour meter (wattheuremetre)`
+- `Watt hour meter (en60617)`
+- `Watt hour meter (wattheuremetre_2)`
+- `Watt hour meter (wattheuremetre_3phase)`
+- `Horizontal wattmeter`
+- `Vertical wattmeter`
+- `Incremental encoder`
+
+## Consumers & Actuators
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Consumers & Actuators.xml`  
+Namespace: `mxgraph.iec_electrical.consumers_actuators`
+
+- `Induction motor, three-phase Dahlander 12 terminlas`
+- `Induction motor, three-phase Dahlander 6 terminals`
+- `Induction motor, three-phase Dahlander 9 terminals`
+- `Induction motor, three-phase 6 terminals`
+- `One-phase engine (jednofaz.motor)`
+- `Engine`
+- `DC motor`
+- `Separate excitation DC motor`
+- `One-phase engine (moteur_mono)`
+- `Motor single phase (moteur_mono1)`
+- `One-phase engine (moteur_mono_2)`
+- `Series motor DC`
+- `Series motor single phase`
+- `Series motor three-phase`
+- `Three-phase engine (moteur_tri)`
+- `Three-phase engine (moteur_tri_1)`
+- `Three-phase engine (moteur_tri_2)`
+- `Three-phase engine (moteur_tri_3)`
+- `Six-phase engine (moteur_tri_de)`
+- `Six-phase engine (moteur_tri_de_2)`
+- `Motor single phase (moteurmono3)`
+- `AC MOTOR 1-Phase`
+- `AC MOTOR 3-Phases`
+- `One-phase engine (motor-mono-2)`
+- `Three-phase engine (motor-mono-cond)`
+- `One-phase engine (motor018)`
+- `Motor`
+- `One-phase engine (motor_bez_kondu)`
+- `Magneto-thermal circuit breaker`
+- `Three-phase engine PE + BRAKE`
+- `Three-phase engine PE + TERM`
+- `Three-phase engine PE + TERM + BRAKE`
+- `Servomotor`
+- `Stepper motor`
+- `Solenoid valve`
+- `Magnet valve with connector`
+- `Magnetic brake (brzda_motoru)`
+- `Magnetic brake (frein)`
+- `Electromechanical brake`
+- `Magnetic brake (frein_magnetique)`
+- `Brake Electromagnetic`
+- `Caisson phase star`
+- `Caisson phase triangle`
+- `Heating element`
+- `Resistance heating`
+- `Resistances heating`
+- `Cabiner balast lamp`
+- `Relleu Crepuscular`
+- `Fluorescent tube`
+- `Lamp`
+- `Servomotor V2V FDC/DDC`
+- `Servomotor V2V FDC`
+- `Servomotor V2V (v2v)`
+- `Servomotor V2V (v2v_-2)`
+
+## Sources & Generators
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Sources & Generators.xml`  
+Namespace: `mxgraph.iec_electrical.sources_generators`
+
+- `Tachodynamo`
+- `Three-phase generator`
+- `DC generator`
+- `PVCell`
+- `Vertical wind turbine`
+- `Diesel Engine`
+- `MicroTurbine`
+- `Battery one element`
+- `Battery one element (short)`
+- `Battery 2 elements`
+- `Current source (new)`
+- `Current source (old)`
+- `Voltage source (new)`
+- `Voltage source (old)`
+
+## Electronics & Semiconductors
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Electronics & Semiconductors.xml`  
+Namespace: `mxgraph.iec_electrical.electronics_semiconductors`
+
+- `NTC`
+- `Light dependent resistor LDR`
+- `Potentiometer trimmer`
+- `Potentiometer`
+- `PTC`
+- `Resistor (resistance)`
+- `Adjustable resistance`
+- `Varistor`
+- `Capacitor (capacite)`
+- `Capacitor (condensateur)`
+- `Polarized capacitor`
+- `Polarized Capacitor`
+- `Adjustable capacitor`
+- `inductor`
+- `Inductor (inductance)`
+- `Iron core inductor`
+- `Inductor (inductance2.elmt)`
+- `Line choke 3 pole`
+- `Motor choke 3 pole`
+- `Self (self)`
+- `Self (self_avec_entrefer)`
+- `Capacitor (09_disturbances/capacite)`
+- `Inductor (09_disturbances/inductance)`
+- `Resistor (09_disturbances/resistance)`
+- `Avalanche diode bidirectional`
+- `Avalanche diode unidirectional`
+- `diode-tube`
+- `Diode`
+- `LED`
+- `Temperature sensing diode`
+- `Tunnel diode`
+- `Backward diode (unitunnel diode)`
+- `Graetz-Schaltung / Bruckengleichrichter`
+- `Photodiode`
+- `Graetz bridge`
+- `Pont de diodes`
+- `Schottky diode`
+- `Shockley diode`
+- `Variable capacitance diodeVaractor`
+- `Zener diode`
+- `Optocoupler`
+- `Unipolar transistor MOSFET (mosfet_n)`
+- `MOSFET N enh. Type`
+- `Unipolar transistor MOSFET (mosfet_p)`
+- `Bipolar transistor npn (npn-a)`
+- `Bipolar transistor npn (npn-a1)`
+- `NPN transistor (npn1)`
+- `Optocoupler 2`
+- `Phototransistor, PNP type shown`
+- `Bipolar transistor PNP (pnp-a)`
+- `Bipolar transistor PNP (pnp-a1)`
+- `PNP transistor (pnp1)`
+- `PNP transistor (pnp2)`
+- `Transistor bipolar PNP`
+- `Bipolar transistor IGBT`
+- `Bipolar transistor npn (transistor_bipolaire_npn)`
+- `Bipolar transistor pnp`
+- `NPN transistor (transistor_npn)`
+- `triode`
+- `Diac`
+- `Thyristor`
+- `Triac`
+- `Turn-off triode thyristor, N-gate(anode-side controlled)`
+- `Turn-off triode thyristor, P-gate(cathode-side controlled)`
+- `Reverse blocking diode thyristor`
+- `Reverse blocking thyristor tetrode type`
+- `Reverse conducting diode thyristor`
+- `Reverse blocking Thyristortriode, N-Gate`
+- `Triode thyristor`
+- `Reverse blocking triode thyristor, N-gate`
+- `Reverse blocking triode thyristor, P-gate(cathode-side controlled)`
+- `Turn-off thyristor`
+- `Transductor piezoceramic`
+- `Transductor piezoceramic 2`
+- `78xx`
+- `Operational amplifier 3 pins (ao-amp1)`
+- `Operational amplifier 3 pins (ao-amp1a)`
+- `Operational amplifier 5 pins (ao-amp2)`
+- `Operational amplifier 5 pins (ao-amp2a)`
+- `Integrated Circuit, 8 pins (aop1)`
+- `Integrated Circuit, 8 pins (aop2)`
+- `Integrated Circuit, 18 pins, numbered`
+- `Integrated Circuit, 16 pins`
+- `Integrated Circuit, 20 pins`
+- `Integrated Circuit, 20 pins, numbered`
+- `Integrated Circuit, 16 pins, numbered`
+- `Integrated Circuit, 24 pins`
+- `Integrated Circuit, 24 pins, numbered`
+- `Integrated Circuit, 8 pins (ic8)`
+- `Integrated Circuit, 8 pins, numbered`
+- `NE555`
+- `Universal inputs (8 inputs)`
+- `Universal inputs (8 outputs)`
+- `Computer PC (ordinateur_couleur)`
+- `Computer PC (ordinateur_pc)`
+- `Network Station middle`
+- `Network station first`
+- `Network Station Last`
+- `USB connector, USB version 1 and 2`
+
+## High Voltage
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - High Voltage.xml`  
+Namespace: `mxgraph.iec_electrical.high_voltage`
+
+- `Key prisoner unit closed`
+- `Key prisoner open device`
+- `Key missing bolt free entry maneuver`
+- `Key missing bolt out maneuver blocked`
+- `Latch key free free entry maneuver`
+- `Free key bolt out maneuver blocked`
+- `Key captive bolt free entry maneuver`
+- `Key captive bolt entry maneuver blocked`
+- `Contactor CRM`
+- `Contactor fuses CRM`
+- `DM1W withdrawable circuit breaker`
+- `DM1-Z withdrawable circuit breaker`
+- `Breaker DM1-A`
+- `Breaker DM1-D`
+- `Breaker DM1-S`
+- `Breaker DM2`
+- `Dual Spark`
+- `Simple Spark`
+- `Flexible element`
+- `HV Pole`
+- `IM switch`
+- `Switch IMB`
+- `IMC switch`
+- `Switch PM`
+- `Switch fuses Qm`
+- `Switch with fuse QMB`
+- `Switch QMC`
+- `Ground switch disconnector`
+- `Air line`
+- `Line immersed`
+- `Underground line`
+- `Three-phase line`
+- `Three-phase line -form 2`
+- `Lock key always free`
+- `Lock with key still trapped`
+- `Capacitive voltage attendance indicator`
+- `Potential transformer CM`
+
+## Home Installation
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Home Installation.xml`  
+Namespace: `mxgraph.iec_electrical.home_installation`
+
+- `Alarm`
+- `Antenna`
+- `Heater`
+- `Heater has accumulated`
+- `Cooking Appliance`
+- `Appliance`
+- `Drying cabinet`
+- `self watering`
+- `External building`
+- `External building 1P+N`
+- `External building 3P+N`
+- `Garage 3P+N`
+- `Garage 1P+N`
+- `Boiler`
+- `DHW wall boiler`
+- `Water heater (chauffe_eau)`
+- `Water heater (chauffe_eau1)`
+- `Air conditioning`
+- `Aire condicionat`
+- `Air conditioning, outdoor unit`
+- `Air conditioning, indoor unit`
+- `Freezer`
+- `Congelador (congelateur1)`
+- `Electric cooker`
+- `Miscellaneous 10 A`
+- `Miscellaneous 16 A`
+- `Miscellaneous 20 A`
+- `Miscellaneous 32 A`
+- `Diversos tetra`
+- `Classificacio variada`
+- `Doble flux (double-flux)`
+- `Doble flux (double-flux2)`
+- `Aigua calenta sanitaria 2`
+- `Aigua calenta sanitaria mono`
+- `Classificacio daigua calenta sanitaria`
+- `Illuminacio exterior`
+- `Lighting`
+- `Illuminacio (eclairage1)`
+- `Illuminacio (eclairage_(2))`
+- `Interruptor remot ECL`
+- `Congelador (em_congelateur)`
+- `Forn (em_four)`
+- `Caputxa`
+- `Rentadora (em_lave-linge)`
+- `Rentaplats (em_lave-vaisselle)`
+- `Forn microones`
+- `Placa (em_plaques)`
+- `Placa (em_plaques_2)`
+- `Nevera (em_refrigerateur)`
+- `Assecador (em_seche-linge)`
+- `Assecador (em_seche-linge_2)`
+- `Filtracio`
+- `Electric oven`
+- `Forn (four1)`
+- `Microwave oven`
+- `Garatge`
+- `Energy management (gestion-energie)`
+- `Hores baixes`
+- `Cooker Hood filter`
+- `Washing machine`
+- `Rentadora (lave-linge2)`
+- `Washer`
+- `Dishwasher (lave_vaiselle)`
+- `Rentaplats (lave_vaiselle2)`
+- `Dishwasher (lave_vaisselles)`
+- `Persiana enrotllable (moteur-volet-roulant2)`
+- `Un sol motor`
+- `Trimotor`
+- `Oven`
+- `Outlet 3 poles`
+- `Heated floor`
+- `Terra climatitzada`
+- `Solid plate`
+- `Bomba mono`
+- `Bomba de classificacio`
+- `Portal`
+- `Porta de garatge`
+- `Presa de 10 A`
+- `16 Una presa`
+- `Presa de 20 A`
+- `2 Presa P+T 230 V`
+- `32 A presa`
+- `Presa de 3 P+T 230 V`
+- `Presa de 3 P+T 400 V`
+- `Presa 3 P+ N+ T 230 V`
+- `Presa de 4 P+T 400 V`
+- `Presa externa de 16 A`
+- `Presa Tri + N 16 A`
+- `Presa Tri + N 32 A`
+- `Presa Tri 16 A`
+- `Presa Tri 32 A`
+- `Presa alemanya de 10 A`
+- `Presa alemanya 16 A`
+- `Proteccio contra llamps`
+- `Radiator`
+- `Radiador`
+- `Electric convector`
+- `Fan heater hairdryer`
+- `Refrigerator`
+- `Nevera (refrigerateur1)`
+- `Refrigerator with freezer`
+- `Assecador (seche-linge)`
+- `Assecadors de tovalloles`
+- `To de trucada`
+- `To de trucada 2`
+- `Telefonia`
+- `Ground`
+- `Energy management (thermostat)`
+- `Ton de trucada de Tranfo`
+- `V.D.I.`
+- `Fan`
+- `Celler Buit`
+- `VMC`
+- `Persiana enrotllable (volet-roulant)`
+- `Persiana enrotllable (volet-roulant2)`
+- `Ampere Hour Meter`
+- `220V single phase meter`
+- `Energy meter`
+- `Excess watt-hour meter`
+- `Hour counter`
+- `Hour counter(en60617)`
+- `reactive energy meter`
+- `Var hour meter`
+- `Watt hour meter`
+- `Watt hour meter (en60617)`
+
+## Single-Pole
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Single-Pole.xml`  
+Namespace: `mxgraph.iec_electrical.single-pole`
+
+- `Plug and multipolar representationunifilar`
+- `Fuse`
+- `switchfuses`
+- `Circuit-breaker (disjonct-m)`
+- `Circuit-breaker (disjoncteur1)`
+- `Circuit-breaker (jistic_1p)`
+- `Magneto-thermal circuit breaker GV`
+- `Disconnecting switch`
+- `break isolator`
+- `Thermal relay`
+- `Residual Circuit Breaker with Overload (ddr1)`
+- `Magneto-thermal differential switch`
+- `Differential switch (int_diff-1p)`
+- `Differential switch (int_diff1)`
+- `Residual Circuit Breaker with Overload (rcbo)`
+- `Differential switch (rccb)`
+- `Auto-transformer (autotransformator_1_1)`
+- `Auto-transformer (autotransformator_1f_1)`
+- `Three-phase autotransformer Y`
+- `Adjustable autotransformer`
+- `Single phase transformer with screen`
+- `Transformer with variable coupling`
+- `Single phase transducer (transformateur_mono)`
+- `Single phase transducer (transformator_1f_1)`
+- `Transformer with centre tapping on one winding`
+- `Three-phase transducer`
+- `Three-phase transformer Yd`
+- `Transformateur 2 secondaires etoile-etoile-triangle`
+- `Current transformer, pulse transformer`
+- `Transformer or current pulse, with three through primary conductors`
+- `Current transformer, two cores with a secondary winding on each core`
+- `Current transformer with two secondary windings on a common magnetic circuit`
+- `Transformer or current pulse, with two secondary windings on the same core`
+- `Voltage regulator`
+- `Generator`
+- `Resistor`
+- `Capacitor`
+- `Inductor (inductance)`
+- `Inductor (inductance2)`
+- `Alarm`
+- `Antenna`
+- `Heater`
+- `Heater has accumulated`
+- `Cooking Appliance`
+- `Appliance`
+- `Drying cabinet`
+- `self watering`
+- `Edifici Ext`
+- `Suport Mono Ext`
+- `Edifici Ext tetra`
+- `Garatge Tetra`
+- `Garatge individual`
+- `Bloc diferencial`
+- `Bi frame buit`
+- `Marc tetra buit`
+- `Marc de classificacio buit`
+- `Marc buit`
+- `Caldera`
+- `Water heater (chauffe-eau)`
+- `Water heater (chauffe_eau)`
+- `Water heater (chauffe_eau1)`
+- `Aire condicionat (climatiseur)`
+- `Aire condicionat (climatiseur_ext)`
+- `Unitat interna daire condicionat`
+- `Freezer`
+- `Congelador (congelateur1)`
+- `Electric convector`
+- `Electric cooker`
+- `Circuit-breaker (dessin_base)`
+- `Diversos 10 A`
+- `Diversos 16 A`
+- `Diversos 20 A`
+- `Diversos 32 A`
+- `Diversos tetra`
+- `Classificacio variada`
+- `Doble flux`
+- `Aigua calenta sanitaria 2`
+- `Aigua calenta sanitaria`
+- `Aigua calenta sanitaria mono`
+- `Classificacio daigua calenta sanitaria`
+- `Illuminacio exterior`
+- `Lighting`
+- `Illuminacio`
+- `Interruptor remot ECL`
+- `Congelador (em_congelateur)`
+- `Forn (em_four)`
+- `Caputxa`
+- `Rentadora`
+- `Rentaplats`
+- `Forn microones`
+- `Placa (em_plaques)`
+- `Placa (em_plaques_2)`
+- `Nevera (em_refrigerateur)`
+- `Assecador (em_seche-linge)`
+- `Assecador (em_seche-linge_2)`
+- `Filtracio`
+- `Electric oven`
+- `Forn (four1)`
+- `Microwave oven`
+- `Garatge`
+- `Energy management (gestion-energie)`
+- `Hores baixes`
+- `Cooker Hood filter`
+- `Washing machine`
+- `Washer`
+- `Dishwasher (lave_vaiselle)`
+- `Dishwasher (lave_vaisselles)`
+- `Un sol motor`
+- `Trimotor`
+- `Oven`
+- `Heated floor`
+- `Terra climatitzada`
+- `Solid plate`
+- `Bomba mono`
+- `Bomba de classificacio`
+- `Portal`
+- `Porta de garatge`
+- `Presa de 10 A`
+- `16 Una presa`
+- `Presa de 20 A`
+- `2 Presa P+T 230 V`
+- `32 A presa`
+- `Presa de 3 P+T 230 V`
+- `Presa de 3 P+T 400 V`
+- `Presa de 4 P+T 230 V`
+- `Presa de 4 P+T 400 V`
+- `Presa externa de 16 A`
+- `Presa Tri + N 16 A`
+- `Presa Tri + N 32 A`
+- `Presa Tri 16 A`
+- `Presa Tri 32 A`
+- `Presa alemanya de 10 A`
+- `Presa alemanya 16 A`
+- `Proteccio contra llamps`
+- `Radiator`
+- `Radiador`
+- `Fan heater hairdryer`
+- `Refrigerator`
+- `Nevera (refrigerateur1)`
+- `Refrigerator with freezer`
+- `Assecador (seche-linge)`
+- `Assecadors de tovalloles`
+- `To de trucada`
+- `To de trucada 2`
+- `Telefonia`
+- `Ground`
+- `Energy management (thermostat)`
+- `Ton de trucada de Tranfo`
+- `V.D.I.`
+- `Fan`
+- `Celler Buit`
+- `VMC`
+- `Persiana enrotllable (volet-roulant)`
+- `Persiana enrotllable (volet-roulant2)`
+- `Alimentacio 2 sortides`
+- `Antena FM`
+- `Antena Sat`
+- `Antena UHF`
+- `Amplificador Int`
+- `Cable 11 PATC`
+- `11 cable VATC`
+- `Cable 17 PATC`
+- `17 cable VATC`
+- `Carrega de 75 ohms`
+- `Endoll femella 9,52`
+- `Endoll mascle 9,52`
+- `Connexio F mascle-F mascle`
+- `Acoblament F mascle`
+- `Connexio F femella - F femella`
+- `Acoblador TV-Sat`
+- `CouplerTV-Sat int`
+- `Divisor 2D (repartiteur_2d)`
+- `Divisor 3D`
+- `Divisor 4D`
+- `Divisor 5D`
+- `Divisor 6D`
+- `Divisor 8D`
+- `Divisor 2D (repatiteur_2d)`
+- `Preamplificador UHF`
+- `Presa TV-FM`
+- `Presa TV-FM-Sat`
+- `Endoll de TV individual`
+- `Desviador 1 D`
+- `Panell de connexio 6 RJ45 13 a 18`
+- `Panell de connexio 6 RJ45 19 a 24`
+- `Panell de connexio 6 RJ45 7 a 12`
+- `Panell de connexio 6 RJ45 1 a 6`
+- `8 panells de connexio RJ45`
+- `Terminal WIFI`
+- `Caixa taronja`
+- `Fortificar 20oC`
+- `Commutador de 12 ports`
+- `Commutador de 16 ports`
+- `Commutador de 24 ports`
+- `Commutador de 4 ports`
+- `Commutador de 5 ports`
+- `Commutador de 8 ports`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_bleue)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_bleue_b)`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_grise)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_grise_b)`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_jaune)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_jaune_b)`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_noire)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_noire_b)`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_orange)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_orange_b)`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_rouge)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_rouge_b)`
+- `Endoll RJ45 Cat 6e T568A (fiche_rj45_6e_verte)`
+- `Endoll RJ45 Cat 6e T568B (fiche_rj45_6e_verte_b)`
+- `Cable Cat 5e`
+- `Cable Cat 6e (cable_cat_6e)`
+- `Cable Cat 6e (cable_cat_6e_inv_blue)`
+- `Cable Cat 6A`
+- `Presa DTI`
+- `Presa RJ45 Cat 6e (prise_rj45_6e)`
+- `Presa RJ45 Cat 6e (prise_rj45_6e_inv)`
+- `Presa RJ45 Cat 6e (prise_rj45_6e_leds)`
+- `Presa RJ45 Cat 6e (prise_rj45_6e_leds__inv)`
+- `Presa de paret RJ45`
+- `2 electrical socket (EN 60617 11-13-01)`
+- `3 electrical sockets (EN 60617 11-13-02)`
+- `menjar`
+- `Push button`
+- `Push-button with indicator lamp`
+- `Push-button protected`
+- `Glass break detector`
+- `Camera`
+- `Central system`
+- `Keyboard`
+- `Magnetic contact`
+- `Assembly (coffret_de_repartition1)`
+- `Assembly (coffret_de_repartition2)`
+- `Intermediate switch`
+- `Two pole switch (commutateur_unipolaire)`
+- `Connector`
+- `covered isolated ground receptacle with (EN 60617 11-13-0x) (covered_isolated_ground_receptacle_11-13-0x_en60617)`
+- `Vibrations detector`
+- `detector de moviment`
+- `Microwaves detector`
+- `PIR detector`
+- `PIR motion detector`
+- `PIR ultrasonic detector`
+- `Ultrasonic detector`
+- `Lighting outlet on wall The symbol is shown with wiring from the left`
+- `Lighting outlet position`
+- `electrical socket (EN 60617 11-13-01)`
+- `Electric lock`
+- `Time clock Time recorder`
+- `Audio intercommunication equipment`
+- `Switch`
+- `Switch with pilot light`
+- `Period limiting switch, single pole`
+- `Two pole switch (interrupteur_bipolaire)`
+- `Limit switch`
+- `Dimmer`
+- `Time switch`
+- `Switch 3 pole`
+- `Single pole switch`
+- `Pull-cord single pole switch`
+- `Two-way single pole switch`
+- `dos interruptors dencesa`
+- `isolated ground receptacle (EN 60617 11-13-04)`
+- `Light`
+- `llum`
+- `Fluorescent lamp`
+- `Luminaire with three fluorescenttubes`
+- `Luminaire with five fluorescenttubes`
+- `Mass`
+- `Selective microphone`
+- `Microphone`
+- `timer`
+- `Motor`
+- `Stepping motor`
+- `Outlet`
+- `Socket outlet (power) with protective contact`
+- `covered isolated ground receptacle with (EN 60617 11-13-0x) (pc10)`
+- `covered isolated ground receptacle with (EN 60617 11-13-0x) (pc11)`
+- `Socket outlet (power), general symbol`
+- `Multiple socket outlet (power) The symbol is shown with threeoutlets.`
+- `Socket outlet (telecommunica-tions), general symbolDesignations in accordance with`
+- `Socket outlet (power) single-pole switch with`
+- `Socket outlet (power) with shutter`
+- `Socket outlet (power) with isolating transformer`
+- `covered isolated ground receptacle with (EN 60617 11-13-0x) (pc8)`
+- `covered isolated ground receptacle with (EN 60617 11-13-0x) (pc9)`
+- `Emmergency Lighting luminaire on special circuit`
+- `Self-containned emmergency lighting luminaire`
+- `Printer`
+- `Projector`
+- `Slightly divergent beam projector`
+- `Floodlight`
+- `Operated by key`
+- `Siren outdoor`
+- `Siren outdoor with flash light`
+- `Siren indoor`
+- `Transmitter`
+- `Ampere Hour Meter`
+- `220V single phase meter`
+- `Energy meter`
+- `Excess watt-hour meter`
+- `Hour counter`
+- `Hour counter(en60617)`
+- `reactive energy meter`
+- `Var hour meter`
+- `Watt hour meter`
+- `Watt hour meter (en60617)`
+
+## EN 60617
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - EN 60617.xml`  
+Namespace: `mxgraph.iec_electrical.en_60617`
+
+- `Object (en_60617_02_01_01)`
+- `Object (en_60617_02_01_02)`
+- `Object (en_60617_02_01_03)`
+- `Envelope (en_60617_02_01_04)`
+- `Envelope (en_60617_02_01_05)`
+- `Boundary`
+- `Screen Shield`
+- `Protection against unintentional direct contact, general symbol`
+- `Direct current`
+- `Alternating current`
+- `Alternating current (indication of frequency)`
+- `Alternating current (indication of frequency range)`
+- `Alternating current (indication of voltage)`
+- `Alternating current (indication of frequency range low)`
+- `Alternating current (indication of frequency range medium)`
+- `Alternating current (indication of frequency range high)`
+- `Rectified current with alternating component`
+- `Positive polarity`
+- `Negative polarity`
+- `Neutral`
+- `Mid-wire`
+- `Variability, general symbol`
+- `Force Rectilinear motion (unidirectional)`
+- `Force Rectilinear motion (bidirectional)`
+- `Circular motion Rotation Torque (unidirectional)`
+- `Circular motion Rotation Torque (bidirectional)`
+- `Circular motion Rotation Torque (bidirectional and limited)`
+- `Propagation Flow (one way)`
+- `Propagation, both ways, simultaneously Simultaneous transmission and`
+- `Propagation, both ways, not simultaneously Alternate transmission and`
+- `Transmission`
+- `Reception`
+- `Energy flow from the busbars`
+- `Energy flow towards the busbars`
+- `Energy flow, bidirectional (towards and from the busbars)`
+- `Actuating (higher than)`
+- `Actuating (lower than)`
+- `Actuating (either higher than or lower than)`
+- `Actuating (equal to zero)`
+- `Actuating (approximately equal to zero)`
+- `Material, unspecified`
+- `Material, solid`
+- `Material, liquid`
+- `Material, gas`
+- `Material, electret`
+- `Material, semiconducting`
+- `Material, insulating`
+- `Thermal effect`
+- `Electromagnetic effect`
+- `Magnetostrictive effect`
+- `Magnetic field effect or dependence`
+- `Delay`
+- `Semiconductor effect`
+- `Coupling effect with electrical separation`
+- `Radiation, electromagnetic, non-ionizing`
+- `Radiation, coherent, non-ionizing`
+- `Radiation, ionizing`
+- `Radiation, electromagnetic, non-ionizing, bidirectional`
+- `Radiation, coherent, non-ionizing, bidirectional`
+- `Pulse, positive-going`
+- `Pulse, negative-going`
+- `Pulse, alternating current`
+- `Step function, positive going`
+- `Step function, negative going`
+- `Saw-tooth wave`
+- `Printing, tape`
+- `Perforating, tape using perforated tape`
+- `Printing and perforating, of one tape, simultaneous`
+- `Printing, page`
+- `Keyboard`
+- `Facsimile`
+- `Link (en_60617_02_12_01)`
+- `Mechanical link Link, mechanical (force or motion)`
+- `Mechanical link Link, mechanical (rotation)`
+- `Link (en_60617_02_12_04)`
+- `Delayed action Action, delayed (en_60617_02_12_05)`
+- `Delayed action Action, delayed (en_60617_02_12_06)`
+- `Automatic return Return, automatic`
+- `Detent Non-automatic return Return, non-automatic`
+- `Detent, disengaged`
+- `Detent, engaged`
+- `Mechanical interlock Interlock, mechanical`
+- `Latching device, disengaged`
+- `Latching device, engaged`
+- `Blocking device`
+- `Blocking device, engaged`
+- `Clutch Mechanical coupling`
+- `Mechanical coupling, disengaged`
+- `Mechanical coupling, engaged`
+- `Unidirectional coupling device for rotation`
+- `Brake`
+- `Brake, applied`
+- `Brake, released`
+- `Gearing`
+- `Actuator, manual, general symbol`
+- `Actuator, manual (protected)`
+- `Actuator (operated by pulling)`
+- `Actuator (operated by turning)`
+- `Actuator (operated by pushing)`
+- `Actuator (operated by proximity effect)`
+- `Actuator (operated by touching)`
+- `Actuator, emergency Emergency actuator`
+- `Actuator (operated by handwheel)`
+- `Actuator (operated by pedal)`
+- `Actuator (operated by lever)`
+- `Actuator (operated by removable handle)`
+- `Actuator (operated by key)`
+- `Actuator (operated by crank)`
+- `Actuator (operated by roller)`
+- `Actuator (operated by cam)`
+- `Actuator (operated by cam/cam profile)`
+- `Actuator (operated by cam/profile plate)`
+- `Actuator (operated by cam and roller)`
+- `Actuator (operated by stored mechanical energy)`
+- `Actuator (actuated by pneumatic or hydraulic power/ single action)`
+- `Actuator (actuated by pneumatic or hydraulic power/double acting)`
+- `Actuator (actuated by electromagnetic effect)`
+- `Actuator (actuated by electromagnetic device)`
+- `Actuator (actuated by thermal device)`
+- `Actuator (operated by electric motor)`
+- `Actuator (operated by electric clock)`
+- `Actuator Semiconductor actuator`
+- `Actuator (actuated by liquid level)`
+- `Actuator (actuated by a counter)`
+- `Actuator (actuated by fluid flow)`
+- `Actuator (actuated by gas flow)`
+- `Actuator (actuated by relative humidity)`
+- `Earth or ground, general symbol`
+- `Noiseless earth Noiseless ground`
+- `Protective earthing Protective grounding (US)`
+- `Frame Chassis`
+- `Protective equipotential bonding`
+- `Ideal current source`
+- `Ideal voltage source`
+- `Ideal gyrator`
+- `Fault`
+- `Flashover Break-through`
+- `Permanent magnet Magnet, permanent`
+- `Movable contact`
+- `Test point indicator`
+- `Converter, general symbol (en_60617_02_17_06)`
+- `Analogue`
+- `Digital`
+- `Connection, general symbol`
+- `Group of connections (number of connections indicated) (en_60617_03_01_02)`
+- `Group of connections (number of connections indicated) (en_60617_03_01_03)`
+- `Direct current circuit`
+- `Three-phase circuit`
+- `Flexible connection`
+- `Screened conductor`
+- `Twisted connection`
+- `Conductors in a cable (en_60617_03_01_09)`
+- `Conductors in a cable (en_60617_03_01_10)`
+- `Coaxial pair`
+- `Coaxial pair connected to terminals`
+- `Coaxial pair with screen`
+- `End of a conductor or cable, not connected`
+- `End of a conductor or cable, not connected and specially insulated`
+- `Junction Connection point`
+- `Terminal`
+- `Terminal strip`
+- `T-connection (en_60617_03_02_04)`
+- `T-connection (en_60617_03_02_05)`
+- `Double junction of conductors (en_60617_03_02_06)`
+- `Double junction of conductors (en_60617_03_02_07)`
+- `Branching Junction`
+- `Interchange`
+- `Change of phase sequence`
+- `Neutral point`
+- `Neutral point of a generator (single-line representation)`
+- `Neutral point of a generator (multi-line representation)`
+- `Junction not interrupting the conductor`
+- `Junction requiring a special tool`
+- `Contact, female (of a socket or plug)`
+- `Contact, male (of a socket or plug)`
+- `Plug and socket`
+- `Plug and socket, multipole (multi-line representation)`
+- `Plug and socket, multipole (single-line representation)`
+- `Connector, fixed portion of an assembly`
+- `Connector, movable portion of an assembly`
+- `Connector assembly`
+- `Telephone type plug and jack`
+- `Telephone type plug and jack with break contacts`
+- `Telephone type break jack, telephone type isolating jack`
+- `Plug and socket, coaxial`
+- `Butt-connector`
+- `Connecting link, closed (en_60617_03_03_17)`
+- `Connecting link, closed (en_60617_03_03_18)`
+- `Connecting link, open`
+- `Plug and socket-type connector, male-male`
+- `Plug and socket-type connector, male-female`
+- `Plug and socket-type connector, male-male with socket access`
+- `Cable sealing end (multi-core cable)`
+- `Cable sealing end (one-core cables)`
+- `Straight-through joint box (multi-line representation)`
+- `Straight-through joint box (single-line representation)`
+- `Junction box (multi-line representation)`
+- `Junction box (single-line representation)`
+- `Pressure-tight bulkhead cable gland`
+- `Resistor, general symbol`
+- `Resistor, adjustable`
+- `Resistor, voltage dependent`
+- `Resistor with movable contact`
+- `Resistor with movable contact and off position`
+- `Potentiometer with movable contact`
+- `Potentiometer with movable contact and pre-set adjustment`
+- `Resistor with fixed tappings`
+- `Resistor with separate current and voltage terminals`
+- `Carbon-pile resistor`
+- `Heating element`
+- `Capacitor, general symbol`
+- `Capacitor, lead-through Capacitor, feed-through`
+- `Capacitor, polarized`
+- `Capacitor, adjustable`
+- `Capacitor with pre-set adjustment`
+- `Capacitor, differential`
+- `Capacitor, split and adjustable`
+- `Capacitor, temperature dependent and polarised`
+- `Capacitor, voltage dependent and polarised`
+- `Coil, general symbol Winding, general symbol`
+- `Inductor with magnetic core`
+- `Inductor with gap in magnetic core`
+- `Inductor, continuously variable`
+- `Inductor with fixed tappings`
+- `Inductor with moveable contact, variable in steps`
+- `Variometer`
+- `Coaxial choke with magnetic core`
+- `Ferrite bead`
+- `Ferrite core`
+- `Flux/current direction indicator`
+- `Ferrite core with one winding`
+- `Ferrite core with five windings`
+- `Ferrite core with one winding of n turns`
+- `Ferrite core matrix`
+- `Matrix arrangement of magnetic stores`
+- `Piezoelectric crystal with two electrodes`
+- `Piezoelectric crystal with three electrodes`
+- `Piezoelectric crystal with two pairs of electrodes`
+- `Electret with electrodes and connections`
+- `Delay line, magnetostrictive with windings (en_60617_04_08_01)`
+- `Delay line, magnetostrictive with windings (en_60617_04_08_02)`
+- `Delay line, coaxial`
+- `Delay line, solid material type with piezoelectric transducers`
+- `Delay line, general symbol Delay element, general symbol`
+- `Delay line, magnetostrictive type`
+- `Delay line, coaxial type`
+- `Delay line, mercury type with piezoelectric transducers`
+- `Delay line, artificial line type`
+- `Semiconductor region, one connection`
+- `Semiconductor region, several connections (en_60617_05_01_02)`
+- `Semiconductor region, several connections (en_60617_05_01_03)`
+- `Semiconductor region, several connections (en_60617_05_01_04)`
+- `Conduction channel for depletion devices`
+- `Conduction channel for enhancement devices`
+- `Rectifying junction`
+- `Junction which influences a semiconductor layer, P-region which influences an`
+- `Junction which influences a semiconductor layer, N-region which influences a P-`
+- `Conductivity type of the channel, N-type channel on a P-type substrate`
+- `Conductivity type of the channel, P-type channel on an N-type substrate`
+- `Insulated gate`
+- `Emitter on a region of dissimilar conductivity type, P emitter on an N region`
+- `Emitters on a region of dissimilar conductivity type, P emitters on an N region`
+- `Emitter on a region of dissimilar conductivity type, N emitter on a P region`
+- `Emitters on a region of dissimilar conductivity type, N emitters on a P region`
+- `Collector on a region of dissimilar conductivity type`
+- `Collectors on a region of dissimilar conductivity type`
+- `Transition between regions of dissimilar conductivity types`
+- `Intrinsic region separating regions of dissimilar conductivity type`
+- `Intrinsic region between regions of similar conductivity type`
+- `Intrinsic region between a collector and a region of dissimilar conductivity type`
+- `Intrinsic region between a collector and a region of similar conductivity type`
+- `Schottky effect`
+- `Tunnel effect`
+- `Unidirectional breakdown effect Zener effect`
+- `Bidirectional breakdown effect`
+- `Backward effect unitunnel effect`
+- `Semiconductor diode, general symbol`
+- `Light emitting diode (LED), general symbol`
+- `Temperature sensing diode`
+- `Variable capacitance diode Varactor`
+- `Tunnel diode Esaki diode`
+- `Breakdown diode, unidirectional Zener diode`
+- `Breakdown diode, bidirectional`
+- `Backward diode (unitunnel diode)`
+- `Bidirectional diode`
+- `Reverse blocking diode thyristor`
+- `Reverse conducting diode thyristor`
+- `Bidirectional diode thyristor Diac`
+- `Triode thyristor, type unspecified`
+- `Reverse blocking triode thyristor, N-gate (anode-side controlled)`
+- `Reverse blocking triode thyristor, P-gate (cathode-side controlled)`
+- `Turn-off thyristor, gate not specified`
+- `Turn-off triode thyristor, N-gate (anode-side)`
+- `Turn-off triode thyristor, P-gate (cathode-side controlled)`
+- `Reverse blocking thyristor, tetrode type`
+- `Bidirectional triode thyristor Triac`
+- `Reverse conducting triode thyristor, gate not specified`
+- `Reverse conducting triode thyristor, N-gate (anode-side controlled)`
+- `Reverse conducting triode thyristor, P-gate (cathode-side controlled)`
+- `PNP transistor`
+- `NPN transistor with collector connected to the envelope`
+- `NPN avalanche transistor`
+- `Unijunction transistor with P-type base`
+- `Unijunction transistor with N-type base`
+- `NPN transistor with transverse biased base`
+- `PNIP transistor with connection to the intrinsic region`
+- `PNIN transistor with connection to the intrinsic region`
+- `Junction field effect transistor with N-type channel`
+- `Junction field effect transistor with P-type channel`
+- `Insulated gate field effect transistor IGFET enhancement type, single gate, P- (en_60617_05_05_11)`
+- `Insulated gate field effect transistor IGFET enhancement type, single gate, N- (en_60617_05_05_12)`
+- `Insulated gate field effect transistor IGFET enhancement type, single gate, P- (en_60617_05_05_13)`
+- `Insulated gate field effect transistor IGFET enhancement type, single gate, N- (en_60617_05_05_14)`
+- `Insulated gate field effect transistor IGFET, depletion type, single gate, N-type`
+- `Insulated gate field effect transistor IGFET, depletion type, single gate, P-type`
+- `Insulated gate field effect transistor IGFET, depletion type, two gates, P-type`
+- `Insulated-gate bipolar transistor (IGBT) enhancement type, P channel`
+- `Insulated-gate bipolar transistor (IGBT) enhancement type, N channel`
+- `Insulated-gate bipolar transistor (IGBT) depletion type, P channel`
+- `Insulated-gate bipolar transistor (IGBT) depletion type, N channel`
+- `Light dependent resistor (LDR) Photo resistor`
+- `Photodiode`
+- `Photovoltaic cell`
+- `Phototransistor`
+- `Hall generator with four connections`
+- `Magnetoresistor`
+- `Magnetic coupling device Magnetic isolator`
+- `Optocoupler Photocoupler Opto isolator`
+- `Optical coupling device with slot for light-barrier`
+- `Gas-filled envelope`
+- `Envelope with external screen (shield)`
+- `Envelope, conductive coating on internal surface`
+- `Hot cathode, indirectly heated (en_60617_05_07_04)`
+- `Hot cathode, indirectly heated (en_60617_05_07_05)`
+- `Hot cathode, directly heated Heater for hot cathode, indirectly heated Heater (en_60617_05_07_06)`
+- `Hot cathode, directly heated Heater for hot cathode, indirectly heated Heater (en_60617_05_07_07)`
+- `Photoelectric cathode`
+- `Cold cathode Ionically heated cathode`
+- `Composite electrode`
+- `Anode Plate Collector (microwave devices)`
+- `Fluorescent target`
+- `Grid`
+- `Ion diffusion barrier`
+- `Lateral deflecting electrodes (en_60617_05_08_01)`
+- `Lateral deflecting electrodes (en_60617_05_08_02)`
+- `Intensity modulating electrode`
+- `Focusing electrode with aperture Beam-forming plate`
+- `Beam-splitting electrode`
+- `Cylindrical focusing electrode Drift space electrode Electronic lens element`
+- `Cylindrical focusing electrode with grid`
+- `Multi-aperture electrode`
+- `Quantizing electrode Sampling electrode`
+- `Radial deflecting electrodes`
+- `Grid with secondary emission`
+- `Anode with secondary emission Dynode`
+- `Photo-emissive electrode`
+- `Storage electrode`
+- `Photo-emissive storage electrode`
+- `Storage electrode with secondary emission in the direction of the arrow`
+- `Photo-conductive storage electrode`
+- `Electron gun assembly`
+- `Reflector`
+- `Non-emitting sole for open slow-wave structure`
+- `Non-emitting sole for closed slow-wave structure`
+- `Emitting sole`
+- `Open slow-wave structure`
+- `Single electrode for electrostatic focusing`
+- `Closed slow-wave structure`
+- `Cavity resonator forming an integral part of the tube`
+- `Cavity resonator, partly or wholly external to the tube`
+- `Permanent magnet producing a transverse field`
+- `Electromagnet producing a transverse field`
+- `Tetrapole`
+- `Tetrapole with loop coupler`
+- `Slow-wave coupler`
+- `Helical coupler`
+- `X-ray tube anode`
+- `Starting electrode Trigger electrode Igniting electrode`
+- `Pool cathode`
+- `Insulated pool cathode`
+- `Triode, with directly heated cathode`
+- `Triode, gasfilled with indirectly heated cathode Thyratron`
+- `Pentode`
+- `Triode hexode`
+- `Tuning indicator`
+- `Reflex klystron (en_60617_05_13_01)`
+- `Reflex klystron (en_60617_05_13_02)`
+- `Reflex klystron (en_60617_05_13_03)`
+- `Reflex klystron (en_60617_05_13_04)`
+- `O-type forward travelling wave amplifier tube`
+- `M-type forward travelling wave amplifier tube`
+- `M-type backward travelling wave amplifier tube (en_60617_05_13_11)`
+- `M-type backward travelling wave amplifier tube (en_60617_05_13_12)`
+- `M-type backward travelling wave oscillator tube`
+- `Magnetron oscillator tube (en_60617_05_13_15)`
+- `Magnetron oscillator tube (en_60617_05_13_16)`
+- `Backward travelling wave oscillator tube Voltage tunable magnetron`
+- `Coulomb accumulator Electrochemical step-function device`
+- `Solion diode`
+- `Solion tetrode`
+- `Conductivity cell`
+- `One winding`
+- `Three separate windings`
+- `Six separate windings`
+- `Three-phase winding, phases not interconnected`
+- `m-phase winding, phases not interconnected`
+- `Two-phase winding, four-wire`
+- `Two-phase winding`
+- `Three-phase winding, V (60)`
+- `Four-phase winding with neutral brought out`
+- `Three-phase winding, T`
+- `Three-phase winding, delta`
+- `Three-phase winding, open delta`
+- `Three-phase winding, star`
+- `Three-phase winding, star, with neutral brought out`
+- `Three-phase winding, zigzag or interconnected star`
+- `Six-phase winding, double delta`
+- `Six-phase winding, polygon`
+- `Six-phase winding, star`
+- `Six-phase winding, fork with neutral brought out`
+- `Winding of machine (different functions commutating or compensating)`
+- `Winding of machine (different functions series winding)`
+- `Winding of machine (different functions shunt or separate winding)`
+- `Brush (on slip-ring or commutator)`
+- `Maquina, simbol general (substituir per designacio)`
+- `Linear motor, general symbol`
+- `Stepping motor, general symbol`
+- `Hand-generator (magneto caller)`
+- `Series motor, DC`
+- `Shunt motor, DC`
+- `Generator, DC, compound excited (short shunt)`
+- `Rotary converter, DC/DC with common permanent magnet field`
+- `Rotary converter, DC/DC with common exitation winding`
+- `Series motor, single-phase`
+- `Repulsion motor, single-phase`
+- `Series motor, three-phase`
+- `Synchronous generator, three-phase with permanent magnet`
+- `Synchronous motor, single-phase`
+- `Synchronous generator, three-phase, star connected, neutral brought out`
+- `Synchronous generator, three-phase, both ends of each phase winding brought`
+- `Synchronous rotary converter, three-phase, shunt-excited`
+- `Induction motor, three-phase, squirrel cage`
+- `Induction motor, single-phase, squirrel-cage`
+- `Induction motor, three-phase, with wound rotor`
+- `Induction motor, three-phase, star-connected`
+- `Linear induction motor, three-phase`
+- `Transformer with two windings, general symbol (en_60617_06_09_01)`
+- `Transformer with two windings, general symbol (en_60617_06_09_02)`
+- `Transformer with two windings (and instantaneous voltage polarity indicators)`
+- `Transformer with three windings, general symbol (en_60617_06_09_04)`
+- `Transformer with three windings, general symbol (en_60617_06_09_05)`
+- `Auto-transformer, general symbol (en_60617_06_09_06)`
+- `Auto-transformer, general symbol (en_60617_06_09_07)`
+- `Choke Reactor, general symbol (en_60617_06_09_08)`
+- `Choke Reactor, general symbol (en_60617_06_09_09)`
+- `Current transformer, general symbol (en_60617_06_09_10)`
+- `Current transformer, general symbol (en_60617_06_09_11)`
+- `Single-phase transformer with two windings and screen (en_60617_06_10_01)`
+- `Single-phase transformer with two windings and screen (en_60617_06_10_02)`
+- `Transformer with centre tapping on one winding (en_60617_06_10_03)`
+- `Transformer with centre tapping on one winding (en_60617_06_10_04)`
+- `Transformer with variable coupling (en_60617_06_10_05)`
+- `Transformer with variable coupling (en_60617_06_10_06)`
+- `Three-phase transformer, connection star-delta (en_60617_06_10_07)`
+- `Three-phase transformer, connection star-delta (en_60617_06_10_08)`
+- `Three-phase transformer with four tappings (taps), connection star-star (en_60617_06_10_09)`
+- `Three-phase transformer with four tappings (taps), connection star-star (en_60617_06_10_10)`
+- `Three-phase bank of single-phase transformers, connection star-delta (en_60617_06_10_11)`
+- `Three-phase bank of single-phase transformers, connection star-delta (en_60617_06_10_12)`
+- `Three-phase transformer with tap changer (en_60617_06_10_13)`
+- `Three-phase transformer with tap changer (en_60617_06_10_14)`
+- `Three-phase transformer, connection star-zigzag with the neutral brought out (en_60617_06_10_15)`
+- `Three-phase transformer, connection star-zigzag with the neutral brought out (en_60617_06_10_16)`
+- `Three-phase transformer, connection star-star-delta (en_60617_06_10_17)`
+- `Three-phase transformer, connection star-star-delta (en_60617_06_10_18)`
+- `Auto-transformer, single-phase (en_60617_06_11_01)`
+- `Auto-transformer, single-phase (en_60617_06_11_02)`
+- `Auto-transformer, three-phase, connection star (en_60617_06_11_03)`
+- `Auto-transformer, three-phase, connection star (en_60617_06_11_04)`
+- `Auto-transformer, single-phase with voltage regulation (en_60617_06_11_05)`
+- `Auto-transformer, single-phase with voltage regulation (en_60617_06_11_06)`
+- `Three-phase induction regulator (en_60617_06_12_01)`
+- `Three-phase induction regulator (en_60617_06_12_02)`
+- `Voltage transformer (en_60617_06_13_01A)`
+- `Voltage transformer (en_60617_06_13_01B)`
+- `Current transformer with two cores with one secondary winding on each core (en_60617_06_13_02)`
+- `Current transformer with two cores with one secondary winding on each core (en_60617_06_13_03)`
+- `Current transformer with two secondary windings on one core (en_60617_06_13_04)`
+- `Current transformer with two secondary windings on one core (en_60617_06_13_05)`
+- `Current transformer with one secondary winding with one tapping (en_60617_06_13_06)`
+- `Current transformer with one secondary winding with one tapping (en_60617_06_13_07)`
+- `Current transformer with five passages of a conductor acting as a primary (en_60617_06_13_08)`
+- `Current transformer with five passages of a conductor acting as a primary (en_60617_06_13_09)`
+- `Pulse or current transformer with three threaded primary conductors (en_60617_06_13_10)`
+- `Pulse or current transformer with three threaded primary conductors (en_60617_06_13_11)`
+- `Pulse or current transformer with two secondary windings on the same core (en_60617_06_13_12)`
+- `Pulse or current transformer with two secondary windings on the same core (en_60617_06_13_13)`
+- `Converter, general symbol (en_60617_06_14_01)`
+- `DC/DC converter`
+- `Rectifier`
+- `Rectifier in full wave (bridge) connection`
+- `Inverter`
+- `Rectifier/inverter`
+- `Battery cell`
+- `Generator, general symbol`
+- `Heat source, general symbol`
+- `Radio-isotope heat source`
+- `Combustion heat source`
+- `Thermoelectric generator, with combustion heat source`
+- `Thermoelectric generator with non-ionizing radiation heat source`
+- `Thermoelectric generator with radio-isotope heat source`
+- `Thermionic diode generator with non-ionizing radiation heat source`
+- `Thermionic diode generator with radio-isotope heat source`
+- `Photovoltaic generator`
+- `Closed-loop controller`
+- `Contactor function`
+- `Circuit breaker function`
+- `Disconnector (isolator) function`
+- `Switch-disconnector function Isolating-switch function`
+- `Automatic tripping function`
+- `Position switch function`
+- `Automatic return function`
+- `Non-automatic return function Stay put function`
+- `Positive operation of a switch`
+- `Make contact, general symbol Switch, general symbol (en_60617_07_02_01)`
+- `Make contact, general symbol Switch, general symbol (en_60617_07_02_02)`
+- `Break contact`
+- `Change-over break before make contact`
+- `Change-over contact with off-position`
+- `Change-over make before break contact, both ways (en_60617_07_02_06)`
+- `Change-over make before break contact, both ways (en_60617_07_02_07)`
+- `Contact with two makes`
+- `Contact with two breaks`
+- `Passing make contact when actuated`
+- `Passing make contact when released`
+- `Passing make contact`
+- `Make contact, early closing`
+- `Make contact, late closing`
+- `Break contact, late opening`
+- `Break contact, early opening`
+- `Make contact, delayed closing`
+- `Make contact, delayed opening`
+- `Break contact, delayed opening`
+- `Break contact, delayed closing`
+- `Make contact, delayed`
+- `Make contact, automatic return`
+- `Make contact, stay put`
+- `Break contact, automatic return`
+- `Change-over contact with off-position, automatic return and stay put`
+- `Switch, manually operated, general symbol`
+- `Switch, manually operated, push-button, automatic return`
+- `Switch, manually operated, pulling, automatic return`
+- `Switch, manually operated, turning, stay-put`
+- `Switch, manually operated with positive operation, push-button, automatic return`
+- `Switch, emergency stop`
+- `Position switch, make contact`
+- `Position switch, break contact`
+- `Position switch assembly`
+- `Position switch, break contact, positive operation`
+- `Temperature sensitive switch, make contact`
+- `Temperature sensitive switch, break contact`
+- `Thermal switch, self-operating, break contact`
+- `Gas discharge tube with thermal element`
+- `Switch assembly, lever-operated`
+- `Switch assembly, one set puch operated, one set turn operatedd`
+- `Switch assembly, push or turn operated`
+- `Multi-position switch`
+- `Multi-position switch, maximum four positions`
+- `Multi-position switch, with position dagram (en_60617_07_11_06)`
+- `Multi-position switch, with position dagram (en_60617_07_11_06a)`
+- `Multi-position switch, with position dagram (en_60617_07_11_06b)`
+- `Multi-position switch, with position dagram (en_60617_07_11_06c)`
+- `Multi-position switch, independent circuits`
+- `Multi-position switch, one position disabled`
+- `Multi-position switch, wiper`
+- `Multi-position switch, wiping multiple consecutive contacts`
+- `Multi-position switch, wiping multiple contacts`
+- `Multi-position switch, wiping cumulative contacts`
+- `Multi-position switch, early/late break/make indicated`
+- `Complex switch, general symbol`
+- `Complex switch, wafer type`
+- `Complex switch`
+- `Complex switch, rotary drum type (en_60617_07_12_03)`
+- `Complex switch, rotary drum type (en_60617_07_12_03_1)`
+- `Complex switch, rotary drum type (en_60617_07_12_03_2)`
+- `Switch`
+- `Contactor Main make contact of a contactor`
+- `Contactor with automatic tripping`
+- `Contactor Main break contact of a contactor`
+- `Circuit breaker`
+- `Disconnector Isolator (en_60617_07_13_06)`
+- `Two-way disconnector Two-way isolator`
+- `Switch-disconnector On-load isolating switch`
+- `Switch-disconnector, automatic release On-load isolating switch, automatic`
+- `Disconnector Isolator (en_60617_07_13_10)`
+- `Trip-free mechanism`
+- `Trip-free mechanism, application`
+- `Mechanical switching device, three-pole`
+- `Switch with positive opening`
+- `Motor starter, general symbol`
+- `Starter operating in steps`
+- `Starter-regulator`
+- `Direct-on-line starter, reversing`
+- `Star-delta starter`
+- `Starter with auto-transformer`
+- `Starter-regulator with thyristors`
+- `Operating device, general symbol Relay coil, general symbol`
+- `Operating device, general symbol Relay coil general symbol`
+- `Operating device Relay coil (attached representation) (en_60617_07_15_03)`
+- `Operating device Relay coil (attached representation) (en_60617_07_15_04)`
+- `Operating device Relay coil (detached representation) (en_60617_07_15_05)`
+- `Operating device Relay coil (detached representation) (en_60617_07_15_06)`
+- `Relay coil of a slow-releasing relay`
+- `Relay coil of a slow-operating relay`
+- `Relay coil of a slow-operating and slow-releasing relay`
+- `Relay coil of a high speed relay`
+- `Relay coil of a relay unaffected by alternating current`
+- `Relay coil of an alternating current relay`
+- `Relay coil of a mechanically resonant relay`
+- `Relay coil of a mechanically latched relay`
+- `Relay coil of a polarized relay`
+- `Polarized relay, self restoring`
+- `Polarized relay with neutral position`
+- `Polarized relay, stable positions`
+- `Relay coil of a remanent relay (en_60617_07_15_19)`
+- `Relay coil of a remanent relay (en_60617_07_15_20)`
+- `Operating device of a thermal relay`
+- `Operating device of an electronic relay`
+- `Measuring relay Device related to a measuring relay`
+- `No voltage relay`
+- `Reverse current relay`
+- `Underpower relay`
+- `Delayed overcurrent relay`
+- `Overcurrent relay (en_60617_07_17_05)`
+- `Overpower relay for reactive power`
+- `Undervoltage relay`
+- `Current relay`
+- `Under-impedance relay`
+- `Relay detecting short-circuits between windings`
+- `Divided-conductor detection relay`
+- `Phase-failure detection relay`
+- `Locked-rotor detection relay`
+- `Overcurrent relay (en_60617_07_17_14)`
+- `Buchholz protective device Gas relay`
+- `Device for auto-reclosing Auto-reclose relay`
+- `Proximity sensor`
+- `Proximity sensing device`
+- `Proximity sensing device, capacitive`
+- `Touch sensor`
+- `Touch sensitive switch`
+- `Proximity switch`
+- `Proximity switch, magnetically controlled`
+- `Proximity switch, controlled by iron`
+- `Fuse, general symbol`
+- `Fuse`
+- `Fuse Striker fuse`
+- `Fuse with alarm contact`
+- `Fuse with separate alarm`
+- `Three-pole switch with striker fuses`
+- `Fuse-switch`
+- `Fuse-disconnector Fuse isolator`
+- `Fuse switch-disconnector On-load isolating fuse switch`
+- `Spark gap`
+- `Spark gap, double`
+- `Surge diverter Lightning arrester`
+- `Protective gas discharge tube`
+- `Protective gas discharge tube, symmetric`
+- `Static switch, general symbol`
+- `Static (semiconductor) contactor`
+- `Static switch, unidirectional`
+- `Static relay, general symbol`
+- `Static relay (en_60617_07_26_02)`
+- `Static thermal overload relay`
+- `Static relay (en_60617_07_26_04)`
+- `Coupling device with electrical separation`
+- `Coupling device with electrical separation, optical`
+- `Indicating instrument, general symbol`
+- `Recording instrument, general symbol`
+- `Integrating instrument, general symbol`
+- `Voltmeter`
+- `Reactive current ammeter`
+- `Maximum demand indicator`
+- `Varmeter`
+- `Power-factor meter`
+- `Phase meter`
+- `Frequency meter`
+- `Synchronoscope`
+- `Wavemeter`
+- `Oscilloscope`
+- `Differential voltmeter`
+- `Galvanometer`
+- `Salinity meter`
+- `Thermometer, Pyrometer`
+- `Tachometer`
+- `Recording wattmeter`
+- `Combined recording wattmeter and varmeter`
+- `Oscillograph`
+- `Hour meter Hour counter`
+- `Ampere-hour meter`
+- `Watt-hour meter`
+- `Watt-hour meter, measuring energy transmitted in one direction only`
+- `Watt-hour meter, counting the energy flow from the busbars`
+- `Watt-hour meter, counting the energy flow towards the busbars`
+- `Watt-hour meter, counting in both energy flow directions`
+- `Multi-rate watt-hour meter`
+- `Excess watt-hour meter`
+- `Watt-hour meter with transmitter`
+- `Slave watt-hour meter (repeater)`
+- `Slave watt-hour meter (repeater) with printing device`
+- `Watt-hour meter with maximum demand indicator`
+- `Watt-hour meter with maximum demand recorder`
+- `Var-hour meter`
+- `Counting function of a number of events`
+- `Pulse meter`
+- `Pulse meter, manually pre-set to n`
+- `Pulse meter electrically reset to 0`
+- `Pulse meter with multiple contacts`
+- `Counting device, cam driven`
+- `Thermocouple (en_60617_08_06_01)`
+- `Thermocouple (en_60617_08_06_02)`
+- `Thermocouple with non-insulated heating element (en_60617_08_06_03)`
+- `Thermocouple with non-insulated heating element (en_60617_08_06_04)`
+- `Thermocouple with insulated heating element (en_60617_08_06_05)`
+- `Thermocouple with insulated heating element (en_60617_08_06_06)`
+- `Signal translator, general symbol`
+- `Clock, general symbol`
+- `Master clock`
+- `Clock with contact`
+- `Synchronous device, general symbol`
+- `Torque transmitter`
+- `Gyro`
+- `Lamp, general symbol (en_60617_08_10_01)`
+- `Signal lamp, flashing type`
+- `Indicator, electromechanical annunciator element`
+- `Electromechanical position indicator`
+- `Horn`
+- `Bell`
+- `Single-stroke bell`
+- `Siren`
+- `Buzzer`
+- `Whistle, electrically operated`
+- `Indicator lamp energized by a built-in transformer`
+- `Generating station, planned`
+- `Generating station, in service or unspecified`
+- `Combined electric and heat generating station, planned`
+- `Combined electric and heat generating station, in service or unspecified`
+- `Substation, planned`
+- `Substation, in service or unspecified`
+- `Hydroelectric generating station, planned`
+- `Hydroelectric generating station, in service or unspecified`
+- `Thermoelectric generating station, planned`
+- `Thermoelectric generating station, in service or unspecified`
+- `Nuclear energy generating station, planned`
+- `Nuclear energy generating station, in service or unspecified`
+- `Geothermic generating station, planned`
+- `Geothermic generating station, in service or unspecified`
+- `Solar generating station, planned`
+- `Solar generating station, in service or unspecified`
+- `Wind generating station, planned`
+- `Wind generating station, in service or unspecified`
+- `Plasma generating station, planned Magneto-hydrodynamic (MHD), planned`
+- `Plasma generating station, in service or unspecified Magneto-hydrodynamic`
+- `Converting substation, planned`
+- `Converting substation, in service or unspecified`
+- `Underground line`
+- `Submarine line`
+- `Overhead line`
+- `Line within a duct, line within a pipe`
+- `Line within a six-way-duct`
+- `Line passing through an access chamber`
+- `Line with buried joint`
+- `Line with gas or oil block`
+- `Line with gas or oil stop valve`
+- `Line with gas or oil block by-pass`
+- `AC power feeding on telecommunication lines`
+- `DC power feeding on telecommunication lines`
+- `Overground weather-proof enclosure, general symbol`
+- `Amplifying point in a weather-proof enclosure`
+- `Cross-connection point`
+- `Line concentrator, automatic line connector`
+- `Line concentrator on a pole`
+- `Anti-creepage device`
+- `Access chamber with a cable having anti-creepage device`
+- `Protective anode`
+- `Magnesium protective anode`
+- `Head end with local antenna`
+- `Head end without local antenna`
+- `Bridger amplifier`
+- `Trunk bridging amplifier assembly`
+- `End of amplifier (branch or spur feeder)`
+- `Amplifier with return channel`
+- `Splitter, two-way`
+- `Splitter, three-way`
+- `Directional coupler`
+- `System outlet`
+- `Looped system outlet Serial wired outlet`
+- `Equalizer`
+- `Variable equalizer`
+- `Attenuator`
+- `Line power unit`
+- `Power block`
+- `Power feeding injection point`
+- `Neutral conductor`
+- `Protective conductor`
+- `Combined protective and neutral conductor`
+- `Three-phase wiring with neutral conductor and protective conductor`
+- `Wiring going upwards`
+- `Wiring going downwards`
+- `Wiring passing through vertically`
+- `Box, general symbol`
+- `Connection box Junction box`
+- `Consumers terminal, Service entrance equipment`
+- `Distribution centre`
+- `Socket outlet (power) general symbol Receptacle outlet (power), general`
+- `Multiple socket outlet (power) (en_60617_11_13_02)`
+- `Multiple socket outlet (power) (en_60617_11_13_03)`
+- `Socket outlet (power) with protective contact`
+- `Socket outlet (power) with shutter`
+- `Socket outlet (power) with single-pole switch`
+- `Socket outlet (power) with interlocked switch`
+- `Socket outlet (power) with isolating transformer`
+- `Socket outlet (telecommunications), general symbol`
+- `Switch, general symbol`
+- `Switch with pilot light`
+- `Period limiting switch, single pole`
+- `Two pole switch`
+- `Multiposition single pole switch`
+- `Two-way single pole switch`
+- `Intermediate switch (en_60617_11_14_07)`
+- `Intermediate switch (en_60617_11_14_07ex)`
+- `Dimmer`
+- `Pull-cord single pole switch`
+- `Push-button`
+- `Push-button with indicator lamp`
+- `Push-button protected against unintentional operation`
+- `Timer`
+- `Time switch`
+- `Key-operated switch`
+- `Lighting outlet position`
+- `Lighting outlet on wall`
+- `Lamp, general symbol (en_60617_11_15_03)`
+- `Luminaire, general symbol Fluorescent lamp, general symbol`
+- `Luminaire with many fluorescent tubes (en_60617_11_15_05)`
+- `Luminaire with many fluorescent tubes (en_60617_11_15_06)`
+- `Projector, general symbol`
+- `Spot light`
+- `Flood light`
+- `Auxiliary apparatus for discharge lamp`
+- `Emergency lighting luminaire on special circuit`
+- `Self-contained emergency lighting luminaire`
+- `Water heater`
+- `Fan`
+- `Time clock, time recorder`
+- `Electric lock`
+- `Audio intercommunication equipment`
+- `Straight section, general symbol`
+- `Assembled straight section`
+- `End cover`
+- `Elbow`
+- `Tee (three way connection)`
+- `Cross (four way connection)`
+- `Crossing of two systems without connection`
+- `Crossing of two independent systems`
+- `Straight section adjustable in length`
+- `Straight section internally anchored`
+- `Expansion unit for enclosure`
+- `Expansion unit for conductors`
+- `Expansion unit for enclosure and conductors`
+- `Flexible unit`
+- `Reduction unit`
+- `Straight section with internal pressure tight barrier`
+- `Phase transposition unit`
+- `Equipment box`
+- `Straight section with internal fire barrier`
+- `End feeder unit`
+- `Central feeder unit`
+- `End feeder unit with equipment box`
+- `Central feeder unit with equipment box`
+- `Straight section with fixed tap-off`
+- `Straight section with several tap-offs`
+- `Straight section with continuously movable tap-off`
+- `Straight section with tap-off adjustable in steps`
+- `Straight section with tap-off by movable contact`
+- `Straight section with fixed tap-off with equipment box`
+- `Straight section with adjustable tap-off with equipment box`
+- `Straight section with fixed tap-off having socket-outlet with protective contact.`
+- `Straight section consisting of two wiring systems (en_60617_11_17_32)`
+- `Straight section consisting of two wiring systems (en_60617_11_17_33)`
+- `Straight section consisting of several separate compartments (en_60617_11_17_34)`
+- `Straight section consisting of several separate compartments (en_60617_11_17_35)`
+- `Aeronautical ground light, elevated, general symbol`
+- `Aeronautical ground light, surface, general symbol`
+- `Aeronautical ground light, white colour and uni-directional beam, elevated`
+- `Aeronautical ground light, white colour and uni-directional beam, surface`
+- `Aeronautical ground light, white/white colour and bi-directional beam, elevated`
+- `Aeronautical ground light, white/white colour and bi-directional beam, surface`
+- `Aeronautical ground light, white colour and omni-directional beam, elevated`
+- `Aeronautical ground light, white colour and omni-directional beam, surface`
+- `Curve light, green/green colour and bi-directional beam, surface`
+- `Curve light, white colour and uni-directional beam, surface`
+- `Aeronautical ground light, white omni-directional beam on top, and white uni-`
+- `Aeronautical ground light, white omni-directional beam on top, and white/white`
+- `Aeronautical ground light, white flashing uni-directional beam, elevated`
+- `Aeronautical ground light, white flashing uni-directional beam, surface`
+- `Precision approach path indicator white/red uni-directional beam`
+- `Wind direction indicator`
+- `Landing direction indicator`
+- `Obstacle light Hazard light Red flashing omni-directional beam`
+- `Aeronautical ground light, white flashing omni-directional beam`
+- `Warning sign, general symbol Guidance sign, general symbol`
+- `Distance warning sign`
+- `Taxiing guidance sign`
+
+## Graphics
+
+Stencil file: `libraries/categorized/stencils/IEC Electrical - Graphics.xml`  
+Namespace: `mxgraph.iec_electrical.graphics`
+
+- `Reference coil (horizontal) (ref_bobine_2_h)`
+- `Reference coil (vertical) (ref_bobine_2_v)`
+- `Reference coil h (ref_bobine_h)`
+- `Reference coil v (ref_bobine_v)`
+- `Reference contact NC (horizontal) (ref_contact_2_nc_h)`
+- `Reference contact NC (vertical) (ref_contact_2_nc_v)`
+- `Reference contact NO (horizontal) (ref_contact_2_no_h)`
+- `Reference contact NO (vertical) (ref_contact_2_no_v)`
+- `Reference contact NC h (ref_contact_nc_h)`
+- `Reference contact NC h (ref_contact_nc_v)`
+- `Reference contact NO h (ref_contact_no_h)`
+- `Reference contact NO h (ref_contact_no_v)`
+- `Reference light (horizontal) (ref_voyant_2_h)`
+- `Reference light (vertical) (ref_voyant_2_v)`
+- `Reference light (ref_voyant_h)`
+- `reference light (ref_voyant_v)`
+- `complex contact NC (refcomplexnc)`
+- `ref complex contact NO (refcomplexno)`
+- `reference previous (refmaster)`
+- `reference next (refslave)`
+- `Reference coil (horizontal) (02_children/ref_bobine_2_h)`
+- `Reference coil (vertical) (02_children/ref_bobine_2_v)`
+- `Reference coil h (02_children/ref_bobine_h)`
+- `Reference coil v (02_children/ref_bobine_v)`
+- `Reference contact NC (horizontal) (02_children/ref_contact_2_nc_h)`
+- `Reference contact NC (vertical) (02_children/ref_contact_2_nc_v)`
+- `Reference contact NO (horizontal) (02_children/ref_contact_2_no_h)`
+- `Reference contact NO (vertical) (02_children/ref_contact_2_no_v)`
+- `Reference contact NC h (02_children/ref_contact_nc_h)`
+- `Reference contact NC h (02_children/ref_contact_nc_v)`
+- `Reference contact NO h (02_children/ref_contact_no_h)`
+- `Reference previous contact NO h`
+- `Reference light (horizontal) (02_children/ref_voyant_2_h)`
+- `Reference light (vertical) (02_children/ref_voyant_2_v)`
+- `Reference light (02_children/ref_voyant_h)`
+- `reference light (02_children/ref_voyant_v)`
+- `complex contact NC (02_children/refcomplexnc)`
+- `ref complex contact NO (02_children/refcomplexno)`
+- `reference previous (02_children/refmaster)`
+- `reference next (02_children/refslave)`
+- `Reference coil (horizontal) (02_without_linking_function/ref_bobine_2_h)`
+- `Reference coil (vertical) (02_without_linking_function/ref_bobine_2_v)`
+- `Reference coil h (02_without_linking_function/ref_bobine_h)`
+- `Reference coil v (02_without_linking_function/ref_bobine_v)`
+- `Reference contact NC (horizontal) (02_without_linking_function/ref_contact_2_nc_h)`
+- `Reference contact NC (vertical) (02_without_linking_function/ref_contact_2_nc_v)`
+- `Reference contact NO (horizontal) (02_without_linking_function/ref_contact_2_no_h)`
+- `Reference contact NO (vertical) (02_without_linking_function/ref_contact_2_no_v)`
+- `Reference contact NC h (02_without_linking_function/ref_contact_nc_h)`
+- `Reference contact NC h (02_without_linking_function/ref_contact_nc_v)`
+- `Reference contact NO h (02_without_linking_function/ref_contact_no_h)`
+- `Reference contact NO h (02_without_linking_function/ref_contact_no_v)`
+- `Reference light (horizontal) (02_without_linking_function/ref_voyant_2_h)`
+- `Reference light (vertical) (02_without_linking_function/ref_voyant_2_v)`
+- `Reference light (02_without_linking_function/ref_voyant_h)`
+- `reference light (02_without_linking_function/ref_voyant_v)`
+- `Key switch positions (cle_01)`
+- `Key switch positions (cle_02)`
+- `Rotative key-switch`
+- `Key switch positions (cle_04)`
+- `Key switch positions (cle_05)`
+- `Key switch positions (cle_06)`
+- `Key switch positions (cle_07)`
+- `Key switch positions (cle_08)`
+- `Key switch positions (cle_09)`
+- `Key switch positions (cle_10)`
+- `Key switch positions (cle_11)`
+- `Key switch positions (cle_12)`
+- `Switch handle and knob positions (manette_01)`
+- `Switch handle and knob positions (manette_02)`
+- `Switch handle and knob positions (manette_03)`
+- `Switch handle and knob positions (manette_04)`
+- `Switch handle and knob positions (manette_05)`
+- `Switch handle and knob positions (manette_06)`
+- `Mechanical lock`
+- `Danger electric (danger_electrique_1)`
+- `Danger electric (danger_electrique_2)`
+- `Danger general (danger_general_1)`
+- `Danger general (danger_general_2)`
+- `Label three phase`
+- `Grid composition`
+- `Marcador de contacte per 4`
+- `designacio del rele i marcador de contacte`
+- `hot surface (surface_chaude_1)`
+- `hot surface (surface_chaude_2)`
+- `Detail`
+- `Comment`
+- `Form cover sheet`
+- `Cablejat del codi de color`
+- `GOST title first page`
+- `GOST title next page`
+- `IP settings`
+- `Line tableau nomenclature`
+- `Nomenclature header (nomenclature)`
+- `Nomenclature header (nomenclature1)`
+- `Nomenclature 2`
+- `Nomenclature header (nomenclature_page_entiere)`
+- `Table Title Homepage`
+- `Table of content`
+- `Table Title Nomenclature`
+- `Table Title Nomenclature french`
+- `Version tracking`
+- `Terminal neutral`
+- `Terminal de fase`
+- `Terminal (Grounding)`
+- `Terminal (feed-through)`
+- `Base P2RF 1 (borne_2.5)`
+- `Base P2RF 1 (borne_de_terre)`
+- `Terminal gris`
+- `Base P2RF 1 (borne_vj)`
+- `Base P2RF 1 (bornegrise6)`
+- `Interruptor 2A Legrand`
+- `1-pole circuit breaker`
+- `2-pole circuit breaker`
+- `3-pole circuit breaker`
+- `4-pole circuit breaker`
+- `Particio terminal`
+- `Digital ammeter`
+- `Miniature Circuit Breaker`
+- `Disjuntor 10A Legrand`
+- `Terminal Installation 30`
+- `Terminal Installation 30.1`
+- `Wiring duct 30mm (goulotte_-_horiz)`
+- `Wiring duct 30mm (goulotte_-_vertic)`
+- `GPS1B- (gps1b-aux)`
+- `GPS1B- (gps1b)`
+- `30mA 40A Legrand`
+- `Micro relay`
+- `Miniature plug-in Relay`
+- `Mounting rail TS35 (mounting_rail_ts35)`
+- `Endoll modular Legrand`
+- `Wiring duct 30mm (rail)`
+- `Ruler 100mm`
+- `Base P2RF 1 (terre_petite)`
+- `Transformador Legrand`
+- `cargol`
+- `Voltmeter digital`
+- `Wiring duct 30mm (wiring_duct_30mm)`
+- `Wiring duct 60mm (wiring_duct_60mm)`
+- `S201`
+- `S201NA`
+- `S202`
+- `S203`
+- `S203NA`
+- `S204`
+- `F202 A`
+- `F204 A`
+- `Entrades ABB de 8 vies`
+- `JRA/S8.230.5.1`
+- `ABB JRA/S2.230.5.1`
+- `Sortides ABB de 12 vies`
+- `Sortides ABB de 4 vies`
+- `F411/1N`
+- `F411/1NC`
+- `F411/2 - 2 relay actuator bus`
+- `F411/4 - 4 relay actuator bus`
+- `F411U1`
+- `E46ADCN - Font dalimentacio modular BUS 230V 27Vu003d 1.2A - 8 moduls`
+- `E47ADCN`
+- `Font dalimentacio modular MyHOMEUp 0.6A - 2 moduls - 230V i 27Vu003d`
+- `3501/0 - Configurator 0`
+- `3501/1 - Configurator 1`
+- `3501/2 - Configurator 2`
+- `3501/3 - Configurator 3`
+- `3501/4 - Configurator 4`
+- `3501/5 - Configurator 5`
+- `3501/6 - Configurator 6`
+- `3501/7 - Configurator 7`
+- `3501/8 - Configurator 8`
+- `3501/9 - Configurator 9`
+- `3501/AUX - Configurator AUX`
+- `3501/CEN - Configurator CEN`
+- `3501/AMB - Configurator AMB`
+- `3501/GEN - Configurator GEN`
+- `3501/GR - Configurator GR`
+- `3501/OFF - Configurator OFF`
+- `3501/OI - Configurator O/I`
+- `3501/ON - Configurator ON`
+- `3501/PUL - Configurator PUL`
+- `3501/SLA - Configurator SLA`
+- `3501/T - Configurator`
+- `3501/TM - Configurator M`
+- `F425 - Memory`
+- `3523 - Toroid`
+- `F520 - 3-input meter`
+- `F422 - Gateway SCS-SCS`
+- `F454 - Web Server A/V`
+- `F418 -Dimmer for LED`
+- `F418U2`
+- `Cognex D900 front view`
+- `GP50`
+- `Digit T1D`
+- `Tywatt`
+- `FAZ 1P`
+- `FAZ 1P+N`
+- `FAZ 2P`
+- `FAZ 3P`
+- `FAZ 3P+N`
+- `FAZ 4P`
+- `PXF 2P`
+- `PXF 4P`
+- `General Purpose Relay`
+- `Temporitzador 80.51`
+- `Rele de 2 pols`
+- `FP216/010`
+- `FP425/030`
+- `FP63/30mA-A`
+- `FPEU225/030`
+- `DOCA232/030`
+- `DOCA332/030`
+- `DOCA532/030`
+- `CTX 20 20 230A`
+- `CTX DN20 20 230A`
+- `CTX 06 11`
+- `CTX DN24 30 230A`
+- `AST B CL`
+- `AST B GN`
+- `AST B OR`
+- `AST B RD`
+- `AST M 100 10`
+- `AST M 100 20`
+- `AST M 100 30`
+- `AST M 100 40`
+- `AST P 16 01`
+- `AST P 16 10`
+- `AST P 16 11`
+- `AST PL 16 10 CL`
+- `AST PL 16 10 GN`
+- `AST PL 16 10 OR`
+- `AST PL 16 10 RD`
+- `EP453C06`
+- `EP454C06`
+- `EPCN451C02`
+- `MBN116`
+- `MBN516`
+- `MBN216`
+- `MBN316`
+- `MBN416`
+- `NGT716`
+- `MFS701`
+- `CDA 240D`
+- `CDA 440D`
+- `ACA 516D`
+- `ADC 710F`
+- `CDC 748F`
+- `CDS 743F`
+- `MZ206 undervoltage release`
+- `MZ203`
+- `MZ201`
+- `SNS216-Endoll modular 16A 2P+T connexio SanVis`
+- `SNS016 - Schuko socket`
+- `GD113A - Plastic control panel Gamma+ 13 - 1 row`
+- `GD213A - Plastic control panel Gamma+ 13m - 2 rows`
+- `GD313 - Plastic control panel Gamma 13 - 3 rows`
+- `GD413 - Plastic control panel Gamma 13 - 4 rows`
+- `GD418A - Plastic control panel Gamma 18 - 4 rows`
+- `GD118A - Plastic control panel Gamma 13 - 1 row`
+- `GD218A - Plastic control panel Gamma 18 - 2 rows`
+- `GD318A - Plastic control panel Gamma 18 - 3 rows`
+- `KCN225 - Busbar 1P+N`
+- `KCN325 - Busbar 3P`
+- `KCN425 - Busbar 3P+N`
+- `Multifunctional timer relay TM16+`
+- `ET-7042`
+- `i-7510 - RS-485 Repeater`
+- `i-7510A - RS-485/422 Repeater`
+- `i-7510AR-G - RS-422/485 Repeater`
+- `i-7510AR - RS-422/485 Repeater`
+- `i-7510P - RS-485 Repeater`
+- `i-7513 - RS-485 Hub`
+- `i-7513P - RS-485 Hub`
+- `i-7514U-G - 4CH Isolated RS-485 Hub`
+- `i-7520 - Isolated RS-232 to RS-485 Converter`
+- `i-7520A - Isolated RS-232 to RS-422/485 Converter`
+- `i-7520AR-G - Isolated RS-232 to RS-422/485 Converter`
+- `i-7520AR - Isolated RS-232 to RS-422/485 Converter`
+- `i-7520R-G - Isolated RS-232 to RS-485 Converter`
+- `i-7520R - Isolated RS-232 to RS-485 Converter`
+- `i-7520U4-CA-G - Isolated RS-232 to 4CH RS-485`
+- `i-7551-G - RS-232 to RS-232 Converter`
+- `i-7551 - RS-232 to RS-232 Converter`
+- `i-7561-G - USB to RS-232/422/485 Converter`
+- `i-7561 - USB to RS-232/422/485 Converter`
+- `i-7561U-G - USB to RS-232/422/485 Converter`
+- `i-7563-G - USB to 3 Ports RS-485 Hub Converter`
+- `i-7563 - USB to 3 Ports RS-485 Hub Converter`
+- `i-7563U-G - USB to 3 Channels 485 Converter`
+- `i-7514U4-CA-G - Isolated RS-232 to 4CH RS-485`
+- `cTRON 08 big`
+- `cTRON 08 small`
+- `eTRON t`
+- `05800 - Interruptor unipolar`
+- `05802 - Interruptor bipolar`
+- `406771 - Interruptor 2A C 6kA - Cargol/Cargol`
+- `406780 - Interruptor 2A C 6kA - Auto/Auto`
+- `406785 - Interruptor 25A C 6kA - Auto/Cargol`
+- `415900 - Interruptor STOP ARC 10A C 6kA - Automatic/Cargol`
+- `415906 - INTERRUPTOR STOP ARC 10A C 6kA - Cargol/Cargol`
+- `410711 - Interruptor diferencial AC 6A 30mA High-Auto/Low-Vis`
+- `410734 - Interruptor diferencial de CA 10A 30mA Alta visibilitat/Baixa visibilitat`
+- `415950 - Interruptor diferencial AC STOP ARC 10A 30mA High-Vis/Low-Vis`
+- `411500 - Interruptor diferencial de CA 16A 10mA Alta visibilitat/Baixa visibilitat`
+- `411550 - Interruptor diferencial A 16A 10mA Alta visibilitat/Baixa visibilitat`
+- `411614 - Interruptor diferencial AC 40A 300mA Haut-Vis/Haut-Vis`
+- `411637 - Interruptor diferencial A 25A 30mA High-Vis/High-Auto`
+- `411639 - Interruptor diferencial A 63A 30mA High-Vis/High-Auto - 3 moduls`
+- `411842 - Interruptor diferencial B 40A 30mA Alta visibilitat/Baixa visibilitat`
+- `04327 - Interruptor-seccionador 400V 40A (model antic)`
+- `406431 - Interruptor-seccionador 400V 16A`
+- `406436 - Interruptor-seccionador 400V 20A amb llum indicadora`
+- `406440 - Interruptor-seccionador 400V 40A`
+- `406527 - Interruptor-seccionador dencesa 400V 40A`
+- `003951 - Protector contra sobretensions dabonat 1P+N tipus 2 + casset 003954`
+- `003954 - Casset de proteccio contra llamps - Abonat`
+- `004280 - Presa de corrent modular amb terra 10A (equivalent de consum 092782)`
+- `Presa modular RJ45`
+- `412200 - Protector contra sobretensions de telefon i comunicacions`
+- `413004 - Presa modular RJ45 6A STP`
+- `413008 - DTI RJ45 modular`
+- `413011 - Filtre mestre dacces telefonic i internet`
+- `413015 - Filtre mestre dacces telefonic i internet 3 sortides + modem`
+- `413017 - Font dalimentacio modular 9Vu003d 1,6A`
+- `413038 - Unitat central automatica Gigabit TNT Satellite`
+- `413039 - Unitat central automatica Gigabit TNT Cable`
+- `413205 - Cordo de la caixa remota`
+- `412000 - Comptador de consum denergia ecologic`
+- `412002 - Transformador de corrent obert 90A`
+- `412004 - Transformador de corrent tancat 60A`
+- `413093 - Bell transformer 230V 12-24V 18-24VA - 4 modules`
+- `413097 - Bell transformer 230V 12-24V 40VA - 5 modules`
+- `412420 - Interruptor de comandament a distancia temporitzat 1P 16A 250V - 1F 230V`
+- `412400 - Interruptor de comandament a distancia silencios 1P 16A 250V - 1F 230V`
+- `412401 - Telerruptor silencios temporitzat 1P 16A 250V - 1F 230V`
+- `412404 - Interruptor de comandament a distancia temporitzat 1P 16A 250V - 1F 12V`
+- `412410 - Rele de retard 2P 16A 250V - 2F 24V`
+- `412414 - Interruptor de comandament a distancia temporitzat 4P 16A 250V - 4F 24V`
+- `412500 - Contactor silencios 230V - 2P 250V 25A O+C`
+- `412501 - Contactor silencios 230V - 2P 250V 25A 2F`
+- `412502 - Contactor silencios 230V - 3P 400V 25A 3F`
+- `412561 - Contactor silencios 230V - 3P 400V 25A 3F`
+- `412562 - Contactor silencios 230V - 3P 400V 40A 4F`
+- `035500 - Caixa Atlantic 300x200x160 Metall IP66 IK10 RAL7035`
+- `035502 - Caixa Atlantic 400x300x200 Metall IP66 IK10 RAL 7035`
+- `035503 - Caixa Atlantic 500x400x200 Metall IP66 IK10 RAL7035`
+- `035504 - Caixa Atlantic 600x400x200 Metall IP66 IK10 RAL 7035`
+- `035507 - Caixa Atlantic 500x400x250 Metall IP66 IK10 RAL7035`
+- `035508 - Caixa Atlantic 600x400x2050 Metall IP66 IK10 RAL7035`
+- `035509 - Caixa Atlantic 400x300x160 Metall IP66 IK10 RAL7035`
+- `035512 - Caixa Atlantic 700x500x250 Metall IP66 IK10 RAL7035`
+- `035514 - Caixa Atlantic 800x600x250 Metall IP66 IK10 RAL7035`
+- `035517 - Caixa Atlantic 1000x600x250 Metall IP66 IK10 RAL7035`
+- `035518 - Caixa Atlantic 1000x800x250 Metall IP66 IK10 RAL7035`
+- `035522 - Caixa Atlantic 700x500x300 Metall IP66 IK10 RAL7035`
+- `035523 - Caixa Atlantic 800x600x300 Metall IP66 IK10 RAL7035`
+- `035526 - Caixa Atlantic 1000x600x300 Metall IP66 IK10 RAL7035`
+- `035527 - Caixa Atlantic 1000x800x300 Metall IP66 IK10 RAL7035`
+- `035528 - Caixa Atlantic 800x600x400 Metall IP66 IK10 RAL7035`
+- `035529 - Caixa Atlantic 1000x800x400 Metall IP66 IK10 RAL7035`
+- `035592 - Caixa Atlantic 1200x800x300 Metall IP66 IK10 RAL7035`
+- `035593 - Caixa Atlantic 1200x1000x300 Metall IP66 IK10 RAL7035`
+- `035595 - Caixa Atlantic 1400x1000x300 Metall IP66 IK10 RAL7035`
+- `035596 - Caixa Atlantic 1200x800x400 Metall IP66 IK10 RAL7035`
+- `035598 - Caixa Atlantic 1400x800x400 Metall IP66 IK10 RAL7035`
+- `035505 - Caixa Atlantic 300x300x160 Metall IP66 IK10 RAL7035`
+- `035510 - Caixa Atlantic 600x600x250 Metall IP66 IK10 RAL7035`
+- `035515 - Caixa Atlantic 800x800x250 Metall IP66 IK10 RAL7035`
+- `035520 - Caixa Atlantic 600x600x300 Metall IP66 IK10 RAL7035`
+- `035524 - Caixa Atlantic 800x800x300 Metall IP66 IK10 RAL7035`
+- `035530 - Caixa Atlantic 300x300x200 Metall IP66 IK10 RAL7035`
+- `035531 - Caixa Atlantic 400x400x200 Metall IP66 IK10 RAL7035`
+- `035532 - Caixa Atlantic 500x500x250 Metall IP66 IK10 RAL7035`
+- `035536 - Caixa Atlantic 600x600x400 Metall IP66 IK10 RAL7035`
+- `035591 - Caixa Atlantic 1000x1000x300 Metall IP66 IK10 RAL7035`
+- `035594 - Caixa Atlantic 1200x1200x300 Metall IP66 IK10 RAL7035`
+- `035597 - Caixa Atlantic 1200x1200x400 Metall IP66 IK10 RAL7035`
+- `004815 - Bloc de terminals neutre 1 x 10-35mm2 + 5 x 6-25mm2`
+- `004816 - Bloc de terminals de fase 1 x 10-35mm2 + 5 x 6-25mm2`
+- `004830 - Bloc de terminals de fase 4 x 1,5-16mm2`
+- `004832 - Bloc de terminals de fase 8 x 1,5-16mm2`
+- `001226 - Caixa - 27 moduls`
+- `001301 - Caixa de coberta de terminals - 1 modul`
+- `001302 - Caixa de coberta de terminals - 2 moduls`
+- `001304 - Caixa de coberta de terminals - 4 moduls`
+- `001306 - Caixa de coberta de terminals - 6 moduls`
+- `001308 - Caixa de mini capacitat de 8 a 9 moduls`
+- `401211 - Caixa Drivia 13 - 1 fila`
+- `401212 - Caixa Drivia 13 - 2 files`
+- `401213 - Caixa Drivia 13 - 3 files`
+- `401214 - Caixa Drivia 13 - 4 files`
+- `405055 - Drivia 13 - Terminal de terra 5 + 27`
+- `401221 - Caixa Drivia 13 - 1 fila`
+- `401222 - Caixa Drivia 18 - 2 files`
+- `401223 - Caixa Drivia 18 - 3 files`
+- `401224 - Caixa Drivia 18 - 4 files`
+- `405057 - Drivia 18 - Terminal de terra 5 + 45`
+- `035500L - Placa massissa 300x200 lliurada amb caixa Atlantic 035500`
+- `036049 - Placa massissa 300x220 Marina`
+- `036052 - Placa massissa 400x300 Atlantic/Marina`
+- `036054 - Placa massissa 1000x600 Atlantic/Marina`
+- `036055 - Placa massissa 500x400 Atlantic/Marina`
+- `036056 - Placa massissa 600x400 Atlantic/Marina`
+- `036057 - Placa massissa 600x600 Atlantic/Marina`
+- `036058 - Placa massissa 700x500 Atlantic/Marina`
+- `036059 - Placa massissa 800x600 Atlantic/Marina`
+- `036060 - Placa massissa 800x800 Atlantic/Marina`
+- `036061 - Placa massissa 1000x800 Atlantic/Marina`
+- `036063 - Placa massissa 1000x1000 Atlantic/Marina`
+- `036064 - Placa massissa 1200x800 Atlantic/Marina`
+- `036065 - Placa massissa 1200x1000 Atlantic/Marina`
+- `036066 - Placa massissa 1200x1200 Atlantic/Marina`
+- `036067 - Placa massissa 1400x800 Atlantic/Marina`
+- `036068 - Placa massissa 1400x1000 Atlantic/Marina`
+- `036069 - Placa massissa 300x300 Atlantic/Marina`
+- `036070 - Placa massissa 400x400 Atlantic/Marina`
+- `036071 - Placa massissa 500x500 Atlantic/Marina`
+- `036200 - Canal Lina25 25x25mm - longitud 2m`
+- `036202 - Canal Lina25 25x60mm - longitud 2m`
+- `Mounting rail TS35 (037404-rail_din)`
+- `Suports de muntatge a la paret`
+- `Clips de femella M4`
+- `Cargol HF`
+- `036250 - Caixa Marina 300x200x160 Poliester IP66 IK10 RAL7035`
+- `036251 - Caixa Marina 400x300x200 Poliester IP66 IK10 RAL7035`
+- `036252 - Caixa Marina 500x400x200 Poliester IP66 IK10 RAL7035`
+- `036255 - Caixa Marina 600x400x250 Poliester IP66 IK10 RAL7035`
+- `036256 - Caixa Marina 700x500x250 Poliester IP66 IK10 RAL7035`
+- `036261 - Caixa Marina 800x600x300 Poliester IP66 IK10 RAL7035`
+- `036263 - Caixa Marina 1000x800x300 Poliester IP66 IK10 RAL7035`
+- `036264 - Caixa Marina 1200x800x300 Poliester IP66 IK10 RAL7035`
+- `404926 - P+N HX3 pinta - 2 moduls (404926-peigne_hx3_02m-live)`
+- `404926 - P+N HX3 pinta - 3 moduls (404926-peigne_hx3_03m-live)`
+- `404926 - Pinta P+N HX3 - 4 moduls (404926-peigne_hx3_04m-live)`
+- `404926 - Pinta P+N HX3 - 5 moduls (404926-peigne_hx3_05m-live)`
+- `404926 - Pinta P+N HX3 - 6 moduls (404926-peigne_hx3_06m-live)`
+- `404926 - Pinta P+N HX3 - 7 moduls (404926-peigne_hx3_07m-live)`
+- `404926 - Pinta P+N HX3 - 8 moduls (404926-peigne_hx3_08m-live)`
+- `404926 - P+N HX3 pinta - 9 moduls (404926-peigne_hx3_09m-live)`
+- `404926 - Pinta P+N HX3 - 10 moduls (404926-peigne_hx3_10m-live)`
+- `404926 - Pinta P+N HX3 - 11 moduls (404926-peigne_hx3_11m-live)`
+- `404926 - Pinta P+N HX3 - 12 moduls (404926-peigne_hx3_12m-live)`
+- `404926 - Pinta P+N HX3 - 13 moduls (404926-peigne_hx3_13m-live)`
+- `404926 - P+N HX3 pinta - 2 moduls (404926-peigne_hx3_02m-neutral)`
+- `404926 - P+N HX3 pinta - 3 moduls (404926-peigne_hx3_03m-neutral)`
+- `404926 - Pinta P+N HX3 - 4 moduls (404926-peigne_hx3_04m-neutral)`
+- `404926 - Pinta P+N HX3 - 5 moduls (404926-peigne_hx3_05m-neutral)`
+- `404926 - Pinta P+N HX3 - 6 moduls (404926-peigne_hx3_06m-neutral)`
+- `404926 - Pinta P+N HX3 - 7 moduls (404926-peigne_hx3_07m-neutral)`
+- `404926 - Pinta P+N HX3 - 8 moduls (404926-peigne_hx3_08m-neutral)`
+- `404926 - P+N HX3 pinta - 9 moduls (404926-peigne_hx3_09m-neutral)`
+- `404926 - Pinta P+N HX3 - 10 moduls (404926-peigne_hx3_10m-neutral)`
+- `404926 - Pinta P+N HX3 - 11 moduls (404926-peigne_hx3_11m-neutral)`
+- `404926 - Pinta P+N HX3 - 12 moduls (404926-peigne_hx3_12m-neutral)`
+- `404926 - Pinta P+N HX3 - 13 moduls (404926-peigne_hx3_13m-neutral)`
+- `405000 - Pinta P+N VX3 - 2 fileres`
+- `405001 - Pinta P+N VX3 - 3 fileres`
+- `405002 - Pinta P+N VX3 - 4 fileres`
+- `037100 - Viking3 - 1 unio 1 entrada 1 sortida 2,5 mm2 pas 5 mm Blau`
+- `037101 - Viking3 - 1 encreuament 1 entrada 1 sortida 4mm2 seccio 6mm Blau`
+- `037102 - Viking3 - 1 unio 1 entrada 1 sortida 6mm2 pas 8mm Blau`
+- `037103 - Viking3 - 1 unio 1 entrada 1 sortida 10 mm2 pas 10 mm Blau`
+- `037104 - Viking3 - 1 unio 1 entrada 1 sortida 16 mm2 pas 12 mm Blau`
+- `037105 - Viking3 - 1 unio 1 entrada 1 sortida 35 mm2 pas 15 mm Blau`
+- `037120 - Viking3 - 1 unio 1 entrada 1 sortida 2,5 mm2 pas 5 mm Taronja`
+- `037121 - Viking3 - 1 unio 1 entrada 1 sortida 4mm2 pas 6mm Taronja`
+- `037130 - Viking3 - 1 unio 1 entrada 1 sortida 2,5 mm2 pas 5 mm Vermell`
+- `037131 - Viking3 - 1 unio 1 entrada 1 sortida 4mm2 pas 6mm Vermell`
+- `037160 - Viking3 - 1 unio 1 entrada 1 sortida 2,5 mm2 pas 5 mm Gris`
+- `037161 - Viking3 - 1 unio 1 entrada 1 sortida 4mm2 pas 6mm Gris`
+- `037162 - Viking3 - 1 unio 1 entrada 1 sortida 6mm2 pas 8mm Gris`
+- `037163 - Viking3 - 1 unio 1 entrada 1 sortida 10 mm2 pas 10 mm Gris`
+- `037164 - Viking3 - 1 unio 1 entrada 1 sortida 16 mm2 pas 12 mm Gris`
+- `037165 - Viking3 - 1 unio 1 entrada 1 sortida 35 mm2 pas 15 mm Gris`
+- `037166 - Viking3 - 1 unio 1 entrada 1 sortida 4mm2 pas 6mm Gris`
+- `037177 - Viking3 - 1 unio 1 entrada 1 sortida 4mm2 pas 6mm Gris`
+- `037178 - Viking3 - 1 unio 1 entrada 1 sortida 6mm2 pas 8mm Gris`
+- `037198 - Viking3 - 1 unio 1 entrada 1 sortida 16 mm2 pas 12 mm Gris`
+- `037199 - Viking3 - 1 unio 1 entrada 1 sortida 35 mm2 pas 15 mm Gris`
+- `037510 - Topador de bloqueig per a bornes Viking3 amb pas automatic de 6 mm`
+- `037511 - Tope de bloqueig per a bornes Viking3 amb pas de 8 mm`
+- `039596 - Viking3 - Portaetiquetes transparent amb inclinacio variable`
+- `037550-Viking3 bloc de terminals de rosca particio - 1 entrada/1 sortida - pas 5,6,8,10`
+- `037551-Bloc de terminals Viking3 particio terminal de cargol - 1 entrada/1 sortida - pas 12 i 15`
+- `037109 - Viking3 - 1 unio 2 entrades 2 sortides 4mm2 pas 6mm Blau`
+- `037169 - Viking3 - 1 unio 2 entrades 2 sortides 4mm2 pas 6mm Gris`
+- `037552 - Viking3- Particio de terminals per a blocs de terminals de cargol Viking3 amb 2 entrades 2 sortides`
+- `037107 - Viking3 - 2 unions 2 etapes 2,5 mm2 pas 5 mm Blau`
+- `037108 - Viking3 - 2 unions 2 etapes 4mm2 pas 6mm Blau`
+- `037167 - Viking3 - 2 unions 2 etapes 2,5 mm2 pas 5 mm Gris`
+- `037168 - Viking3 - 2 unions 2 etapes 4mm2 pas 6mm Gris`
+- `037553 - Viking3 - 2 unions 2 etapes 4mm2 pas 6mm Gris`
+- `037151 - Viking3 - 3 unions 3 etapes 2,5 mm2 pas 5 mm Gris`
+- `037170 - Viking3 - 1 unio 1 entrada 1 sortida 2,5 mm2 pas 5 mm Verd/groc`
+- `037171 - Viking3 - 1 unio 1 entrada 1 sortida 4mm2 pas 6mm Verd/groc`
+- `037172 - Viking3 - 1 unio 1 entrada 1 sortida 6mm2 pas 8mm Verd/groc`
+- `037173 - Viking3 - 1 unio 1 entrada 1 sortida 10 mm2 pas 10 mm Verd/groc`
+- `037174 - Viking3 - 1 unio 1 entrada 1 sortida 16mm2 pas 12mm Verd/groc`
+- `037175 - Viking3 - 1 unio 1 entrada 1 sortida 35 mm2 pas 15 mm Verd/groc`
+- `037176 - Viking3 - 1 unio 1 entrada 1 sortida 35 mm2 pas 15 mm nu`
+- `037179 - Viking3 - 1 unio 2 entrades 2 sortides 4mm2 pas 6mm Verd/groc`
+- `037180 - Viking3 - 1 unio oberta 2,5 mm2 pas 6 mm`
+- `037181 - Viking3 - 1 unio fusible 2,5 mm2 pas 6 mm Gris`
+- `037182 - Viking3 - 1 unio Circuit neutre Pinca 2,5 mm2 pas 6 mm Blau`
+- `037183 - Viking3 - 1 unio Circuit estandard Pinca 2,5 mm2 pas 6 mm Blau`
+- `037184 - Viking3 - 1 unio Circuit estandard Mini pinca 2,5 mm2 pas 6 mm Taronja`
+- `037185 - Viking3 - 1 unio Circuit ininterromput Pinca 2,5 mm2 pas 6 mm Taronja`
+- `037186 u200bu200b- Viking3 - 1 unio Circuit no tallat Mini pinca 2,5 mm2 pas 6 mm Taronja`
+- `037187 - Viking3 - Endoll de fusible d1 unio 2,5 mm2 de pas 6 mm`
+- `037515 - Viking3 - Pinca de fusible gris`
+- `037516 - Viking3 - Pinca neutre Blau`
+- `037517 - Viking3 - Pinca grisa`
+- `037518 - Viking3 - Mini pinca taronja`
+- `037524 - Viking3 - Llum indicador 12 a 24V o u003d`
+- `037525 - Viking3 - Llum indicadora de 110 a 250V`
+- `037153 - Viking3 - 1 unio per equipar 2,5 mm2 de pas 5 mm Gris fosc`
+- `037154 - Viking3 - 1 Unio de diodes 2,5 mm2 Pas de 5 mm Gris fosc`
+- `037155 - Viking3 - 2 unions 2 etapes Diode 4mm2 pas 6mm Gris fosc`
+- `037156 - Viking3 - 2 unions 2 etapes LED 4mm2 pas 6mm Gris fosc`
+- `037152 - Viking3 - 3 unions 3 etapes 2,5 mm2 pas 5 mm Gris`
+- `037192 - Viking3 - 1 unio de mesura seccionable 6mm2 pas 8mm Gris`
+- `412008 - Transformador de corrent tancat 60A`
+- `412015 - Comptador denergia Netatmo`
+- `412032 - Ecometre Netatmo`
+- `412170 - Netatmo Telerruptor silencios 1P 16AX 230V`
+- `412171 - Netatmo Contactor silencios 1P 20AX 230V`
+- `412181 - Netatmo Control module`
+- `seccionador bipolar 63A Legrand`
+- `Wiring duct 60mm (goulotte_lina-60)`
+- `Wiring duct 30mm (goulotte_lina)`
+- `MDT AKK-1616.02`
+- `MDT AMI-1216.01`
+- `Log.output/input`
+- `Base P2RF 1 (embase-p2rf-1)`
+- `Base P2RF 2`
+- `Base PF`
+- `Base PYF 2`
+- `G2RS`
+- `MKS`
+- `MY`
+- `Filter Schaffner`
+- `protector contra sobretensions`
+- `Font dalimentacio de 24 Vdc`
+- `ATV12`
+- `ATS01N222QN`
+- `Interruptor 10A`
+- `Interruptor de circuit de 16 A`
+- `Interruptor de circuit de 20 A`
+- `Interruptor de circuit de 25 A`
+- `Interruptor de circuit de 2A`
+- `30 mA`
+- `Interruptor de circuit de 32 A`
+- `Interruptor Tetra DT40`
+- `Interruptor uni (disjoncteur-uni-dclic)`
+- `Interruptor uni (disjoncteur-uni-dt40)`
+- `DomA42 2P 10A`
+- `DomA42 2P 16A`
+- `DomA42 2P 20A`
+- `DomA42 2P 25A`
+- `DomA42 2P 32A`
+- `DomA45 1P+N 10A`
+- `DomA45 1P+N 16A`
+- `DomA45 1P+N 20A`
+- `DomA45 1P+N 32A`
+- `DomA45 1P+N 25A`
+- `DomB 25A 30 ma AC`
+- `DomB 40A 300 ma AC`
+- `DomB 40A 30 ma AC`
+- `DomB 25A 300 ma AC`
+- `Interruptor DT40 25A`
+- `Resi9 Circuit-breaker 1P`
+- `Resi9 Circuit-breaker 3P`
+- `Vigi DT40`
+- `Domae, RCD, 2P`
+- `Resi9 RCD 2p`
+- `Resi9 RCD 4p`
+- `GV2ME (gv2me)`
+- `GV2ME (gv2me_2)`
+- `GV2P`
+- `Interruptor iDT40 10A`
+- `Interruptor iDT40 16A`
+- `Neutre entre seccions`
+- `Interseccio TRI`
+- `LRD (lrd)`
+- `M221CE40T`
+- `Portafusibles 5x20`
+- `Portaetiquetes EN TENSIO`
+- `Portaetiquetes daturada demergencia`
+- `Portaetiquetes PREDETERMINAT (NEGRE)`
+- `Portaetiquetes PREDETERMINAT (vermell)`
+- `Portaetiquetes AUTO-0-MAIN`
+- `Portaetiquetes I-0-II`
+- `Label - Emergency stopping - fr (zby9120)`
+- `Portaetiquetes`
+- `Contactor ITC 2P 16A`
+- `Contactor ITC 2P 20A`
+- `Contactor ITC 2P 25A`
+- `Contactor ITC 2P 40A`
+- `Contactor ITC 2P 63A`
+- `CAD 32`
+- `LC1D09B7 (km_tetra)`
+- `LC1D09B7 (km_tri)`
+- `LADN22 TETRA 2NO 2NC`
+- `LADN22 TRI 2NO 2NC`
+- `LADR4 TRI Rest`
+- `LADS2 TRI Treball`
+- `LC1D`
+- `LC1K`
+- `LC2D`
+- `LC2K`
+- `LRD (relays_contactors_contacts/lrd)`
+- `CCT15225`
+- `SCH23158`
+- `Inter Seccio LS1D32`
+- `Seccio de fusibles TRI (sectiopf_tri)`
+- `Seccio de fusibles TRI (sectiopf_tri_9596)`
+- `Transformador 400V 230V / 24V`
+- `Light (xb4bvm1-blanc)`
+- `Light (xb4bvm3-vert)`
+- `Light (xb4bvm4-rouge)`
+- `Light (xb4bvm5-orange)`
+- `Light (xb4bvm6-bleu)`
+- `Light (xb4bvb1-blanc)`
+- `Light (xb4bvb3-vert)`
+- `Light (xb4bvb4-rouge)`
+- `Light (xb4bvb5-orange)`
+- `Light (xb4bvb6-bleu)`
+- `Shelly 1`
+- `Shelly 1PM`
+- `Shelly 25`
+- `Shelly Dimmer 2`
+- `Shelly RGBW2`
+- `Shelly Plus 1`
+- `Shelly Plus 1PM`
+- `Shelly Plus 2PM`
+- `Shelly Pro 1`
+- `Shelly Pro 1PM`
+- `Shelly Pro 2`
+- `Shelly Pro 2PM`
+- `Shelly Pro 4PM`
+- `UE 45-3S1`
+- `2-Poles Circuit Breaker 205SY6220-7`
+- `5WG1-125-1AB22 - Power Supply 640mA`
+- `5WG1-148-1AB22 - IP Interface`
+- `5WG1 262-1EB22 - Binary Input Device - dry contacts`
+- `5WG1 523-1AB11 - Venetian blind actuator - 230V - 6A`
+- `5WG1 567-1AB22 - Switching actuator - 230V - 10A`
+- `16DI`
+- `Frontview S510`
+- `Frontview S550`
+- `Sofrel Surge Protector`
+- `Frontview S1000`
+- `6AI-T`
+- `6 DO`
+- `SOMESCA`
+- `M-EBAR 125 front view`
+- `Tlumivka 9803861`
+- `Transformador 0703237`
+- `Transformador 0404611`
+- `unknown (bp-au)`
+- `unknown (bp-bleu)`
+- `unknown (bp-noir)`
+- `unknown (bp-rouge)`
+- `unknown (bp-vert)`
+- `unknown (commutateur-2p)`
+- `unknown (commutateur-3p)`
+- `unknown (voyant-blanc)`
+- `unknown (voyant-bleu)`
+- `unknown (voyant-orange)`
+- `voyant-rouge`
+- `unknown (voyant-vert)`
+- `Emergency Stop (arret_durgence)`
+- `Emergency Stop key to (arret_durgence_a_clee)`
+- `Emergency stop turned unlocked (arret_durgence_tourner_deverouiller)`
+- `Pushbutton (bouton_poussoir)`
+- `Arrow button (bouton_poussoir_fleche)`
+- `Pushbutton (bouton_poussoir_jaune)`
+- `Illuminated pushbutton (bouton_poussoir_lumineux)`
+- `Pushbutton (bouton_poussoir_rouge_0)`
+- `Pushbutton (bouton_poussoir_vert_1)`
+- `Turning button centered (bouton_tournant_centre)`
+- `Turning button side (bouton_tournant_cote)`
+- `Label - Emergency stopping - en (etiquette_au_en)`
+- `Label - Emergency stopping - en (etiquette_au_en_2x2)`
+- `Label - Emergency stopping - fr (etiquette_au_fr)`
+- `Label - Emergency stopping - fr (etiquette_au_fr_2x2)`
+- `Label - Emergency stopping - pl (etiquette_au_pl)`
+- `Label - Emergency stopping`
+- `Label holder descent (porte_etiquette_descente)`
+- `Label holder left / right (porte_etiquette_gauche-droite)`
+- `Label holder up / down (porte_etiquette_montee-descente)`
+- `Label holder mounted (porte_etiquette_montee)`
+- `Label holder virgin (porte_etiquette_vide)`
+- `Light (voyant)`
+- `Light (voyant_bleu)`
+- `Light (voyant_jaune)`
+- `Light (voyant_orange)`
+- `Light (voyant_rouge)`
+- `Light (voyant_vert)`
+- `Emergency Stop (31_size_4x4/arret_durgence)`
+- `Emergency Stop key to (31_size_4x4/arret_durgence_a_clee)`
+- `Emergency stop turned unlocked (31_size_4x4/arret_durgence_tourner_deverouiller)`
+- `Pushbutton (31_size_4x4/bouton_poussoir)`
+- `Arrow button (31_size_4x4/bouton_poussoir_fleche)`
+- `Illuminated pushbutton (31_size_4x4/bouton_poussoir_lumineux)`
+- `Turning button centered (31_size_4x4/bouton_tournant_centre)`
+- `Turning button side (31_size_4x4/bouton_tournant_cote)`
+- `Label - Emergency stopping - en (31_size_4x4/etiquette_au_en)`
+- `Label - Emergency stopping - fr (31_size_4x4/etiquette_au_fr)`
+- `Label - Emergency stopping - pl (31_size_4x4/etiquette_au_pl)`
+- `Label holder descent (31_size_4x4/porte_etiquette_descente)`
+- `Label holder left / right (31_size_4x4/porte_etiquette_gauche-droite)`
+- `Label holder up / down (31_size_4x4/porte_etiquette_montee-descente)`
+- `Label holder mounted (31_size_4x4/porte_etiquette_montee)`
+- `Label holder virgin (31_size_4x4/porte_etiquette_vide)`
+- `Light (31_size_4x4/voyant)`
+- `Light (31_size_4x4/voyant_bleu)`
+- `Light (31_size_4x4/voyant_orange)`
+- `Light (31_size_4x4/voyant_rouge)`
+- `Light (31_size_4x4/voyant_vert)`
+

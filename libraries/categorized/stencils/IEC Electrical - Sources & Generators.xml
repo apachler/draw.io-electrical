@@ -1,0 +1,2987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes name="mxgraph.iec_electrical.sources_generators">
+  <shape name="Tachodynamo" w="40" h="80" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.575" y="0.125" perimeter="0" />
+      <constraint name="" x="0.575" y="0.875" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="23.0" y="10.0" />
+        <line x="23.0" y="70.0" />
+      </path>
+      <stroke />
+      <rect x="18.0" y="25.0" w="10.0" h="30.0" />
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase generator" w="50" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.82" y="0.8333" perimeter="0" />
+      <constraint name="" x="0.42" y="0.8333" perimeter="0" />
+      <constraint name="" x="0.62" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="31.0" y="50.0" />
+        <line x="31.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="50.0" />
+        <line x="41.0" y="31.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="50.0" />
+        <line x="21.0" y="31.5" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="DC generator" w="40" h="80" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.525" y="0.125" perimeter="0" />
+      <constraint name="" x="0.525" y="0.875" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="10.0" />
+        <line x="21.0" y="70.0" />
+      </path>
+      <stroke />
+      <rect x="16.0" y="25.0" w="10.0" h="30.0" />
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="PVCell" w="70" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.4" y="0.6667" perimeter="0" />
+      <constraint name="" x="0.4" y="0.7667" perimeter="0" />
+      <constraint name="" x="0.5429" y="0.7167" perimeter="0" />
+      <constraint name="" x="0.5429" y="0.6167" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="45.0" y="55.8" />
+        <line x="47.5" y="55.8" />
+      </path>
+      <stroke />
+      <rect x="31.2" y="14.9" w="4.3" h="37.6" />
+      <fillstroke />
+      <path>
+        <move x="45.8" y="57.0" />
+        <line x="46.8" y="57.0" />
+      </path>
+      <stroke />
+      <rect x="28.0" y="23.0" w="10.0" h="31.0" />
+      <fillstroke />
+      <path>
+        <move x="28.0" y="54.0" />
+        <line x="23.0" y="56.0" />
+        <line x="23.0" y="57.0" />
+        <line x="43.0" y="57.0" />
+        <line x="43.0" y="56.0" />
+        <line x="38.0" y="54.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="4.2" y="23.0" />
+        <line x="27.6" y="3.3" />
+        <line x="65.0" y="3.3" />
+        <line x="42.8" y="23.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="21.2" y="12.4" />
+        <line x="24.9" y="9.6" />
+        <line x="30.9" y="9.6" />
+        <line x="27.4" y="12.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="33.3" y="12.4" />
+        <line x="37.0" y="9.6" />
+        <line x="43.0" y="9.6" />
+        <line x="39.5" y="12.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="22.3" y="21.7" />
+        <line x="26.0" y="18.9" />
+        <line x="32.0" y="18.9" />
+        <line x="28.5" y="21.7" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="45.4" y="12.4" />
+        <line x="49.1" y="9.6" />
+        <line x="55.1" y="9.6" />
+        <line x="51.6" y="12.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="38.8" y="7.8" />
+        <line x="42.5" y="5.0" />
+        <line x="48.5" y="5.0" />
+        <line x="45.0" y="7.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.9" y="7.8" />
+        <line x="54.6" y="5.0" />
+        <line x="60.6" y="5.0" />
+        <line x="57.1" y="7.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.7" y="7.8" />
+        <line x="30.4" y="5.0" />
+        <line x="36.4" y="5.0" />
+        <line x="32.9" y="7.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="33.3" y="21.7" />
+        <line x="37.0" y="18.9" />
+        <line x="43.0" y="18.9" />
+        <line x="39.5" y="21.7" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.2" y="21.7" />
+        <line x="13.9" y="18.9" />
+        <line x="19.9" y="18.9" />
+        <line x="16.4" y="21.7" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.8" y="17.1" />
+        <line x="31.5" y="14.3" />
+        <line x="37.5" y="14.3" />
+        <line x="34.0" y="17.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.7" y="17.1" />
+        <line x="19.4" y="14.3" />
+        <line x="25.4" y="14.3" />
+        <line x="21.9" y="17.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="39.9" y="17.1" />
+        <line x="43.6" y="14.3" />
+        <line x="49.6" y="14.3" />
+        <line x="46.1" y="17.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="38.0" y="49.0" />
+        <line x="46.2" y="49.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.2" y="49.0" />
+        <line x="46.2" y="54.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="43.5" y="54.5" />
+        <line x="49.0" y="54.5" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Vertical wind turbine" w="120" h="260" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.6667" y="0.8885" perimeter="0" />
+      <constraint name="" x="0.6667" y="0.8115" perimeter="0" />
+      <constraint name="" x="0.6667" y="0.85" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <rect x="66.0" y="197.0" w="14.0" h="37.0" />
+      <stroke />
+      <path>
+        <move x="58.0" y="53.0" />
+        <line x="52.0" y="248.0" />
+        <line x="68.0" y="248.0" />
+        <line x="62.0" y="53.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="39.0" y="248.0" />
+        <line x="35.0" y="256.0" />
+        <line x="85.0" y="256.0" />
+        <line x="81.0" y="248.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="22.0" y="250.0" />
+        <line x="30.0" y="250.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="23.5" y="252.0" />
+        <line x="28.5" y="252.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="254.0" />
+        <line x="27.0" y="254.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.0" y="250.0" />
+        <line x="26.0" y="243.0" />
+        <line x="52.0" y="243.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Diesel Engine" w="280" h="190" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.7071" y="0.0789" perimeter="0" />
+      <constraint name="" x="0.725" y="0.0684" perimeter="0" />
+      <constraint name="" x="0.7429" y="0.0579" perimeter="0" />
+      <constraint name="" x="0.8929" y="0.1684" perimeter="0" />
+      <constraint name="" x="0.8929" y="0.1895" perimeter="0" />
+      <constraint name="" x="0.8929" y="0.2105" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="205.7" y="63.0" />
+        <line x="263.7" y="41.6" />
+        <line x="263.7" y="76.6" />
+        <line x="205.7" y="100.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="20.2" y="120.9" />
+        <line x="20.2" y="138.3" />
+        <line x="37.1" y="131.5" />
+        <line x="38.1" y="113.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="217.1" y="77.3" />
+        <line x="255.6" y="61.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="170.3" y="52.3" />
+        <line x="170.3" y="88.0" />
+        <line x="205.6" y="101.1" />
+        <line x="205.6" y="62.6" />
+        <line x="170.3" y="49.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="217.1" y="80.7" />
+        <line x="255.6" y="64.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="217.1" y="84.2" />
+        <line x="255.6" y="68.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="205.7" y="62.8" />
+        <line x="263.7" y="41.6" />
+        <line x="226.1" y="28.5" />
+        <line x="170.3" y="49.3" />
+        <line x="206.0" y="62.8" />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="179.3" y="25.3" />
+        <line x="206.1" y="13.3" />
+        <line x="206.1" y="31.2" />
+        <line x="179.3" y="43.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="214.8" y="29.1" />
+        <line x="224.2" y="41.9" />
+        <line x="224.2" y="59.9" />
+        <line x="214.8" y="56.4" />
+        <line x="214.8" y="30.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="189.2" y="20.3" />
+        <line x="215.0" y="29.1" />
+        <line x="215.0" y="56.2" />
+        <line x="187.9" y="46.6" />
+        <line x="187.9" y="20.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="188.3" y="19.6" />
+        <line x="215.0" y="28.8" />
+        <line x="241.7" y="16.9" />
+        <line x="215.0" y="7.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="224.0" y="41.4" />
+        <line x="250.8" y="29.4" />
+        <line x="250.8" y="47.4" />
+        <line x="224.0" y="59.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="214.8" y="29.4" />
+        <line x="224.0" y="41.4" />
+        <line x="250.8" y="29.4" />
+        <line x="241.6" y="17.5" />
+        <line x="215.7" y="28.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="179.5" y="25.5" />
+        <line x="187.7" y="19.6" />
+        <line x="187.7" y="47.3" />
+        <line x="179.5" y="43.6" />
+        <line x="179.5" y="25.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="217.1" y="73.9" />
+        <line x="255.6" y="57.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="216.0" y="70.5" />
+        <line x="256.6" y="54.5" />
+        <line x="256.6" y="71.6" />
+        <line x="216.0" y="87.6" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="191.3" y="34.7" />
+        <line x="210.1" y="41.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="191.3" y="37.8" />
+        <line x="210.1" y="44.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="191.3" y="40.2" />
+        <line x="210.1" y="46.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="191.3" y="30.4" />
+        <line x="210.8" y="37.1" />
+        <line x="210.8" y="48.8" />
+        <line x="191.3" y="42.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="192.1" y="32.2" />
+        <line x="210.8" y="39.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="191.8" y="78.3" />
+        <arc rx="3.5" ry="5.4" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="187.8" y="74.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="186.9" y="74.0" />
+        <line x="152.0" y="92.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="191.9" y="78.3" />
+        <line x="157.0" y="96.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="158.9" y="90.7" />
+        <line x="180.2" y="80.6" />
+        <line x="183.1" y="83.3" />
+        <line x="162.1" y="93.4" />
+        <line x="158.7" y="91.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="168.2" y="85.1" />
+        <line x="150.4" y="92.4" />
+        <line x="155.7" y="96.1" />
+        <line x="169.0" y="91.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.8" y="79.2" />
+        <line x="126.7" y="84.5" />
+        <line x="126.7" y="100.7" />
+        <line x="110.0" y="95.0" />
+        <line x="110.0" y="79.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="127.4" y="84.9" />
+        <line x="143.3" y="90.1" />
+        <line x="143.3" y="106.4" />
+        <line x="126.6" y="100.6" />
+        <line x="126.6" y="84.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="127.5" y="72.1" />
+        <line x="143.1" y="77.4" />
+        <line x="143.1" y="93.8" />
+        <line x="126.7" y="88.0" />
+        <line x="126.7" y="72.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="144.1" y="77.8" />
+        <line x="159.8" y="83.1" />
+        <line x="159.8" y="99.5" />
+        <line x="143.3" y="93.7" />
+        <line x="143.3" y="77.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.9" y="84.7" />
+        <line x="143.3" y="77.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.2" y="79.0" />
+        <line x="126.7" y="72.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="143.3" y="89.5" />
+        <line x="143.3" y="106.4" />
+        <line x="159.8" y="99.3" />
+        <line x="159.8" y="83.0" />
+        <line x="143.3" y="90.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="126.7" y="83.9" />
+        <line x="126.7" y="100.7" />
+        <line x="143.1" y="93.7" />
+        <line x="143.1" y="77.4" />
+        <line x="126.7" y="84.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="126.9" y="84.5" />
+        <line x="143.3" y="90.0" />
+        <line x="159.8" y="82.8" />
+        <line x="143.3" y="77.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="110.2" y="78.8" />
+        <line x="126.7" y="84.3" />
+        <line x="143.1" y="77.2" />
+        <line x="126.7" y="71.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="143.1" y="106.3" />
+        <line x="160.0" y="99.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.5" y="100.7" />
+        <line x="143.3" y="93.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.7" y="84.5" />
+        <line x="126.7" y="100.8" />
+        <line x="143.3" y="106.4" />
+        <line x="143.3" y="90.2" />
+        <line x="127.1" y="84.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="94.5" y="86.0" />
+        <line x="110.4" y="91.3" />
+        <line x="110.4" y="107.5" />
+        <line x="93.7" y="101.8" />
+        <line x="93.7" y="86.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="111.1" y="91.7" />
+        <line x="127.0" y="96.9" />
+        <line x="127.0" y="113.2" />
+        <line x="110.3" y="107.4" />
+        <line x="110.3" y="91.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="111.2" y="78.9" />
+        <line x="126.8" y="84.2" />
+        <line x="126.8" y="100.6" />
+        <line x="110.4" y="94.8" />
+        <line x="110.4" y="78.9" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="127.8" y="84.5" />
+        <line x="143.5" y="89.8" />
+        <line x="143.5" y="106.3" />
+        <line x="127.0" y="100.5" />
+        <line x="127.0" y="84.5" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.5" y="91.4" />
+        <line x="127.0" y="84.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="93.9" y="85.8" />
+        <line x="110.4" y="78.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="127.0" y="96.3" />
+        <line x="127.0" y="113.2" />
+        <line x="143.5" y="106.1" />
+        <line x="143.5" y="89.8" />
+        <line x="127.0" y="96.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="110.4" y="90.7" />
+        <line x="110.4" y="107.5" />
+        <line x="126.8" y="100.5" />
+        <line x="126.8" y="84.2" />
+        <line x="110.4" y="91.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="110.5" y="91.3" />
+        <line x="127.0" y="96.7" />
+        <line x="143.5" y="89.6" />
+        <line x="127.0" y="84.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="93.9" y="85.6" />
+        <line x="110.4" y="91.1" />
+        <line x="126.8" y="84.0" />
+        <line x="110.4" y="78.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="126.8" y="113.1" />
+        <line x="143.7" y="106.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.2" y="107.4" />
+        <line x="127.0" y="100.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.4" y="91.3" />
+        <line x="110.4" y="107.5" />
+        <line x="127.0" y="113.2" />
+        <line x="127.0" y="97.0" />
+        <line x="110.8" y="91.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="80.2" y="92.0" />
+        <line x="96.1" y="97.3" />
+        <line x="96.1" y="113.5" />
+        <line x="79.4" y="107.8" />
+        <line x="79.4" y="92.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.8" y="97.7" />
+        <line x="112.8" y="102.9" />
+        <line x="112.8" y="119.2" />
+        <line x="96.0" y="113.4" />
+        <line x="96.0" y="97.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.9" y="84.9" />
+        <line x="112.6" y="90.2" />
+        <line x="112.6" y="106.7" />
+        <line x="96.1" y="100.8" />
+        <line x="96.1" y="84.9" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="113.5" y="90.6" />
+        <line x="129.2" y="95.9" />
+        <line x="129.2" y="112.3" />
+        <line x="112.8" y="106.5" />
+        <line x="112.8" y="90.6" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="96.3" y="97.5" />
+        <line x="112.8" y="90.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="79.6" y="91.8" />
+        <line x="96.1" y="84.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="112.8" y="102.3" />
+        <line x="112.8" y="119.2" />
+        <line x="129.2" y="112.1" />
+        <line x="129.2" y="95.8" />
+        <line x="112.8" y="102.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.1" y="96.7" />
+        <line x="96.1" y="113.5" />
+        <line x="112.6" y="106.5" />
+        <line x="112.6" y="90.2" />
+        <line x="96.1" y="97.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.3" y="97.3" />
+        <line x="112.8" y="102.8" />
+        <line x="129.2" y="95.6" />
+        <line x="112.8" y="90.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="79.6" y="91.6" />
+        <line x="96.1" y="97.1" />
+        <line x="112.6" y="90.0" />
+        <line x="96.1" y="84.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="112.5" y="119.1" />
+        <line x="129.4" y="112.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="95.9" y="113.5" />
+        <line x="112.8" y="106.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="96.1" y="97.4" />
+        <line x="96.1" y="113.5" />
+        <line x="112.8" y="119.2" />
+        <line x="112.8" y="103.0" />
+        <line x="96.5" y="97.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.2" y="97.7" />
+        <line x="83.1" y="102.9" />
+        <line x="83.1" y="119.2" />
+        <line x="66.3" y="113.4" />
+        <line x="66.3" y="97.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.8" y="103.3" />
+        <line x="99.7" y="108.6" />
+        <line x="99.7" y="124.8" />
+        <line x="83.0" y="119.1" />
+        <line x="83.0" y="103.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.8" y="90.6" />
+        <line x="99.5" y="95.9" />
+        <line x="99.5" y="112.3" />
+        <line x="83.1" y="106.5" />
+        <line x="83.1" y="90.6" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="100.5" y="96.2" />
+        <line x="116.2" y="101.5" />
+        <line x="116.2" y="118.0" />
+        <line x="99.7" y="112.1" />
+        <line x="99.7" y="96.2" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.2" y="103.1" />
+        <line x="99.7" y="96.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="66.6" y="97.5" />
+        <line x="83.1" y="90.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="99.7" y="108.0" />
+        <line x="99.7" y="124.8" />
+        <line x="116.2" y="117.8" />
+        <line x="116.2" y="101.5" />
+        <line x="99.7" y="108.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.1" y="102.3" />
+        <line x="83.1" y="119.2" />
+        <line x="99.5" y="112.1" />
+        <line x="99.5" y="95.8" />
+        <line x="83.1" y="102.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.2" y="102.9" />
+        <line x="99.7" y="108.4" />
+        <line x="116.2" y="101.3" />
+        <line x="99.7" y="95.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="66.6" y="97.3" />
+        <line x="83.1" y="102.8" />
+        <line x="99.5" y="95.6" />
+        <line x="83.1" y="90.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="99.5" y="124.8" />
+        <line x="116.4" y="117.7" />
+      </path>
+      <stroke />
+      <path>
+        <move x="82.9" y="119.1" />
+        <line x="99.7" y="112.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.1" y="103.0" />
+        <line x="83.1" y="119.2" />
+        <line x="99.7" y="124.8" />
+        <line x="99.7" y="108.7" />
+        <line x="83.5" y="103.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.2" y="104.1" />
+        <line x="67.2" y="109.3" />
+        <line x="67.2" y="125.6" />
+        <line x="50.5" y="119.8" />
+        <line x="50.5" y="104.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="110.0" y="79.3" />
+        <line x="126.5" y="71.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.9" y="109.8" />
+        <line x="83.8" y="115.0" />
+        <line x="83.8" y="131.2" />
+        <line x="67.1" y="125.5" />
+        <line x="67.1" y="109.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="95.7" y="85.3" />
+        <line x="112.2" y="77.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="66.4" y="97.7" />
+        <line x="82.9" y="90.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="68.0" y="97.0" />
+        <line x="83.6" y="102.3" />
+        <line x="83.6" y="118.7" />
+        <line x="67.2" y="112.9" />
+        <line x="67.2" y="97.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="81.5" y="91.3" />
+        <line x="98.0" y="83.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="84.6" y="102.6" />
+        <line x="100.3" y="107.9" />
+        <line x="100.3" y="124.3" />
+        <line x="83.8" y="118.5" />
+        <line x="83.8" y="102.6" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.3" y="109.5" />
+        <line x="83.8" y="102.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.5" y="104.1" />
+        <line x="67.0" y="96.7" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.7" y="103.9" />
+        <line x="67.2" y="97.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="35.4" y="110.9" />
+        <line x="51.3" y="116.1" />
+        <line x="51.3" y="132.4" />
+        <line x="34.6" y="126.6" />
+        <line x="34.6" y="110.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.8" y="114.4" />
+        <line x="83.8" y="131.2" />
+        <line x="100.3" y="124.2" />
+        <line x="100.3" y="107.9" />
+        <line x="83.8" y="114.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="52.0" y="116.5" />
+        <line x="67.9" y="121.8" />
+        <line x="67.9" y="138.0" />
+        <line x="51.2" y="132.2" />
+        <line x="51.2" y="116.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.2" y="108.8" />
+        <line x="67.2" y="125.6" />
+        <line x="83.6" y="118.5" />
+        <line x="83.6" y="102.2" />
+        <line x="67.2" y="109.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.2" y="88.8" />
+        <line x="67.2" y="93.9" />
+        <line x="67.2" y="109.7" />
+        <line x="50.5" y="104.1" />
+        <line x="50.5" y="88.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.2" y="82.4" />
+        <line x="83.1" y="87.5" />
+        <line x="83.1" y="103.3" />
+        <line x="66.3" y="97.7" />
+        <line x="66.3" y="82.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.3" y="109.3" />
+        <line x="83.8" y="114.8" />
+        <line x="100.3" y="107.7" />
+        <line x="83.8" y="102.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="52.0" y="103.8" />
+        <line x="67.7" y="109.0" />
+        <line x="67.7" y="125.5" />
+        <line x="51.3" y="119.7" />
+        <line x="51.3" y="103.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.7" y="103.7" />
+        <line x="67.2" y="109.2" />
+        <line x="83.6" y="102.0" />
+        <line x="67.2" y="96.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="82.2" y="76.0" />
+        <line x="98.2" y="81.1" />
+        <line x="98.2" y="96.9" />
+        <line x="81.4" y="91.3" />
+        <line x="81.4" y="76.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.6" y="131.2" />
+        <line x="100.5" y="124.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.0" y="125.5" />
+        <line x="83.8" y="118.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.8" y="64.0" />
+        <line x="126.7" y="69.1" />
+        <line x="126.7" y="84.8" />
+        <line x="110.0" y="79.2" />
+        <line x="110.0" y="64.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.2" y="109.4" />
+        <line x="67.2" y="125.6" />
+        <line x="83.8" y="131.2" />
+        <line x="83.8" y="115.0" />
+        <line x="67.6" y="109.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.5" y="70.0" />
+        <line x="112.5" y="75.1" />
+        <line x="112.5" y="90.9" />
+        <line x="95.7" y="85.3" />
+        <line x="95.7" y="70.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.7" y="109.4" />
+        <line x="84.4" y="114.7" />
+        <line x="84.4" y="131.1" />
+        <line x="67.9" y="125.3" />
+        <line x="67.9" y="109.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="68.0" y="81.9" />
+        <line x="83.7" y="87.1" />
+        <line x="83.7" y="103.0" />
+        <line x="67.2" y="97.3" />
+        <line x="67.2" y="81.9" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="99.0" y="69.1" />
+        <line x="114.7" y="74.3" />
+        <line x="114.7" y="90.2" />
+        <line x="98.2" y="84.5" />
+        <line x="98.2" y="69.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="113.2" y="63.1" />
+        <line x="128.9" y="68.2" />
+        <line x="128.9" y="84.2" />
+        <line x="112.5" y="78.5" />
+        <line x="112.5" y="63.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="127.5" y="57.1" />
+        <line x="143.2" y="62.2" />
+        <line x="143.2" y="78.2" />
+        <line x="126.7" y="72.5" />
+        <line x="126.7" y="57.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.5" y="116.3" />
+        <line x="67.9" y="109.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.9" y="75.5" />
+        <line x="99.6" y="80.7" />
+        <line x="99.6" y="96.6" />
+        <line x="83.1" y="90.9" />
+        <line x="83.1" y="75.5" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.8" y="110.6" />
+        <line x="51.3" y="103.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.1" y="103.3" />
+        <line x="99.6" y="96.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.2" y="96.9" />
+        <line x="114.7" y="89.7" />
+      </path>
+      <stroke />
+      <path>
+        <move x="112.5" y="90.9" />
+        <line x="128.9" y="83.7" />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.7" y="84.8" />
+        <line x="143.2" y="77.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.2" y="110.9" />
+        <line x="50.7" y="103.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.2" y="109.7" />
+        <line x="83.7" y="102.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.9" y="121.2" />
+        <line x="67.9" y="138.0" />
+        <line x="84.4" y="131.0" />
+        <line x="84.4" y="114.7" />
+        <line x="67.9" y="121.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="126.7" y="68.5" />
+        <line x="126.7" y="84.8" />
+        <line x="143.2" y="78.0" />
+        <line x="143.2" y="62.2" />
+        <line x="126.7" y="69.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.2" y="93.3" />
+        <line x="67.2" y="109.7" />
+        <line x="83.7" y="102.8" />
+        <line x="83.7" y="87.0" />
+        <line x="67.2" y="93.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.1" y="86.9" />
+        <line x="83.1" y="103.3" />
+        <line x="99.6" y="96.4" />
+        <line x="99.6" y="80.6" />
+        <line x="83.1" y="87.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.3" y="115.5" />
+        <line x="51.3" y="132.4" />
+        <line x="67.7" y="125.3" />
+        <line x="67.7" y="109.0" />
+        <line x="51.3" y="116.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="98.2" y="80.5" />
+        <line x="98.2" y="96.9" />
+        <line x="114.7" y="90.0" />
+        <line x="114.7" y="74.2" />
+        <line x="98.2" y="81.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="112.5" y="74.5" />
+        <line x="112.5" y="90.9" />
+        <line x="128.9" y="84.0" />
+        <line x="128.9" y="68.2" />
+        <line x="112.5" y="75.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.5" y="116.1" />
+        <line x="67.9" y="121.6" />
+        <line x="84.4" y="114.5" />
+        <line x="67.9" y="109.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="110.2" y="63.6" />
+        <line x="126.7" y="68.9" />
+        <line x="143.2" y="62.0" />
+        <line x="126.7" y="56.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="34.8" y="110.5" />
+        <line x="51.3" y="115.9" />
+        <line x="67.7" y="108.8" />
+        <line x="51.3" y="103.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="81.7" y="75.6" />
+        <line x="98.2" y="80.9" />
+        <line x="114.7" y="74.0" />
+        <line x="98.2" y="68.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.7" y="137.9" />
+        <line x="84.6" y="130.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="95.9" y="69.6" />
+        <line x="112.5" y="74.9" />
+        <line x="128.9" y="68.0" />
+        <line x="112.5" y="62.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="50.7" y="88.4" />
+        <line x="67.2" y="93.8" />
+        <line x="83.7" y="86.8" />
+        <line x="67.2" y="81.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="66.6" y="82.0" />
+        <line x="83.1" y="87.3" />
+        <line x="99.6" y="80.4" />
+        <line x="83.1" y="75.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.0" y="94.1" />
+        <line x="83.9" y="99.2" />
+        <line x="83.9" y="115.0" />
+        <line x="67.2" y="109.4" />
+        <line x="67.2" y="94.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.9" y="87.7" />
+        <line x="99.8" y="92.8" />
+        <line x="99.8" y="108.5" />
+        <line x="83.1" y="103.0" />
+        <line x="83.1" y="87.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="98.9" y="81.3" />
+        <line x="114.9" y="86.4" />
+        <line x="114.9" y="102.2" />
+        <line x="98.1" y="96.6" />
+        <line x="98.1" y="81.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="113.2" y="75.3" />
+        <line x="129.2" y="80.4" />
+        <line x="129.2" y="96.1" />
+        <line x="112.4" y="90.5" />
+        <line x="112.4" y="75.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="34.9" y="95.6" />
+        <line x="50.9" y="100.7" />
+        <line x="50.9" y="116.5" />
+        <line x="34.2" y="110.9" />
+        <line x="34.2" y="95.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="127.5" y="69.3" />
+        <line x="143.4" y="74.3" />
+        <line x="143.4" y="90.1" />
+        <line x="126.7" y="84.5" />
+        <line x="126.7" y="69.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="86.1" y="63.5" />
+        <line x="98.7" y="67.6" />
+        <line x="98.7" y="80.2" />
+        <line x="85.5" y="75.7" />
+        <line x="85.5" y="63.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="114.7" y="51.5" />
+        <line x="127.2" y="55.5" />
+        <line x="127.2" y="68.1" />
+        <line x="114.0" y="63.6" />
+        <line x="114.0" y="51.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="71.1" y="69.9" />
+        <line x="83.6" y="74.0" />
+        <line x="83.6" y="86.6" />
+        <line x="70.4" y="82.1" />
+        <line x="70.4" y="69.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="55.2" y="76.3" />
+        <line x="67.7" y="80.4" />
+        <line x="67.7" y="93.0" />
+        <line x="54.5" y="88.5" />
+        <line x="54.5" y="76.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="100.4" y="57.5" />
+        <line x="113.0" y="61.5" />
+        <line x="113.0" y="74.1" />
+        <line x="99.8" y="69.7" />
+        <line x="99.8" y="57.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.7" y="88.7" />
+        <line x="67.4" y="93.8" />
+        <line x="67.4" y="109.8" />
+        <line x="50.9" y="104.1" />
+        <line x="50.9" y="88.7" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="152.2" y="54.7" />
+        <line x="156.8" y="59.5" />
+        <line x="156.8" y="66.4" />
+        <line x="152.2" y="65.1" />
+        <line x="152.2" y="55.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.1" y="132.3" />
+        <line x="67.9" y="125.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="93.7" y="78.9" />
+        <line x="98.3" y="84.8" />
+        <line x="98.3" y="93.0" />
+        <line x="93.7" y="91.4" />
+        <line x="93.7" y="79.3" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="139.0" y="60.1" />
+        <line x="143.5" y="66.0" />
+        <line x="143.5" y="74.2" />
+        <line x="139.0" y="72.6" />
+        <line x="139.0" y="60.5" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="124.7" y="66.1" />
+        <line x="129.3" y="72.0" />
+        <line x="129.3" y="80.2" />
+        <line x="124.7" y="78.6" />
+        <line x="124.7" y="66.5" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="109.6" y="72.5" />
+        <line x="114.2" y="78.4" />
+        <line x="114.2" y="86.6" />
+        <line x="109.6" y="85.0" />
+        <line x="109.6" y="72.9" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="84.7" y="87.2" />
+        <line x="100.4" y="92.3" />
+        <line x="100.4" y="108.3" />
+        <line x="83.9" y="102.6" />
+        <line x="83.9" y="87.2" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="115.7" y="74.4" />
+        <line x="131.4" y="79.5" />
+        <line x="131.4" y="95.5" />
+        <line x="114.9" y="89.8" />
+        <line x="114.9" y="74.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.9" y="116.5" />
+        <line x="67.4" y="109.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="129.9" y="68.4" />
+        <line x="145.7" y="73.5" />
+        <line x="145.7" y="89.4" />
+        <line x="129.2" y="83.8" />
+        <line x="129.2" y="68.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="100.6" y="80.8" />
+        <line x="116.3" y="85.9" />
+        <line x="116.3" y="101.9" />
+        <line x="99.8" y="96.2" />
+        <line x="99.8" y="80.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="144.2" y="62.3" />
+        <line x="159.9" y="67.5" />
+        <line x="159.9" y="83.4" />
+        <line x="143.4" y="77.8" />
+        <line x="143.4" y="62.3" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.4" y="93.9" />
+        <line x="83.9" y="87.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.4" y="81.1" />
+        <line x="114.9" y="74.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.9" y="69.0" />
+        <line x="143.4" y="62.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="112.7" y="75.0" />
+        <line x="129.2" y="68.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.3" y="87.5" />
+        <line x="99.8" y="80.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.9" y="100.1" />
+        <line x="50.9" y="116.5" />
+        <line x="67.4" y="109.6" />
+        <line x="67.4" y="93.8" />
+        <line x="50.9" y="100.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="34.4" y="95.2" />
+        <line x="50.9" y="100.5" />
+        <line x="67.4" y="93.6" />
+        <line x="50.9" y="88.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="143.4" y="90.1" />
+        <line x="159.9" y="82.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="129.2" y="96.1" />
+        <line x="145.7" y="88.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.9" y="115.0" />
+        <line x="100.4" y="107.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="99.8" y="108.5" />
+        <line x="116.3" y="101.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="114.9" y="102.2" />
+        <line x="131.4" y="95.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="113.6" y="52.0" />
+        <line x="126.0" y="56.1" />
+        <line x="126.0" y="68.8" />
+        <line x="113.0" y="64.3" />
+        <line x="113.0" y="52.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="127.8" y="45.9" />
+        <line x="140.2" y="50.0" />
+        <line x="140.2" y="62.8" />
+        <line x="127.2" y="58.3" />
+        <line x="127.2" y="45.9" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="99.3" y="58.0" />
+        <line x="111.7" y="62.1" />
+        <line x="111.7" y="74.8" />
+        <line x="98.7" y="70.3" />
+        <line x="98.7" y="58.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.7" y="100.9" />
+        <line x="67.6" y="106.0" />
+        <line x="67.6" y="121.7" />
+        <line x="50.9" y="116.1" />
+        <line x="50.9" y="100.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.3" y="70.8" />
+        <line x="80.7" y="74.9" />
+        <line x="80.7" y="87.6" />
+        <line x="67.7" y="83.1" />
+        <line x="67.7" y="70.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="84.2" y="64.4" />
+        <line x="96.6" y="68.5" />
+        <line x="96.6" y="81.2" />
+        <line x="83.6" y="76.7" />
+        <line x="83.6" y="64.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.9" y="98.6" />
+        <line x="83.9" y="115.0" />
+        <line x="100.4" y="108.1" />
+        <line x="100.4" y="92.3" />
+        <line x="83.9" y="99.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="38.9" y="83.1" />
+        <line x="51.4" y="87.2" />
+        <line x="51.4" y="99.7" />
+        <line x="38.2" y="95.3" />
+        <line x="38.2" y="83.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="114.9" y="85.8" />
+        <line x="114.9" y="102.2" />
+        <line x="131.4" y="95.3" />
+        <line x="131.4" y="79.5" />
+        <line x="114.9" y="86.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="129.2" y="79.8" />
+        <line x="129.2" y="96.1" />
+        <line x="145.7" y="89.3" />
+        <line x="145.7" y="73.5" />
+        <line x="129.2" y="80.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="99.8" y="92.2" />
+        <line x="99.8" y="108.5" />
+        <line x="116.3" y="101.7" />
+        <line x="116.3" y="85.9" />
+        <line x="99.8" y="92.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="143.4" y="73.8" />
+        <line x="143.4" y="90.1" />
+        <line x="159.9" y="83.2" />
+        <line x="159.9" y="67.4" />
+        <line x="143.4" y="74.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="100.0" y="57.3" />
+        <line x="113.0" y="52.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="77.4" y="85.7" />
+        <line x="82.0" y="91.6" />
+        <line x="82.0" y="99.8" />
+        <line x="77.4" y="98.2" />
+        <line x="77.4" y="86.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="54.7" y="76.1" />
+        <line x="67.7" y="70.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="85.7" y="63.3" />
+        <line x="98.7" y="58.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.6" y="69.7" />
+        <line x="83.6" y="64.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="112.7" y="74.9" />
+        <line x="129.2" y="80.2" />
+        <line x="145.7" y="73.3" />
+        <line x="129.2" y="68.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.4" y="94.0" />
+        <line x="84.1" y="99.1" />
+        <line x="84.1" y="115.0" />
+        <line x="67.6" y="109.4" />
+        <line x="67.6" y="94.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.4" y="93.7" />
+        <line x="83.9" y="99.0" />
+        <line x="100.4" y="92.1" />
+        <line x="83.9" y="86.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.3" y="87.3" />
+        <line x="99.8" y="92.6" />
+        <line x="116.3" y="85.7" />
+        <line x="99.8" y="80.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="126.9" y="68.8" />
+        <line x="143.4" y="74.2" />
+        <line x="159.9" y="67.3" />
+        <line x="143.4" y="61.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="98.4" y="80.9" />
+        <line x="114.9" y="86.2" />
+        <line x="131.4" y="79.3" />
+        <line x="114.9" y="74.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.6" y="86.6" />
+        <line x="96.6" y="80.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.1" y="100.7" />
+        <line x="67.6" y="94.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="113.0" y="74.1" />
+        <line x="126.0" y="68.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.7" y="93.0" />
+        <line x="80.7" y="87.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="127.2" y="68.1" />
+        <line x="140.2" y="62.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.7" y="80.2" />
+        <line x="111.7" y="74.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="113.0" y="61.1" />
+        <line x="113.0" y="74.1" />
+        <line x="126.0" y="68.7" />
+        <line x="126.0" y="56.0" />
+        <line x="113.0" y="61.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="127.2" y="55.1" />
+        <line x="127.2" y="68.1" />
+        <line x="140.2" y="62.6" />
+        <line x="140.2" y="50.0" />
+        <line x="127.2" y="55.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.6" y="121.7" />
+        <line x="84.1" y="114.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.7" y="79.9" />
+        <line x="67.7" y="93.0" />
+        <line x="80.7" y="87.5" />
+        <line x="80.7" y="74.9" />
+        <line x="67.7" y="80.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="98.7" y="67.1" />
+        <line x="98.7" y="80.2" />
+        <line x="111.7" y="74.7" />
+        <line x="111.7" y="62.1" />
+        <line x="98.7" y="67.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.6" y="73.5" />
+        <line x="83.6" y="86.6" />
+        <line x="96.6" y="81.1" />
+        <line x="96.6" y="68.5" />
+        <line x="83.6" y="73.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="52.0" y="77.6" />
+        <line x="64.4" y="81.7" />
+        <line x="64.4" y="94.4" />
+        <line x="51.4" y="89.9" />
+        <line x="51.4" y="77.6" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="85.7" y="63.2" />
+        <line x="98.7" y="67.4" />
+        <line x="111.7" y="61.9" />
+        <line x="98.7" y="57.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="114.2" y="51.1" />
+        <line x="127.2" y="55.4" />
+        <line x="140.2" y="49.9" />
+        <line x="127.2" y="45.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="70.6" y="69.6" />
+        <line x="83.6" y="73.8" />
+        <line x="96.6" y="68.3" />
+        <line x="83.6" y="64.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="54.7" y="76.0" />
+        <line x="67.7" y="80.2" />
+        <line x="80.7" y="74.7" />
+        <line x="67.7" y="70.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="100.0" y="57.2" />
+        <line x="113.0" y="61.4" />
+        <line x="126.0" y="55.9" />
+        <line x="113.0" y="51.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="84.1" y="74.2" />
+        <line x="96.7" y="78.2" />
+        <line x="96.7" y="90.7" />
+        <line x="83.5" y="86.2" />
+        <line x="83.5" y="74.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="127.7" y="55.8" />
+        <line x="140.3" y="59.8" />
+        <line x="140.3" y="72.2" />
+        <line x="127.1" y="67.8" />
+        <line x="127.1" y="55.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="113.4" y="61.8" />
+        <line x="126.0" y="65.8" />
+        <line x="126.0" y="78.2" />
+        <line x="112.8" y="73.8" />
+        <line x="112.8" y="61.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="99.2" y="67.8" />
+        <line x="111.7" y="71.8" />
+        <line x="111.7" y="84.2" />
+        <line x="98.5" y="79.8" />
+        <line x="98.5" y="67.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.6" y="105.4" />
+        <line x="67.6" y="121.7" />
+        <line x="84.1" y="114.9" />
+        <line x="84.1" y="99.1" />
+        <line x="67.6" y="105.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.2" y="80.6" />
+        <line x="80.8" y="84.6" />
+        <line x="80.8" y="97.1" />
+        <line x="67.6" y="92.7" />
+        <line x="67.6" y="80.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="81.4" y="75.2" />
+        <line x="93.8" y="79.2" />
+        <line x="93.8" y="91.8" />
+        <line x="80.8" y="87.3" />
+        <line x="80.8" y="75.2" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="112.4" y="62.4" />
+        <line x="124.7" y="66.4" />
+        <line x="124.7" y="79.0" />
+        <line x="111.7" y="74.5" />
+        <line x="111.7" y="62.4" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="140.9" y="50.3" />
+        <line x="153.3" y="54.4" />
+        <line x="153.3" y="66.9" />
+        <line x="140.3" y="62.5" />
+        <line x="140.3" y="50.3" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="97.3" y="68.8" />
+        <line x="109.7" y="72.8" />
+        <line x="109.7" y="85.4" />
+        <line x="96.7" y="80.9" />
+        <line x="96.7" y="68.8" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.6" y="56.3" />
+        <line x="139.0" y="60.4" />
+        <line x="139.0" y="73.0" />
+        <line x="126.0" y="68.5" />
+        <line x="126.0" y="56.3" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="38.4" y="82.9" />
+        <line x="51.4" y="77.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="67.8" y="80.4" />
+        <line x="80.8" y="75.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="127.3" y="55.6" />
+        <line x="140.3" y="50.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.1" y="100.5" />
+        <line x="67.6" y="105.8" />
+        <line x="84.1" y="98.9" />
+        <line x="67.6" y="93.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="98.7" y="67.6" />
+        <line x="111.7" y="62.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="83.7" y="74.0" />
+        <line x="96.7" y="68.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="113.0" y="61.6" />
+        <line x="126.0" y="56.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="126.0" y="78.2" />
+        <line x="139.0" y="72.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="140.3" y="72.2" />
+        <line x="153.3" y="66.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="111.7" y="84.2" />
+        <line x="124.7" y="78.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.8" y="97.1" />
+        <line x="93.8" y="91.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.4" y="99.7" />
+        <line x="64.4" y="94.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="96.7" y="90.7" />
+        <line x="109.7" y="85.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.7" y="67.5" />
+        <line x="111.7" y="71.7" />
+        <line x="124.7" y="66.2" />
+        <line x="111.7" y="62.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="83.7" y="73.9" />
+        <line x="96.7" y="78.1" />
+        <line x="109.7" y="72.7" />
+        <line x="96.7" y="68.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="113.0" y="61.5" />
+        <line x="126.0" y="65.7" />
+        <line x="139.0" y="60.2" />
+        <line x="126.0" y="56.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="67.8" y="80.3" />
+        <line x="80.8" y="84.5" />
+        <line x="93.8" y="79.0" />
+        <line x="80.8" y="74.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.4" y="86.7" />
+        <line x="51.4" y="99.7" />
+        <line x="64.4" y="94.3" />
+        <line x="64.4" y="81.6" />
+        <line x="51.4" y="87.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="127.3" y="55.5" />
+        <line x="140.3" y="59.6" />
+        <line x="153.3" y="54.2" />
+        <line x="140.3" y="50.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="140.2" y="59.5" />
+        <line x="144.8" y="65.4" />
+        <line x="144.8" y="73.6" />
+        <line x="140.2" y="72.1" />
+        <line x="140.2" y="59.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="125.9" y="65.6" />
+        <line x="130.5" y="71.4" />
+        <line x="130.5" y="79.7" />
+        <line x="125.9" y="78.1" />
+        <line x="125.9" y="66.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="38.4" y="82.8" />
+        <line x="51.4" y="87.0" />
+        <line x="64.4" y="81.5" />
+        <line x="51.4" y="77.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.6" y="78.0" />
+        <line x="101.2" y="83.9" />
+        <line x="101.2" y="92.1" />
+        <line x="96.6" y="90.5" />
+        <line x="96.6" y="78.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="111.7" y="71.6" />
+        <line x="116.2" y="77.5" />
+        <line x="116.2" y="85.7" />
+        <line x="111.7" y="84.1" />
+        <line x="111.7" y="72.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="80.7" y="84.4" />
+        <line x="85.2" y="90.3" />
+        <line x="85.2" y="98.5" />
+        <line x="80.7" y="96.9" />
+        <line x="80.7" y="84.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="116.2" y="77.5" />
+        <line x="129.2" y="72.0" />
+        <line x="129.2" y="80.2" />
+        <line x="116.2" y="85.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="130.4" y="71.4" />
+        <line x="143.4" y="66.0" />
+        <line x="143.4" y="74.2" />
+        <line x="130.4" y="79.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="101.1" y="83.9" />
+        <line x="114.1" y="78.4" />
+        <line x="114.1" y="86.6" />
+        <line x="101.1" y="92.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="85.2" y="90.3" />
+        <line x="98.2" y="84.8" />
+        <line x="98.2" y="93.0" />
+        <line x="85.2" y="98.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="144.7" y="65.4" />
+        <line x="157.7" y="59.9" />
+        <line x="157.7" y="68.2" />
+        <line x="144.7" y="73.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="125.9" y="66.0" />
+        <line x="130.4" y="71.4" />
+        <line x="143.4" y="66.0" />
+        <line x="139.0" y="60.5" />
+        <line x="126.3" y="65.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="140.2" y="59.9" />
+        <line x="144.7" y="65.4" />
+        <line x="157.7" y="59.9" />
+        <line x="153.2" y="54.5" />
+        <line x="140.6" y="59.5" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="80.7" y="84.8" />
+        <line x="85.2" y="90.3" />
+        <line x="98.2" y="84.8" />
+        <line x="93.7" y="79.3" />
+        <line x="81.1" y="84.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="96.6" y="78.4" />
+        <line x="101.1" y="83.9" />
+        <line x="114.1" y="78.4" />
+        <line x="109.6" y="72.9" />
+        <line x="97.0" y="78.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="111.7" y="72.0" />
+        <line x="116.2" y="77.5" />
+        <line x="129.2" y="72.0" />
+        <line x="124.7" y="66.5" />
+        <line x="112.1" y="71.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.9" y="87.4" />
+        <line x="64.5" y="91.4" />
+        <line x="64.5" y="103.8" />
+        <line x="51.3" y="99.4" />
+        <line x="51.3" y="87.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="65.1" y="82.0" />
+        <line x="77.5" y="86.0" />
+        <line x="77.5" y="98.6" />
+        <line x="64.5" y="94.1" />
+        <line x="64.5" y="82.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.5" y="87.2" />
+        <line x="64.5" y="82.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="64.5" y="103.8" />
+        <line x="77.5" y="98.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.5" y="87.1" />
+        <line x="64.5" y="91.3" />
+        <line x="77.5" y="85.8" />
+        <line x="64.5" y="81.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="64.4" y="91.2" />
+        <line x="69.0" y="97.0" />
+        <line x="69.0" y="105.3" />
+        <line x="64.4" y="103.7" />
+        <line x="64.4" y="91.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.9" y="97.0" />
+        <line x="81.9" y="91.6" />
+        <line x="81.9" y="99.8" />
+        <line x="68.9" y="105.3" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="64.4" y="91.6" />
+        <line x="68.9" y="97.0" />
+        <line x="81.9" y="91.6" />
+        <line x="77.4" y="86.1" />
+        <line x="64.8" y="91.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="25.6" y="68.0" />
+        <line x="30.8" y="50.5" />
+        <line x="36.0" y="67.4" />
+        <line x="30.8" y="62.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="51.3" y="116.2" />
+        <line x="51.3" y="132.4" />
+        <line x="67.9" y="138.0" />
+        <line x="67.9" y="121.8" />
+        <line x="51.7" y="116.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="34.2" y="126.7" />
+        <line x="34.2" y="145.2" />
+        <line x="67.7" y="156.1" />
+        <line x="67.7" y="138.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="68.0" y="156.5" />
+        <line x="160.2" y="117.3" />
+        <line x="160.2" y="98.9" />
+        <line x="67.7" y="137.7" />
+        <line x="67.7" y="156.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="31.0" y="109.0" />
+        <line x="41.0" y="111.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="32.0" y="77.0" />
+        <line x="41.0" y="79.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.8" y="72.4" />
+        <line x="36.8" y="94.9" />
+      </path>
+      <stroke />
+      <rect x="24.8" y="72.0" w="11.4" h="24.0" />
+      <fillstroke />
+      <path>
+        <move x="24.8" y="72.0" />
+        <line x="24.8" y="94.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="24.8" y="72.0" />
+        <arc rx="6.0" ry="2.4" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.8" y="72.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="24.8" y="94.4" />
+        <arc rx="5.9" ry="4.1" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.7" y="94.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="53.0" y="114.0" />
+        <line x="63.0" y="116.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="54.0" y="82.0" />
+        <line x="63.0" y="84.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="95.0" />
+        <line x="29.0" y="95.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.0" y="138.0" />
+        <line x="16.0" y="146.0" />
+        <line x="71.0" y="165.0" />
+        <line x="276.0" y="77.0" />
+        <line x="265.0" y="74.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="16.0" y="146.0" />
+        <line x="16.0" y="162.0" />
+        <line x="71.0" y="182.0" />
+        <line x="71.0" y="165.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="71.0" y="183.0" />
+        <line x="275.0" y="95.0" />
+        <line x="275.0" y="77.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="120.4" />
+        <line x="39.2" y="112.6" />
+        <line x="63.7" y="119.8" />
+        <line x="44.5" y="128.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="45.2" y="127.9" />
+        <line x="45.2" y="145.3" />
+        <line x="62.1" y="138.5" />
+        <line x="63.0" y="120.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="20.0" y="120.8" />
+        <line x="20.0" y="137.4" />
+        <line x="44.5" y="144.7" />
+        <line x="44.5" y="129.1" />
+        <close />
+      </path>
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="MicroTurbine" w="200" h="190" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.94" y="0.7737" perimeter="0" />
+      <constraint name="" x="0.855" y="0.5895" perimeter="0" />
+      <constraint name="" x="0.855" y="0.6158" perimeter="0" />
+      <constraint name="" x="0.94" y="0.8263" perimeter="0" />
+      <constraint name="" x="0.94" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.8" y="101.9" />
+        <line x="54.9" y="115.8" />
+        <line x="54.9" y="159.0" />
+        <line x="13.8" y="143.7" />
+        <line x="13.8" y="101.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="56.9" y="83.0" />
+        <line x="95.4" y="97.1" />
+        <line x="95.4" y="140.7" />
+        <line x="54.9" y="125.2" />
+        <line x="54.9" y="83.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="14.4" y="101.3" />
+        <line x="54.9" y="83.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="54.9" y="159.0" />
+        <line x="95.4" y="139.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="54.9" y="114.2" />
+        <line x="54.9" y="159.0" />
+        <line x="95.4" y="140.2" />
+        <line x="95.4" y="96.9" />
+        <line x="54.9" y="115.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="14.4" y="100.8" />
+        <line x="54.9" y="115.4" />
+        <line x="95.4" y="96.5" />
+        <line x="54.9" y="81.9" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="56.8" y="118.4" />
+        <line x="95.9" y="131.9" />
+        <line x="95.9" y="173.7" />
+        <line x="54.8" y="158.9" />
+        <line x="54.8" y="118.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="97.8" y="100.0" />
+        <line x="136.4" y="113.7" />
+        <line x="136.4" y="156.0" />
+        <line x="95.9" y="141.0" />
+        <line x="95.9" y="100.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="55.4" y="117.8" />
+        <line x="95.9" y="100.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="95.9" y="173.7" />
+        <line x="136.4" y="154.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="95.9" y="130.3" />
+        <line x="95.9" y="173.7" />
+        <line x="136.4" y="155.5" />
+        <line x="136.4" y="113.5" />
+        <line x="95.9" y="131.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="55.4" y="117.3" />
+        <line x="95.9" y="131.4" />
+        <line x="136.4" y="113.1" />
+        <line x="95.9" y="99.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="97.8" y="132.4" />
+        <line x="136.9" y="145.9" />
+        <line x="136.9" y="187.7" />
+        <line x="95.8" y="172.9" />
+        <line x="95.8" y="132.4" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="66.4" y="85.1" />
+        <line x="97.2" y="95.9" />
+        <line x="97.2" y="129.3" />
+        <line x="64.8" y="117.5" />
+        <line x="64.8" y="85.1" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="161.0" y="92.0" />
+        <line x="172.2" y="107.6" />
+        <line x="172.2" y="129.4" />
+        <line x="161.0" y="125.3" />
+        <line x="161.0" y="93.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="138.8" y="114.0" />
+        <line x="177.4" y="127.7" />
+        <line x="177.4" y="170.0" />
+        <line x="136.9" y="155.0" />
+        <line x="136.9" y="114.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="96.4" y="131.8" />
+        <line x="136.9" y="114.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="136.9" y="187.7" />
+        <line x="177.4" y="168.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.7" y="70.5" />
+        <line x="129.1" y="81.4" />
+        <line x="129.1" y="115.2" />
+        <line x="97.2" y="103.2" />
+        <line x="97.2" y="70.5" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="136.9" y="144.3" />
+        <line x="136.9" y="187.7" />
+        <line x="177.4" y="169.5" />
+        <line x="177.4" y="127.5" />
+        <line x="136.9" y="145.7" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="65.3" y="84.6" />
+        <line x="97.2" y="70.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="96.4" y="131.3" />
+        <line x="136.9" y="145.4" />
+        <line x="177.4" y="127.1" />
+        <line x="136.9" y="113.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="97.2" y="129.3" />
+        <line x="129.1" y="114.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="97.2" y="94.7" />
+        <line x="97.2" y="129.3" />
+        <line x="129.1" y="114.8" />
+        <line x="129.1" y="81.3" />
+        <line x="97.2" y="95.8" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="65.3" y="84.3" />
+        <line x="97.2" y="95.5" />
+        <line x="129.1" y="80.9" />
+        <line x="97.2" y="69.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="65.2" y="44.7" />
+        <line x="65.2" y="99.2" />
+      </path>
+      <stroke />
+      <rect x="28.0" y="44.7" w="35.5" h="53.4" />
+      <fillstroke />
+      <path>
+        <move x="28.0" y="44.7" />
+        <line x="28.0" y="99.2" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="44.7" />
+        <arc rx="18.6" ry="5.8" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="65.2" y="44.7" />
+      </path>
+      <stroke />
+      <path>
+        <move x="98.4" y="96.6" />
+        <line x="129.2" y="107.2" />
+        <line x="129.2" y="140.2" />
+        <line x="96.8" y="128.5" />
+        <line x="96.8" y="96.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="130.7" y="82.1" />
+        <line x="161.1" y="92.8" />
+        <line x="161.1" y="126.2" />
+        <line x="129.2" y="114.4" />
+        <line x="129.2" y="82.1" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="97.3" y="96.1" />
+        <line x="129.2" y="82.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="129.2" y="140.2" />
+        <line x="161.1" y="125.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="97.3" y="95.7" />
+        <line x="129.2" y="106.8" />
+        <line x="161.1" y="92.4" />
+        <line x="129.2" y="81.2" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="129.0" y="106.6" />
+        <line x="140.2" y="122.2" />
+        <line x="140.2" y="144.0" />
+        <line x="129.0" y="139.8" />
+        <line x="129.0" y="107.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="140.0" y="122.2" />
+        <line x="172.0" y="107.6" />
+        <line x="172.0" y="129.4" />
+        <line x="140.0" y="144.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="129.0" y="107.6" />
+        <line x="140.0" y="122.2" />
+        <line x="172.0" y="107.6" />
+        <line x="161.0" y="93.1" />
+        <line x="130.0" y="106.6" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="85.5" y="84.9" />
+        <line x="100.6" y="78.7" />
+      </path>
+      <stroke />
+      <path>
+        <move x="89.7" y="86.1" />
+        <line x="104.7" y="79.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="97.9" y="88.5" />
+        <line x="113.0" y="82.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="81.5" y="83.7" />
+        <line x="96.5" y="77.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="93.8" y="87.3" />
+        <line x="108.9" y="81.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="78.8" y="82.5" />
+        <line x="93.8" y="76.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="78.1" y="82.9" />
+        <line x="98.0" y="89.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="93.8" y="75.7" />
+        <line x="113.0" y="81.8" />
+      </path>
+      <stroke />
+      <path>
+        <move x="177.0" y="127.0" />
+        <line x="185.2" y="132.0" />
+        <line x="185.2" y="166.0" />
+        <line x="178.4" y="169.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="189.0" y="157.0" />
+        <line x="181.0" y="157.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="189.0" y="152.0" />
+        <line x="181.0" y="152.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="189.0" y="147.0" />
+        <line x="181.0" y="147.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="37.0" y="46.0" />
+        <line x="47.0" y="16.0" />
+        <line x="57.0" y="45.0" />
+        <line x="47.0" y="36.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <rect x="99.0" y="146.9" w="7.2" h="2.1" />
+      <stroke />
+      <rect x="68.0" y="103.9" w="7.2" h="2.1" />
+      <stroke />
+      <rect x="100.0" y="115.9" w="7.2" h="2.1" />
+      <stroke />
+      <rect x="58.0" y="138.9" w="7.2" h="2.1" />
+      <stroke />
+      <rect x="142.0" y="129.9" w="7.2" h="2.1" />
+      <stroke />
+      <rect x="140.0" y="164.9" w="7.2" h="2.1" />
+      <stroke />
+      <path>
+        <move x="106.3" y="164.1" />
+        <line x="133.7" y="174.1" />
+      </path>
+      <stroke />
+      <path>
+        <move x="106.3" y="168.6" />
+        <line x="133.7" y="178.6" />
+      </path>
+      <stroke />
+      <path>
+        <move x="106.3" y="172.3" />
+        <line x="133.7" y="182.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="106.3" y="157.7" />
+        <line x="134.8" y="167.7" />
+        <line x="134.8" y="185.0" />
+        <line x="106.3" y="175.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="107.4" y="160.4" />
+        <line x="134.8" y="170.4" />
+      </path>
+      <stroke />
+      <path>
+        <move x="9.0" y="123.0" />
+        <line x="22.0" y="116.0" />
+        <line x="24.0" y="119.0" />
+        <line x="11.0" y="126.0" />
+        <close />
+      </path>
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="Battery one element" w="60" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.1667" y="0.4333" perimeter="0" />
+      <constraint name="" x="0.8333" y="0.4333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="50.0" y="13.0" />
+        <line x="33.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.0" y="13.0" />
+        <line x="10.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.0" y="4.0" />
+        <line x="27.0" y="22.0" />
+      </path>
+      <stroke />
+      <rect x="30.0" y="7.0" w="3.0" h="12.0" />
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="Battery one element (short)" w="40" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.775" y="0.4333" perimeter="0" />
+      <constraint name="" x="0.275" y="0.4333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="31.0" y="13.0" />
+        <line x="24.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="18.0" y="13.0" />
+        <line x="11.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="18.0" y="4.0" />
+        <line x="18.0" y="22.0" />
+      </path>
+      <stroke />
+      <rect x="21.0" y="7.0" w="3.0" h="12.0" />
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="Battery 2 elements" w="60" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.8333" y="0.4333" perimeter="0" />
+      <constraint name="" x="0.1667" y="0.4333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="50.0" y="13.0" />
+        <line x="40.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="33.0" y="13.0" />
+        <line x="25.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="13.0" />
+        <line x="10.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="4.0" />
+        <line x="20.0" y="22.0" />
+      </path>
+      <stroke />
+      <rect x="23.0" y="7.0" w="3.0" h="12.0" />
+      <fillstroke />
+      <path>
+        <move x="33.7" y="4.0" />
+        <line x="33.7" y="22.0" />
+      </path>
+      <stroke />
+      <rect x="36.7" y="7.0" w="3.0" h="12.0" />
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="Current source (new)" w="30" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5" y="0.1667" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="25.0" y="30.0" />
+        <line x="5.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="40.0" />
+        <line x="15.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="10.0" />
+        <line x="15.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Current source (old)" w="30" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5" y="0.1667" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="12.0" y="22.0" />
+        <line x="15.0" y="18.0" />
+        <line x="18.0" y="22.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="15.0" y="21.0" />
+        <line x="15.0" y="42.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="50.0" />
+        <line x="15.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="10.0" />
+        <line x="15.0" y="15.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Voltage source (new)" w="30" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5" y="0.1667" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.0" y="10.0" />
+        <line x="15.0" y="50.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Voltage source (old)" w="30" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.5" y="0.1667" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="12.0" y="27.0" />
+        <line x="15.0" y="23.0" />
+        <line x="18.0" y="27.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="15.0" y="26.0" />
+        <line x="15.0" y="37.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="50.0" />
+        <line x="15.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="10.0" />
+        <line x="15.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+</shapes>

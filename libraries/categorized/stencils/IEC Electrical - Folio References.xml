@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes name="mxgraph.iec_electrical.folio_references">
+  <shape name="Coming arrow" w="30" h="20" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.6333" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="5.0" y="6.0" />
+        <line x="5.0" y="14.0" />
+        <line x="15.0" y="10.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="10.0" />
+        <line x="18.0" y="10.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Going arrow" w="30" h="20" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.3333" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="14.0" y="6.0" />
+        <line x="14.0" y="14.0" />
+        <line x="25.0" y="10.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="14.0" y="10.0" />
+        <line x="11.0" y="10.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+</shapes>

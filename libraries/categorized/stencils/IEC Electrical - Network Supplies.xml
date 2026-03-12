@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes name="mxgraph.iec_electrical.network_supplies">
+  <shape name="Three-pole source + PEN (3_pen_pravy)" w="40" h="80" aspect="fixed">
+    <connections>
+      <constraint name="L1" x="0.275" y="0.1" perimeter="0" />
+      <constraint name="L2" x="0.275" y="0.35" perimeter="0" />
+      <constraint name="PEN" x="0.275" y="0.85" perimeter="0" />
+      <constraint name="L3" x="0.275" y="0.6" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="11.0" y="8.0" />
+        <line x="21.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="28.0" />
+        <line x="21.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="48.0" />
+        <line x="21.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="12.0" y="68.0" />
+        <line x="21.0" y="68.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-pole source + N + PE" w="40" h="100" aspect="fixed">
+    <connections>
+      <constraint name="PE" x="0.275" y="0.88" perimeter="0" />
+      <constraint name="L1" x="0.275" y="0.08" perimeter="0" />
+      <constraint name="L2" x="0.275" y="0.28" perimeter="0" />
+      <constraint name="N" x="0.275" y="0.68" perimeter="0" />
+      <constraint name="L3" x="0.275" y="0.48" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="11.0" y="88.0" />
+        <line x="21.0" y="88.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="8.0" />
+        <line x="21.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="28.0" />
+        <line x="21.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="48.0" />
+        <line x="21.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="68.0" />
+        <line x="21.0" y="68.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Ground (ground1)" w="30" h="50" aspect="fixed">
+    <connections>
+      <constraint name="GND" x="0.5333" y="0.2" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="16.0" y="10.0" />
+        <line x="16.0" y="43.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="2.3" y="44.0" />
+        <line x="28.6" y="44.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Chassis" w="20" h="30" aspect="fixed">
+    <connections>
+      <constraint name="GND" x="0.45" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="16.5" y="21.5" />
+        <line x="14.0" y="24.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="8.0" y="24.0" />
+        <line x="10.5" y="21.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="2.0" y="24.0" />
+        <line x="4.5" y="21.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="24.0" />
+        <line x="13.5" y="21.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="5.0" y="24.0" />
+        <line x="7.5" y="21.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="2.0" y="21.0" />
+        <line x="17.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="9.0" y="11.0" />
+        <line x="9.0" y="21.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Single-pole source + PE +N" w="40" h="60" aspect="fixed">
+    <connections>
+      <constraint name="N" x="0.775" y="0.4667" perimeter="0" />
+      <constraint name="PE" x="0.775" y="0.8" perimeter="0" />
+      <constraint name="L" x="0.775" y="0.1333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="48.0" />
+        <line x="31.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="28.0" />
+        <line x="31.0" y="28.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Single-pole source +PEN" w="40" h="40" aspect="fixed">
+    <connections>
+      <constraint name="L" x="0.825" y="0.225" perimeter="0" />
+      <constraint name="PEN" x="0.825" y="0.725" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="23.0" y="9.0" />
+        <line x="33.0" y="9.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="23.0" y="29.0" />
+        <line x="33.0" y="29.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Single-pole source + neutral" w="40" h="40" aspect="fixed">
+    <connections>
+      <constraint name="L" x="0.775" y="0.2" perimeter="0" />
+      <constraint name="N" x="0.775" y="0.7" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="28.0" />
+        <line x="31.0" y="28.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-pole source" w="40" h="60" aspect="fixed">
+    <connections>
+      <constraint name="L1" x="0.775" y="0.1333" perimeter="0" />
+      <constraint name="L2" x="0.775" y="0.4667" perimeter="0" />
+      <constraint name="L3" x="0.775" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="48.0" />
+        <line x="31.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="28.0" />
+        <line x="31.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-pole source + PE +N" w="40" h="100" aspect="fixed">
+    <connections>
+      <constraint name="L2" x="0.775" y="0.28" perimeter="0" />
+      <constraint name="L1" x="0.775" y="0.08" perimeter="0" />
+      <constraint name="L3" x="0.775" y="0.48" perimeter="0" />
+      <constraint name="N" x="0.775" y="0.68" perimeter="0" />
+      <constraint name="PE" x="0.775" y="0.88" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="88.0" />
+        <line x="31.0" y="88.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="48.0" />
+        <line x="31.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="28.0" />
+        <line x="31.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="68.0" />
+        <line x="31.0" y="68.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-pole source + PEN (src_3p_pen)" w="50" h="80" aspect="fixed">
+    <connections>
+      <constraint name="L1" x="0.78" y="0.1125" perimeter="0" />
+      <constraint name="L2" x="0.78" y="0.3625" perimeter="0" />
+      <constraint name="L3" x="0.78" y="0.6125" perimeter="0" />
+      <constraint name="PEN" x="0.78" y="0.8625" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="29.0" y="49.0" />
+        <line x="39.0" y="49.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="29.0" y="29.0" />
+        <line x="39.0" y="29.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="29.0" y="69.0" />
+        <line x="39.0" y="69.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="29.0" y="9.0" />
+        <line x="39.0" y="9.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-pole source + neutral" w="40" h="80" aspect="fixed">
+    <connections>
+      <constraint name="L3" x="0.775" y="0.6" perimeter="0" />
+      <constraint name="N" x="0.775" y="0.85" perimeter="0" />
+      <constraint name="L1" x="0.775" y="0.1" perimeter="0" />
+      <constraint name="L2" x="0.775" y="0.35" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="48.0" />
+        <line x="31.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="28.0" />
+        <line x="31.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="68.0" />
+        <line x="31.0" y="68.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-pole source + PE" w="40" h="80" aspect="fixed">
+    <connections>
+      <constraint name="L3" x="0.775" y="0.6" perimeter="0" />
+      <constraint name="PE" x="0.775" y="0.85" perimeter="0" />
+      <constraint name="L1" x="0.775" y="0.1" perimeter="0" />
+      <constraint name="L2" x="0.775" y="0.35" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="48.0" />
+        <line x="31.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="28.0" />
+        <line x="31.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="68.0" />
+        <line x="31.0" y="68.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Neutral source" w="40" h="20" aspect="fixed">
+    <connections>
+      <constraint name="N" x="0.775" y="0.4" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Phase source" w="40" h="20" aspect="fixed">
+    <connections>
+      <constraint name="L" x="0.775" y="0.4" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="21.0" y="8.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Distribution point TN-C TN-S" w="80" h="100" aspect="fixed">
+    <connections>
+      <constraint name="L1" x="0.875" y="0.08" perimeter="0" />
+      <constraint name="N" x="0.875" y="0.68" perimeter="0" />
+      <constraint name="PE" x="0.875" y="0.88" perimeter="0" />
+      <constraint name="L2" x="0.875" y="0.28" perimeter="0" />
+      <constraint name="L3" x="0.875" y="0.48" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="64.0" y="8.0" />
+        <line x="68.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="64.0" y="88.0" />
+        <line x="68.0" y="88.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="64.0" y="68.0" />
+        <line x="68.0" y="68.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="64.0" y="48.0" />
+        <line x="68.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="64.0" y="28.0" />
+        <line x="68.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.0" y="92.0" />
+        <line x="36.0" y="92.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="32.0" y="90.0" />
+        <line x="38.0" y="90.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="88.0" />
+        <line x="40.0" y="88.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.0" y="48.0" />
+        <line x="52.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.0" y="28.0" />
+        <line x="52.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.0" y="68.0" />
+        <line x="52.0" y="68.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.0" y="8.0" />
+        <line x="52.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="52.0" y="88.0" />
+        <line x="47.0" y="88.0" />
+        <line x="35.0" y="68.0" />
+        <line x="35.0" y="87.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Ground (terre)" w="20" h="30" aspect="fixed">
+    <connections>
+      <constraint name="PE" x="0.5" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="7.0" y="25.0" />
+        <line x="13.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="5.0" y="23.0" />
+        <line x="15.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="3.0" y="21.0" />
+        <line x="17.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="11.0" />
+        <line x="10.0" y="21.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+</shapes>

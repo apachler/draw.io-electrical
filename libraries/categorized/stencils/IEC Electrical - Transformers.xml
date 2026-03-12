@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes name="mxgraph.iec_electrical.transformers">
+  <shape name="Single phase autotransducer" w="50" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.56" y="0.1" perimeter="0" />
+      <constraint name="" x="0.24" y="0.1" perimeter="0" />
+      <constraint name="" x="0.24" y="0.9" perimeter="0" />
+      <constraint name="" x="0.56" y="0.9" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="28.0" y="25.0" />
+        <line x="28.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="12.0" y="32.0" />
+        <line x="12.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="38.6" y="26.5" />
+        <arc rx="25.0" ry="25.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="5.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="63.0" />
+        <line x="28.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="12.0" y="63.0" />
+        <line x="12.0" y="80.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase autotransducer" w="60" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.75" y="0.1" perimeter="0" />
+      <constraint name="" x="0.4667" y="0.1" perimeter="0" />
+      <constraint name="" x="0.1833" y="0.1" perimeter="0" />
+      <constraint name="" x="0.1833" y="0.9" perimeter="0" />
+      <constraint name="" x="0.4667" y="0.9" perimeter="0" />
+      <constraint name="" x="0.75" y="0.9" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="46.6" y="26.5" />
+        <arc rx="25.0" ry="25.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="13.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="39.0" y="61.0" />
+        <line x="45.0" y="75.0" />
+        <line x="45.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="17.0" y="61.0" />
+        <line x="11.0" y="75.0" />
+        <line x="11.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="17.0" y="36.0" />
+        <line x="11.0" y="15.0" />
+        <line x="11.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="39.0" y="25.0" />
+        <line x="45.0" y="15.0" />
+        <line x="45.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="65.0" />
+        <line x="28.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="10.0" />
+        <line x="28.0" y="27.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase autotransducer + neutral" w="70" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.8429" y="0.1" perimeter="0" />
+      <constraint name="" x="0.6" y="0.1" perimeter="0" />
+      <constraint name="" x="0.3571" y="0.1" perimeter="0" />
+      <constraint name="" x="0.3571" y="0.9" perimeter="0" />
+      <constraint name="" x="0.6" y="0.9" perimeter="0" />
+      <constraint name="" x="0.8429" y="0.9" perimeter="0" />
+      <constraint name="" x="0.1143" y="0.9" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="29.0" y="58.0" />
+        <line x="17.0" y="58.0" />
+        <line x="8.0" y="67.0" />
+        <line x="8.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.6" y="26.5" />
+        <arc rx="25.0" ry="25.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="27.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="53.0" y="61.0" />
+        <line x="59.0" y="75.0" />
+        <line x="59.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="61.0" />
+        <line x="25.0" y="75.0" />
+        <line x="25.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="36.0" />
+        <line x="25.0" y="15.0" />
+        <line x="25.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="53.0" y="25.0" />
+        <line x="59.0" y="15.0" />
+        <line x="59.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="42.0" y="65.0" />
+        <line x="42.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="42.0" y="10.0" />
+        <line x="42.0" y="27.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Autotransformer" w="40" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.2" perimeter="0" />
+      <constraint name="" x="0.25" y="0.8" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="25.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="24.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="40.0" />
+        <line x="10.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="40.0" />
+        <line x="20.0" y="25.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="autotransformer single phase" w="40" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="25.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="24.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="40.0" />
+        <line x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="40.0" />
+        <line x="20.0" y="25.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase Autotransformer Yd" w="70" h="60" aspect="fixed">
+    <connections>
+      <constraint name="B2" x="0.4286" y="0.8333" perimeter="0" />
+      <constraint name="B1" x="0.5714" y="0.1667" perimeter="0" />
+      <constraint name="A1" x="0.2857" y="0.1667" perimeter="0" />
+      <constraint name="C2" x="0.7143" y="0.8333" perimeter="0" />
+      <constraint name="C1" x="0.8571" y="0.1667" perimeter="0" />
+      <constraint name="A2" x="0.1429" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="40.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="50.0" />
+        <line x="10.0" y="30.0" />
+        <line x="20.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="50.0" />
+        <line x="30.0" y="30.0" />
+        <line x="40.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="40.0" />
+        <line x="40.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="40.0" />
+        <line x="20.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="15.0" />
+        <line x="40.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="15.0" />
+        <line x="20.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="40.0" />
+        <line x="60.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="40.0" />
+        <line x="60.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="15.0" />
+        <line x="60.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="50.0" />
+        <line x="50.0" y="30.0" />
+        <line x="60.0" y="30.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Adjustable autotransformer" w="40" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="22.0" y="21.0" />
+        <line x="25.0" y="24.0" />
+        <line x="28.0" y="18.0" />
+        <close />
+      </path>
+      <fillstroke />
+      <path>
+        <move x="25.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="24.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="40.0" />
+        <line x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="40.0" />
+        <line x="20.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="24.0" y="22.0" />
+        <line x="15.0" y="34.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformador" w="60" h="30" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.1667" y="0.6667" perimeter="0" />
+      <constraint name="" x="0.8333" y="0.6667" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="20.0" y="15.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="15.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="15.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="15.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="5.0" />
+        <line x="26.0" y="5.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="34.0" y="5.0" />
+        <line x="50.0" y="5.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="15.0" />
+        <line x="10.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="15.0" />
+        <line x="50.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformador de dos bobinatges" w="60" h="60" aspect="fixed">
+    <connections>
+      <constraint name="4" x="0.85" y="0.8" perimeter="0" />
+      <constraint name="1" x="0.1833" y="0.3" perimeter="0" />
+      <constraint name="2" x="0.85" y="0.3" perimeter="0" />
+      <constraint name="3" x="0.1833" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="16.0" y="28.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="23.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="16.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.0" y="28.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="23.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="26.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.0" y="28.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="41.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="23.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.0" y="28.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="51.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="23.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="46.0" y="28.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="16.0" y="38.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="11.0" y="43.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="43.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="16.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.0" y="38.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="43.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="43.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="26.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.0" y="38.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.0" y="43.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="43.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.0" y="38.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="41.0" y="43.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="43.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="46.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="13.0" y="33.0" />
+        <line x="49.0" y="33.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="18.0" />
+        <line x="11.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="18.0" />
+        <line x="51.0" y="23.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="43.0" />
+        <line x="51.0" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="43.0" />
+        <line x="11.0" y="48.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformador de tres bobinatges" w="80" h="60" aspect="fixed">
+    <connections>
+      <constraint name="4" x="0.8875" y="0.3333" perimeter="0" />
+      <constraint name="5" x="0.1375" y="0.8333" perimeter="0" />
+      <constraint name="6" x="0.3875" y="0.8333" perimeter="0" />
+      <constraint name="2" x="0.5125" y="0.3333" perimeter="0" />
+      <constraint name="1" x="0.1375" y="0.3333" perimeter="0" />
+      <constraint name="8" x="0.8875" y="0.8333" perimeter="0" />
+      <constraint name="3" x="0.7625" y="0.3333" perimeter="0" />
+      <constraint name="7" x="0.6375" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="71.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="61.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="11.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="61.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="51.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="61.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="71.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="16.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="16.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="26.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="41.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="51.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="46.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="13.0" y="35.0" />
+        <line x="69.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="61.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="25.0" />
+        <line x="11.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="25.0" />
+        <line x="41.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="61.0" y="25.0" />
+        <line x="61.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="71.0" y="25.0" />
+        <line x="71.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="71.0" y="45.0" />
+        <line x="71.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="45.0" />
+        <line x="51.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="45.0" />
+        <line x="31.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="45.0" />
+        <line x="11.0" y="50.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformador de tres bobinatges sense aixetes" w="80" h="60" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.1375" y="0.3333" perimeter="0" />
+      <constraint name="5" x="0.6375" y="0.8333" perimeter="0" />
+      <constraint name="6" x="0.8875" y="0.8333" perimeter="0" />
+      <constraint name="4" x="0.3875" y="0.8333" perimeter="0" />
+      <constraint name="2" x="0.8875" y="0.3333" perimeter="0" />
+      <constraint name="3" x="0.1375" y="0.8333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="71.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="61.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="11.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="61.0" y="45.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="51.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="61.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="71.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="16.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="16.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="26.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="41.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.0" y="30.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="51.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="46.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="13.0" y="35.0" />
+        <line x="69.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="25.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="61.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="25.0" />
+        <line x="11.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="71.0" y="25.0" />
+        <line x="71.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="71.0" y="45.0" />
+        <line x="71.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="45.0" />
+        <line x="51.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="45.0" />
+        <line x="31.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="45.0" />
+        <line x="11.0" y="50.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformador 230/400-12/24V" w="60" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.1833" y="0.16" perimeter="0" />
+      <constraint name="" x="0.5167" y="0.16" perimeter="0" />
+      <constraint name="" x="0.85" y="0.16" perimeter="0" />
+      <constraint name="" x="0.5167" y="0.76" perimeter="0" />
+      <constraint name="" x="0.1833" y="0.76" perimeter="0" />
+      <constraint name="" x="0.85" y="0.76" perimeter="0" />
+      <constraint name="" x="0.5167" y="0.76" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="51.0" y="32.9" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="41.0" y="32.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="33.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="11.0" y="33.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="33.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="33.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="32.9" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.0" y="32.9" />
+      </path>
+      <stroke />
+      <path>
+        <move x="16.0" y="18.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="13.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="16.0" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.0" y="18.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="21.0" y="13.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="26.0" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="36.0" y="18.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="41.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="13.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="36.0" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="46.0" y="18.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="51.0" y="13.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="13.0" />
+        <arc rx="5.0" ry="5.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="46.0" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="22.0" />
+        <line x="51.0" y="22.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="13.0" />
+        <line x="11.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="13.0" />
+        <line x="31.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="13.0" />
+        <line x="51.0" y="8.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="51.0" y="32.9" />
+        <line x="51.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="32.9" />
+        <line x="31.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="33.0" />
+        <line x="31.0" y="38.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="11.0" y="33.0" />
+        <line x="11.0" y="38.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Single phase transducer (transfo_mono)" w="50" h="70" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.38" y="0.1286" perimeter="0" />
+      <constraint name="" x="0.58" y="0.8714" perimeter="0" />
+      <constraint name="" x="0.38" y="0.8714" perimeter="0" />
+      <constraint name="" x="0.58" y="0.1286" perimeter="0" />
+      <constraint name="" x="0.2" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="19.0" y="10.0" />
+        <line x="19.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="19.0" y="49.0" />
+        <line x="19.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="29.0" y="10.0" />
+        <line x="29.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="29.0" y="49.0" />
+        <line x="29.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="35.0" />
+        <line x="15.0" y="35.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Single phase transducer (transfo_mono_2)" w="50" h="80" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.34" y="0.1125" perimeter="0" />
+      <constraint name="" x="0.74" y="0.8875" perimeter="0" />
+      <constraint name="" x="0.34" y="0.8875" perimeter="0" />
+      <constraint name="" x="0.74" y="0.1125" perimeter="0" />
+      <constraint name="" x="0.14" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="17.0" y="10.0" />
+        <line x="17.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="17.0" y="59.0" />
+        <line x="17.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="37.0" y="10.0" />
+        <line x="37.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="37.0" y="59.0" />
+        <line x="37.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="18.0" y="40.0" />
+        <line x="9.0" y="40.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase transducer (transfo_tri)" w="60" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.6667" y="0.1" perimeter="0" />
+      <constraint name="" x="0.5" y="0.1" perimeter="0" />
+      <constraint name="" x="0.3333" y="0.1" perimeter="0" />
+      <constraint name="" x="0.3333" y="0.9" perimeter="0" />
+      <constraint name="" x="0.5" y="0.9" perimeter="0" />
+      <constraint name="" x="0.6667" y="0.9" perimeter="0" />
+      <constraint name="" x="0.15" y="0.6444" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="30.0" y="58.0" />
+        <line x="10.0" y="58.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="58.0" />
+        <line x="30.0" y="53.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="58.0" />
+        <line x="37.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="58.0" />
+        <line x="23.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="66.5" />
+        <line x="40.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="70.0" />
+        <line x="30.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="66.5" />
+        <line x="20.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="10.0" />
+        <line x="40.0" y="23.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="10.0" />
+        <line x="20.0" y="23.5" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase transducer (transformateur_triphase)" w="60" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.75" y="0.1" perimeter="0" />
+      <constraint name="" x="0.4667" y="0.1" perimeter="0" />
+      <constraint name="" x="0.1833" y="0.1" perimeter="0" />
+      <constraint name="" x="0.1833" y="0.9" perimeter="0" />
+      <constraint name="" x="0.4667" y="0.9" perimeter="0" />
+      <constraint name="" x="0.75" y="0.9" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="39.0" y="66.0" />
+        <line x="45.0" y="75.0" />
+        <line x="45.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="17.0" y="66.0" />
+        <line x="11.0" y="75.0" />
+        <line x="11.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="17.0" y="24.0" />
+        <line x="11.0" y="15.0" />
+        <line x="11.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="39.0" y="24.0" />
+        <line x="45.0" y="15.0" />
+        <line x="45.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="70.0" />
+        <line x="28.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="10.0" />
+        <line x="28.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase + neutral transducer" w="70" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.8429" y="0.1" perimeter="0" />
+      <constraint name="" x="0.6" y="0.1" perimeter="0" />
+      <constraint name="" x="0.3571" y="0.1" perimeter="0" />
+      <constraint name="" x="0.3571" y="0.9" perimeter="0" />
+      <constraint name="" x="0.6" y="0.9" perimeter="0" />
+      <constraint name="" x="0.8429" y="0.9" perimeter="0" />
+      <constraint name="" x="0.1143" y="0.9" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="8.0" y="80.0" />
+        <line x="8.0" y="75.0" />
+        <line x="15.0" y="64.0" />
+        <line x="30.0" y="64.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="53.0" y="66.0" />
+        <line x="59.0" y="75.0" />
+        <line x="59.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="66.0" />
+        <line x="25.0" y="75.0" />
+        <line x="25.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="31.0" y="24.0" />
+        <line x="25.0" y="15.0" />
+        <line x="25.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="53.0" y="24.0" />
+        <line x="59.0" y="15.0" />
+        <line x="59.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="42.0" y="70.0" />
+        <line x="42.0" y="80.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="42.0" y="10.0" />
+        <line x="42.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Two winding transformer (transformator_1f_2)" w="40" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.2" perimeter="0" />
+      <constraint name="" x="0.25" y="0.8" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <line x="30.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="30.0" />
+        <line x="10.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="30.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Two winding transformer (transformator_2_2)" w="40" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.2" perimeter="0" />
+      <constraint name="" x="0.25" y="0.8" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <line x="30.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="30.0" />
+        <line x="10.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="30.0" />
+        <line x="20.0" y="40.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformer" w="70" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.3571" y="0.2" perimeter="0" />
+      <constraint name="" x="0.6429" y="0.2" perimeter="0" />
+      <constraint name="" x="0.1429" y="0.8" perimeter="0" />
+      <constraint name="" x="0.4286" y="0.8" perimeter="0" />
+      <constraint name="" x="0.5714" y="0.8" perimeter="0" />
+      <constraint name="" x="0.8571" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="45.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="30.0" />
+        <line x="60.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <line x="30.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="30.0" />
+        <line x="40.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="30.0" />
+        <line x="10.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="45.0" y="10.0" />
+        <line x="45.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="55.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="55.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="10.0" />
+        <line x="25.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="45.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="45.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="35.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="35.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="30.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase transformer Yd" w="60" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.8333" y="0.1111" perimeter="0" />
+      <constraint name="" x="0.5" y="0.1111" perimeter="0" />
+      <constraint name="" x="0.1667" y="0.1111" perimeter="0" />
+      <constraint name="" x="0.8333" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.5" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.1667" y="0.8889" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="30.0" y="50.0" />
+        <line x="45.0" y="50.0" />
+        <line x="45.0" y="75.0" />
+        <line x="49.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="55.0" />
+        <line x="30.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="55.0" />
+        <line x="10.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="40.0" />
+        <line x="30.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="40.0" />
+        <line x="10.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="15.0" />
+        <line x="30.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="15.0" />
+        <line x="10.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="40.0" />
+        <line x="50.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="40.0" />
+        <line x="50.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="15.0" />
+        <line x="50.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="50.0" />
+        <line x="25.0" y="50.0" />
+        <line x="25.0" y="75.0" />
+        <line x="29.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="55.0" />
+        <line x="50.0" y="45.0" />
+        <line x="5.0" y="45.0" />
+        <line x="5.0" y="75.0" />
+        <line x="9.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="80.0" />
+        <line x="50.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="80.0" />
+        <line x="30.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="80.0" />
+        <line x="10.0" y="75.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Three-phase transformer Yyd" w="120" h="90" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.6667" y="0.1111" perimeter="0" />
+      <constraint name="" x="0.5" y="0.1111" perimeter="0" />
+      <constraint name="" x="0.3333" y="0.1111" perimeter="0" />
+      <constraint name="" x="0.4167" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.25" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.0833" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.9167" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8889" perimeter="0" />
+      <constraint name="" x="0.5833" y="0.8889" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="90.0" y="50.0" />
+        <line x="105.0" y="50.0" />
+        <line x="105.0" y="75.0" />
+        <line x="109.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="90.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="70.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="90.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="70.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="90.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="70.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="110.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="70.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="90.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="55.0" />
+        <line x="90.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="55.0" />
+        <line x="70.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="65.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="110.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="110.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="110.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="50.0" />
+        <line x="85.0" y="50.0" />
+        <line x="85.0" y="75.0" />
+        <line x="89.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.0" y="55.0" />
+        <line x="110.0" y="45.0" />
+        <line x="65.0" y="45.0" />
+        <line x="65.0" y="75.0" />
+        <line x="69.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="80.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="40.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="110.0" y="80.0" />
+        <line x="110.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="55.0" />
+        <line x="30.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="80.0" />
+        <line x="90.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="60.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="80.0" />
+        <line x="70.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="55.0" />
+        <line x="10.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="40.0" />
+        <line x="60.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="60.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="55.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="70.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="65.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="40.0" />
+        <line x="40.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="15.0" />
+        <line x="60.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="75.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="50.0" y="70.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="15.0" />
+        <line x="40.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="20.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="80.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="80.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="35.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="80.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="40.0" y="40.0" />
+        <line x="80.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="40.0" />
+        <line x="80.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="80.0" y="15.0" />
+        <line x="80.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="80.0" />
+        <line x="50.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="80.0" />
+        <line x="30.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="80.0" />
+        <line x="10.0" y="75.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="50.0" />
+        <line x="50.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="55.0" />
+        <line x="50.0" y="50.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformer with screen" w="40" h="60" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.1667" perimeter="0" />
+      <constraint name="" x="0.75" y="0.1667" perimeter="0" />
+      <constraint name="" x="0.25" y="0.8333" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8333" perimeter="0" />
+      <constraint name="" x="0.25" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.0" y="34.5" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="34.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="34.5" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="34.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="34.5" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="34.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="34.5" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="34.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <line x="10.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <line x="10.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="25.0" />
+        <line x="30.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="35.0" />
+        <line x="10.0" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="35.0" />
+        <line x="30.0" y="50.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Transformer controllable" w="40" h="50" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.25" y="0.2" perimeter="0" />
+      <constraint name="" x="0.75" y="0.2" perimeter="0" />
+      <constraint name="" x="0.25" y="0.8" perimeter="0" />
+      <constraint name="" x="0.75" y="0.8" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="15.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <line x="30.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="30.0" />
+        <line x="10.0" y="40.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="10.0" />
+        <line x="30.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="10.0" />
+        <line x="10.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="30.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="21.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="21.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="30.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="25.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="30.0" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="15.0" y="30.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="13.0" y="36.0" />
+        <line x="26.0" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="28.0" y="15.0" />
+        <line x="24.0" y="18.0" />
+        <line x="27.0" y="20.0" />
+        <close />
+      </path>
+      <fillstroke />
+    </foreground>
+  </shape>
+  <shape name="Power Supply AC/DC 1-ph. DC 24V" w="100" h="80" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.8" y="0.125" perimeter="0" />
+      <constraint name="" x="0.8" y="0.875" perimeter="0" />
+      <constraint name="" x="0.6" y="0.875" perimeter="0" />
+      <constraint name="" x="0.4" y="0.875" perimeter="0" />
+      <constraint name="" x="0.2" y="0.875" perimeter="0" />
+      <constraint name="" x="0.2" y="0.125" perimeter="0" />
+      <constraint name="" x="0.5" y="0.125" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <rect x="5.0" y="10.0" w="90.0" h="60.0" />
+      <stroke />
+      <rect x="20.0" y="25.0" w="60.0" h="30.0" />
+      <stroke />
+      <path>
+        <move x="80.0" y="25.0" />
+        <line x="20.0" y="55.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="One-phase alternating Direct" w="60" h="40" aspect="fixed">
+    <connections>
+      <constraint name="L" x="0.1667" y="0.375" perimeter="0" />
+      <constraint name="N" x="0.1667" y="0.625" perimeter="0" />
+      <constraint name="L+" x="0.8333" y="0.375" perimeter="0" />
+      <constraint name="L-" x="0.8333" y="0.625" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="39.0" y="25.0" />
+        <line x="43.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="41.0" y="13.0" />
+        <line x="41.0" y="17.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="39.0" y="15.0" />
+        <line x="43.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="15.0" />
+        <line x="10.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="5.0" />
+        <line x="45.0" y="5.0" />
+        <line x="45.0" y="35.0" />
+        <line x="15.0" y="35.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.5" y="10.2" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="31.5" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="50.0" y="25.0" />
+        <line x="45.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="45.0" y="15.0" />
+        <line x="50.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="25.0" />
+        <line x="15.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="38.0" y="29.0" />
+        <line x="39.5" y="29.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="35.0" y="29.0" />
+        <line x="36.5" y="29.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="32.0" y="29.0" />
+        <line x="33.5" y="29.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="32.0" y="31.0" />
+        <line x="39.5" y="31.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="26.5" y="9.8" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="21.5" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="44.5" y="5.5" />
+        <line x="15.5" y="34.5" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Rectifier" w="70" h="70" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.3571" y="0.1429" perimeter="0" />
+      <constraint name="" x="0.6429" y="0.1429" perimeter="0" />
+      <constraint name="" x="0.3571" y="0.8571" perimeter="0" />
+      <constraint name="" x="0.6429" y="0.8571" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <rect x="5.0" y="15.0" w="60.0" h="40.0" />
+      <stroke />
+      <path>
+        <move x="23.0" y="51.0" />
+        <line x="27.0" y="51.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="43.0" y="51.0" />
+        <line x="47.0" y="51.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="47.0" y="45.0" />
+        <line x="58.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="5.0" y="55.0" />
+        <line x="65.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.5" y="22.2" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="20.5" y="22.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.5" y="21.8" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.5" y="22.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="27.0" />
+        <line x="21.0" y="27.0" />
+      </path>
+      <stroke />
+      <rect x="48.0" y="43.0" w="9.0" h="4.0" />
+      <stroke />
+      <path>
+        <move x="45.0" y="49.0" />
+        <line x="45.0" y="53.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="10.0" />
+        <line x="25.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="45.0" y="10.0" />
+        <line x="45.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="25.0" y="55.0" />
+        <line x="25.0" y="60.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="45.0" y="55.0" />
+        <line x="45.0" y="60.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="24V DC supply one phase" w="100" h="80" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.4" y="0.875" perimeter="0" />
+      <constraint name="" x="0.8" y="0.875" perimeter="0" />
+      <constraint name="" x="0.2" y="0.875" perimeter="0" />
+      <constraint name="" x="0.2" y="0.125" perimeter="0" />
+      <constraint name="" x="0.6" y="0.875" perimeter="0" />
+      <constraint name="" x="0.6" y="0.125" perimeter="0" />
+      <constraint name="" x="0.8" y="0.125" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <rect x="5.0" y="10.0" w="90.0" h="60.0" />
+      <stroke />
+      <rect x="20.0" y="25.0" w="60.0" h="30.0" />
+      <stroke />
+      <path>
+        <move x="80.0" y="25.0" />
+        <line x="20.0" y="55.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Power supply AC/DC 3 poles" w="100" h="80" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.4" y="0.125" perimeter="0" />
+      <constraint name="" x="0.2" y="0.125" perimeter="0" />
+      <constraint name="" x="0.2" y="0.875" perimeter="0" />
+      <constraint name="" x="0.4" y="0.875" perimeter="0" />
+      <constraint name="" x="0.6" y="0.125" perimeter="0" />
+      <constraint name="" x="0.6" y="0.875" perimeter="0" />
+      <constraint name="" x="0.8" y="0.875" perimeter="0" />
+      <constraint name="" x="0.8" y="0.125" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <rect x="5.0" y="10.0" w="90.0" h="60.0" />
+      <stroke />
+      <rect x="20.0" y="25.0" w="60.0" h="30.0" />
+      <stroke />
+      <path>
+        <move x="80.0" y="25.0" />
+        <line x="20.0" y="55.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="UPS" w="200" h="70" aspect="fixed">
+    <connections>
+      <constraint name="" x="0.05" y="0.6429" perimeter="0" />
+      <constraint name="" x="0.05" y="0.3571" perimeter="0" />
+      <constraint name="" x="0.95" y="0.6429" perimeter="0" />
+      <constraint name="" x="0.95" y="0.3571" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <rect x="10.0" y="5.0" w="180.0" h="60.0" />
+      <stroke />
+      <path>
+        <move x="179.5" y="15.5" />
+        <line x="140.5" y="54.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="130.0" y="35.0" />
+        <line x="110.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="140.0" y="25.0" />
+        <line x="60.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="25.0" />
+        <line x="10.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="103.0" y="35.0" />
+        <line x="95.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="140.0" y="15.0" />
+        <line x="180.0" y="15.0" />
+        <line x="180.0" y="55.0" />
+        <line x="140.0" y="55.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="15.0" />
+        <line x="60.0" y="15.0" />
+        <line x="60.0" y="55.0" />
+        <line x="20.0" y="55.0" />
+        <close />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.5" y="20.2" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="32.5" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="35.0" />
+        <line x="70.0" y="35.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="171.5" y="50.2" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="176.5" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="90.0" y="27.8" />
+        <line x="90.0" y="42.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="190.0" y="45.0" />
+        <line x="180.0" y="45.0" />
+      </path>
+      <stroke />
+      <rect x="93.0" y="30.0" w="3.0" h="10.0" />
+      <fillstroke />
+      <path>
+        <move x="180.0" y="25.0" />
+        <line x="190.0" y="25.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="45.0" />
+        <line x="20.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="103.7" y="27.8" />
+        <line x="103.7" y="42.3" />
+      </path>
+      <stroke />
+      <path>
+        <move x="60.0" y="45.0" />
+        <line x="140.0" y="45.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="55.0" y="48.0" />
+        <line x="56.5" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="144.0" y="18.0" />
+        <line x="142.5" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="147.0" y="18.0" />
+        <line x="145.5" y="18.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="52.0" y="48.0" />
+        <line x="53.5" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="150.0" y="18.0" />
+        <line x="148.5" y="18.0" />
+      </path>
+      <stroke />
+      <rect x="106.7" y="30.0" w="3.0" h="10.0" />
+      <fillstroke />
+      <path>
+        <move x="49.0" y="48.0" />
+        <line x="50.5" y="48.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="49.0" y="50.0" />
+        <line x="56.5" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="150.0" y="20.0" />
+        <line x="142.5" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="171.5" y="49.8" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="166.5" y="50.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="27.5" y="19.8" />
+        <arc rx="2.5" ry="2.5" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="22.5" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="59.5" y="15.5" />
+        <line x="20.5" y="54.5" />
+      </path>
+      <stroke />
+      <path>
+        <move x="130.0" y="35.0" />
+        <line x="130.0" y="44.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="70.0" y="34.8" />
+        <line x="70.0" y="25.2" />
+      </path>
+      <stroke />
+      <rect x="80.0" y="15.0" w="40.0" h="40.0" />
+      <stroke />
+    </foreground>
+  </shape>
+</shapes>

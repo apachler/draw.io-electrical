@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes name="mxgraph.iec_electrical.connections">
+  <shape name="connection" w="20" h="20" aspect="fixed">
+    <connections>
+      <constraint name="4" x="0.6" y="0.5" perimeter="0" />
+      <constraint name="3" x="0.4" y="0.5" perimeter="0" />
+      <constraint name="2" x="0.5" y="0.6" perimeter="0" />
+      <constraint name="1" x="0.5" y="0.4" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+    </foreground>
+  </shape>
+  <shape name="Combine" w="30" h="30" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.2667" y="0.3333" perimeter="0" />
+      <constraint name="3" x="0.4" y="0.6667" perimeter="0" />
+      <constraint name="2" x="0.7333" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="19.0" y="10.0" />
+        <line x="13.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="12.0" y="20.0" />
+        <line x="12.0" y="16.0" />
+        <line x="18.0" y="10.0" />
+        <line x="22.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="12.0" y="10.0" />
+        <line x="8.0" y="10.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Corner" w="20" h="20" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.4" y="0.4" perimeter="0" />
+      <constraint name="2" x="0.6" y="0.6" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="8.0" y="8.0" />
+        <line x="12.0" y="8.0" />
+        <line x="12.0" y="12.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Cross" w="30" h="30" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.5" y="0.3667" perimeter="0" />
+      <constraint name="3" x="0.5" y="0.6333" perimeter="0" />
+      <constraint name="4" x="0.3667" y="0.5" perimeter="0" />
+      <constraint name="2" x="0.6333" y="0.5" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="11.0" y="15.0" />
+        <line x="19.0" y="15.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="15.0" y="11.0" />
+        <line x="15.0" y="19.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Jump" w="20" h="30" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.5" y="0.2667" perimeter="0" />
+      <constraint name="2" x="0.5" y="0.7333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="10.0" y="18.0" />
+        <arc rx="3.0" ry="3.0" x-rotation="0" large-arc-flag="0" sweep-flag="0" x="10.0" y="12.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="8.0" />
+        <line x="10.0" y="12.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="10.0" y="18.0" />
+        <line x="10.0" y="22.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Punt de fixacio (3)" w="40" h="30" aspect="fixed">
+    <connections>
+      <constraint name="2" x="0.75" y="0.4" perimeter="0" />
+      <constraint name="1" x="0.5" y="0.2333" perimeter="0" />
+      <constraint name="4" x="0.25" y="0.4" perimeter="0" />
+      <constraint name="3" x="0.5" y="0.7333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="10.0" y="12.0" />
+        <line x="15.0" y="12.0" />
+        <line x="20.0" y="17.0" />
+        <line x="25.0" y="12.0" />
+        <line x="30.0" y="12.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="7.0" />
+        <line x="20.0" y="22.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Splice" w="30" h="30" aspect="fixed">
+    <connections>
+      <constraint name="3" x="0.6" y="0.6667" perimeter="0" />
+      <constraint name="1" x="0.2667" y="0.3333" perimeter="0" />
+      <constraint name="2" x="0.7333" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="22.0" y="10.0" />
+        <line x="8.0" y="10.0" />
+        <line x="13.0" y="10.0" />
+        <line x="18.0" y="15.0" />
+        <line x="18.0" y="20.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Thru left" w="30" h="30" aspect="fixed">
+    <connections>
+      <constraint name="3" x="0.6" y="0.6667" perimeter="0" />
+      <constraint name="1" x="0.2667" y="0.3333" perimeter="0" />
+      <constraint name="2" x="0.7333" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="8.0" y="10.0" />
+        <line x="13.0" y="10.0" />
+        <line x="18.0" y="15.0" />
+        <line x="18.0" y="20.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="18.0" y="20.0" />
+        <line x="18.0" y="10.0" />
+        <line x="22.0" y="10.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+  <shape name="Thru right" w="40" h="30" aspect="fixed">
+    <connections>
+      <constraint name="1" x="0.25" y="0.3333" perimeter="0" />
+      <constraint name="3" x="0.5" y="0.6667" perimeter="0" />
+      <constraint name="2" x="0.75" y="0.3333" perimeter="0" />
+    </connections>
+    <foreground>
+      <strokewidth width="1" />
+      <path>
+        <move x="20.0" y="20.0" />
+        <line x="20.0" y="15.0" />
+        <line x="25.0" y="10.0" />
+        <line x="30.0" y="10.0" />
+      </path>
+      <stroke />
+      <path>
+        <move x="20.0" y="20.0" />
+        <line x="20.0" y="10.0" />
+        <line x="10.0" y="10.0" />
+      </path>
+      <stroke />
+    </foreground>
+  </shape>
+</shapes>
