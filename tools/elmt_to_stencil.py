@@ -21,7 +21,16 @@ import math
 import os
 import glob
 import sys
+import re
+import unicodedata
 from pathlib import Path
+from xml.sax.saxutils import escape
+
+try:
+    from lxml import etree as _lxml_etree
+    _LXML_AVAILABLE = True
+except ImportError:
+    _LXML_AVAILABLE = False
 
 
 # ---------------------------------------------------------------------------
@@ -39,6 +48,18 @@ def get_name(defn: ET.Element, lang: str = "en") -> str:
             return el.text.strip()
     first = names.find("name")
     return first.text.strip() if first is not None and first.text else "unknown"
+
+
+def sanitize_name(name: str, fallback: str = "unknown") -> str:
+    """Normalize to ASCII-only, keeping letters, digits, spaces and punctuation [- + () . , /]."""
+    # NFKD decomposes e.g. "e with accent" -> "e" + combining accent; encode('ascii','ignore') drops the accent
+    normalized = unicodedata.normalize("NFKD", name)
+    ascii_str = normalized.encode("ascii", "ignore").decode("ascii")
+    # Remove characters not useful in a shape name
+    cleaned = re.sub(r"[^A-Za-z0-9 \-+().,/]", "", ascii_str)
+    # Collapse multiple spaces
+    cleaned = re.sub(r" {2,}", " ", cleaned).strip()
+    return cleaned if cleaned else fallback
 
 
 def parse_style(style_str: str) -> dict:
@@ -85,6 +106,10 @@ def arc_to_svg_endpoint(x, y, w, h, start_deg, angle_deg, ox, oy):
     return x1, y1, x2, y2, rx, ry, large_arc, sweep
 
 
+# Extra escaping for XML attribute values enclosed in double quotes
+_ATTR_ESC = {'"': '&quot;'}
+
+
 def fill_cmd(style_dict: dict) -> str:
     """Determine draw.io fill/stroke command from QET style."""
     filling = style_dict.get("filling", "none")
@@ -108,7 +133,8 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
     fg_lines = []       # <foreground> content
     conn_lines = []     # <connections> content
 
-    desc = defn.find("description") or defn
+    desc_elem = defn.find("description")
+    desc = desc_elem if desc_elem is not None else defn
 
     for elem in desc:
         tag = elem.tag
@@ -196,14 +222,14 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
             cx_frac = round(tx / w, 4) if w > 0 else 0.5
             cy_frac = round(ty / h, 4) if h > 0 else 0.5
             conn_lines.append(
-                f'    <constraint name="{tname}" '
+                f'    <constraint name="{escape(tname, _ATTR_ESC)}" '
                 f'x="{cx_frac}" y="{cy_frac}" perimeter="0"/>'
             )
 
         # dynamic_text, kindInformations, uuid → not relevant for geometry
 
     # --- Assemble XML ----------------------------------------------------
-    lines = [f'<shape name="{name}" w="{w}" h="{h}" aspect="fixed">']
+    lines = [f'<shape name="{escape(name, _ATTR_ESC)}" w="{w}" h="{h}" aspect="fixed">']
 
     if conn_lines:
         lines.append("  <connections>")
@@ -223,16 +249,52 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
 # File processing
 # ---------------------------------------------------------------------------
 
-def convert_file(elmt_path: str, output_path: str, lang: str = "en") -> bool:
-    """Convert one .elmt file → one stencil XML file."""
+_INVALID_XML_CHAR_REF = re.compile(r'&#(?:x([0-9a-fA-F]+)|([0-9]+));')
+
+
+def _is_valid_xml_codepoint(cp: int) -> bool:
+    return cp in (0x9, 0xA, 0xD) or (0x20 <= cp <= 0xD7FF) or (0xE000 <= cp <= 0xFFFD) or (0x10000 <= cp <= 0x10FFFF)
+
+
+def _strip_invalid_char_refs(text: str) -> str:
+    """Remove numeric character references whose code points are invalid in XML 1.0."""
+    def repl(m):
+        cp = int(m.group(1), 16) if m.group(1) else int(m.group(2))
+        return m.group(0) if _is_valid_xml_codepoint(cp) else ''
+    return _INVALID_XML_CHAR_REF.sub(repl, text)
+
+
+def _parse_xml_with_recovery(raw: str):
+    """
+    Parse XML string, using lxml recovery mode when available and stdlib fails.
+    Returns an Element compatible with xml.etree.ElementTree API.
+    """
     try:
-        tree = ET.parse(elmt_path)
-        root = tree.getroot()
+        return ET.fromstring(raw)
+    except ET.ParseError:
+        if not _LXML_AVAILABLE:
+            raise
+        parser = _lxml_etree.XMLParser(recover=True, encoding="utf-8")
+        lxml_root = _lxml_etree.fromstring(raw.encode("utf-8"), parser=parser)
+        if lxml_root is None:
+            raise ET.ParseError("lxml recovery returned no root element")
+        # Re-serialize via lxml and parse back with stdlib so the rest of the
+        # pipeline works with standard ElementTree elements.
+        return ET.fromstring(_lxml_etree.tostring(lxml_root, encoding="unicode"))
+
+
+def convert_file(elmt_path: str, output_path: str, lang: str = "en") -> bool:
+    """Convert one .elmt file -> one stencil XML file."""
+    try:
+        with open(elmt_path, encoding="utf-8", errors="replace") as fh:
+            raw = fh.read()
+        raw = _strip_invalid_char_refs(raw)
+        root = _parse_xml_with_recovery(raw)
         defn = root if root.tag == "definition" else root.find("definition")
         if defn is None:
             defn = root
 
-        name = get_name(defn, lang)
+        name = sanitize_name(get_name(defn, lang), fallback=Path(elmt_path).stem)
         shape_xml = elmt_to_shape_xml(defn, name)
 
         os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
