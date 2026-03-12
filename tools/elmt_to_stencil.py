@@ -2,18 +2,18 @@
 """
 elmt_to_stencil.py
 
-Konvertiert QElectroTech .elmt-Symboldateien in draw.io Stencil-XML.
-Ausgabe: eine lesbares <shape>-XML pro .elmt-Datei (kein Komprimieren hier).
+Converts QElectroTech .elmt symbol files to draw.io stencil XML.
+Output: one human-readable <shape> XML per .elmt file (no compression here).
 
-Verwendung:
+Usage:
     python elmt_to_stencil.py <input_dir> <output_dir>
 
-Beispiel:
+Example:
     python elmt_to_stencil.py qelectrotech-elements/220 source/iec_60617
 
-Quellen:
-    QET-Elemente : https://github.com/qelectrotech/qelectrotech-elements
-    Stencil-Spec : https://jgraph.github.io/mxgraph/docs/stencils.pdf
+Sources:
+    QET elements : https://github.com/qelectrotech/qelectrotech-elements
+    Stencil spec : https://jgraph.github.io/mxgraph/docs/stencils.pdf
 """
 
 import xml.etree.ElementTree as ET
@@ -25,11 +25,11 @@ from pathlib import Path
 
 
 # ---------------------------------------------------------------------------
-# Hilfsfunktionen
+# Helper functions
 # ---------------------------------------------------------------------------
 
-def get_name(defn: ET.Element, lang: str = "de") -> str:
-    """Symbolname aus <names> extrahieren; bevorzugt 'lang', Fallback: 'en', dann erste."""
+def get_name(defn: ET.Element, lang: str = "en") -> str:
+    """Extract symbol name from <names>; prefers 'lang', fallback: 'en', then first."""
     names = defn.find("names")
     if names is None:
         return Path(defn.get("file", "unknown")).stem
@@ -42,7 +42,7 @@ def get_name(defn: ET.Element, lang: str = "de") -> str:
 
 
 def parse_style(style_str: str) -> dict:
-    """QET-Style-String parsen: 'line-style:normal;filling:none;color:black' → dict."""
+    """Parse QET style string: 'line-style:normal;filling:none;color:black' → dict."""
     result = {}
     for part in (style_str or "").split(";"):
         if ":" in part:
@@ -53,67 +53,67 @@ def parse_style(style_str: str) -> dict:
 
 def arc_to_svg_endpoint(x, y, w, h, start_deg, angle_deg, ox, oy):
     """
-    QET-Bogen (Bounding-Box + Start/Sweep-Winkel) → SVG-Endpunkt-Parameter.
+    QET arc (bounding box + start/sweep angle) → SVG endpoint parameters.
 
-    QET-Koordinaten: Hotspot = Ursprung, Y nach unten positiv.
-    Winkel: 0° = rechts (3 Uhr), positiv = mathematisch positiv (gegen Uhrzeigersinn im
-    QET-Math-Koordinatensystem = im Uhrzeigersinn auf dem Bildschirm, weil Y nach unten).
+    QET coordinates: hotspot = origin, Y positive downward.
+    Angle: 0° = right (3 o'clock), positive = math-positive (counter-clockwise in
+    QET math coords = clockwise on screen because Y is down).
 
-    Rückgabe: (x1, y1, x2, y2, rx, ry, large_arc_flag, sweep_flag)
+    Returns: (x1, y1, x2, y2, rx, ry, large_arc_flag, sweep_flag)
     """
-    bx = x + ox          # Bounding-Box links oben in draw.io-Koordinaten
+    bx = x + ox          # Bounding box top-left in draw.io coordinates
     by = y + oy
     rx = w / 2.0
     ry = h / 2.0
     cx = bx + rx         # Mittelpunkt
     cy = by + ry
 
-    # Startpunkt auf der Ellipse
+    # Start point on the ellipse
     start_rad = math.radians(start_deg)
     x1 = cx + rx * math.cos(start_rad)
-    y1 = cy - ry * math.sin(start_rad)   # Y invertiert (Bildschirm-Y nach unten)
+    y1 = cy - ry * math.sin(start_rad)   # Y inverted (screen Y is down)
 
-    # Endpunkt
+    # End point
     end_rad = math.radians(start_deg + angle_deg)
     x2 = cx + rx * math.cos(end_rad)
     y2 = cy - ry * math.sin(end_rad)
 
     large_arc = 1 if abs(angle_deg) > 180 else 0
-    # QET positiver Winkel = gegen Uhrzeigersinn (Mathe) = im Uhrzeigersinn auf Bildschirm
+    # QET positive angle = counter-clockwise (math) = clockwise on screen
     sweep = 0 if angle_deg > 0 else 1
 
     return x1, y1, x2, y2, rx, ry, large_arc, sweep
 
 
 def fill_cmd(style_dict: dict) -> str:
-    """draw.io Füll-/Strich-Befehl aus QET-Style ermitteln."""
+    """Determine draw.io fill/stroke command from QET style."""
     filling = style_dict.get("filling", "none")
     return "<fillstroke/>" if filling != "none" else "<stroke/>"
 
 
 # ---------------------------------------------------------------------------
-# Kern-Konverter: .elmt → <shape>-XML
+# Core converter: .elmt → <shape> XML
 # ---------------------------------------------------------------------------
 
 def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
     """
-    <definition>-Element aus einer .elmt-Datei → draw.io <shape>-XML (als String).
-    Das Ergebnis ist menschenlesbar und kann direkt als Quelldatei eingecheckt werden.
+    <definition> element from a .elmt file → draw.io <shape> XML (as string).
+    The result is human-readable and can be checked in directly as a source file.
     """
     w   = int(defn.get("width",     40))
     h   = int(defn.get("height",    40))
-    ox  = int(defn.get("hotspot_x", w // 2))   # Offset Hotspot → draw.io-Ursprung oben-links
+    ox  = int(defn.get("hotspot_x", w // 2))   # Offset hotspot → draw.io origin top-left
     oy  = int(defn.get("hotspot_y", h // 2))
 
-    fg_lines = []       # <foreground>-Inhalt
-    conn_lines = []     # <connections>-Inhalt
+    fg_lines = []       # <foreground> content
+    conn_lines = []     # <connections> content
 
     desc = defn.find("description") or defn
 
     for elem in desc:
         tag = elem.tag
 
-        # --- Linie -------------------------------------------------------
+        # --- Line --------------------------------------------------------
         if tag == "line":
             x1 = float(elem.get("x1", 0)) + ox
             y1 = float(elem.get("y1", 0)) + oy
@@ -124,7 +124,7 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
                 f'<line x="{x2:.1f}" y="{y2:.1f}"/></path><stroke/>'
             )
 
-        # --- Rechteck ----------------------------------------------------
+        # --- Rectangle ---------------------------------------------------
         elif tag == "rect":
             rx  = float(elem.get("x",      0)) + ox
             ry  = float(elem.get("y",      0)) + oy
@@ -136,7 +136,7 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
                 f'{fill_cmd(st)}'
             )
 
-        # --- Bogen / Ellipse ---------------------------------------------
+        # --- Arc / Ellipse -----------------------------------------------
         elif tag == "arc":
             ax    = float(elem.get("x",      0))
             ay    = float(elem.get("y",      0))
@@ -146,7 +146,7 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
             angle = float(elem.get("angle", 360))
 
             if abs(angle) >= 360:
-                # Volle Ellipse
+                # Full ellipse
                 ex = ax + ox
                 ey = ay + oy
                 fg_lines.append(
@@ -187,12 +187,12 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
                     f'    <path>{"".join(cmds)}</path>{fill_cmd(st)}'
                 )
 
-        # --- Klemme (Anschlusspunkt) -------------------------------------
+        # --- Terminal (connection point) ---------------------------------
         elif tag == "terminal":
             tx   = float(elem.get("x", 0)) + ox
             ty   = float(elem.get("y", 0)) + oy
             tname = elem.get("name", "")
-            # Normiert auf 0..1 relativ zur Shape-Größe
+            # Normalized to 0..1 relative to shape size
             cx_frac = round(tx / w, 4) if w > 0 else 0.5
             cy_frac = round(ty / h, 4) if h > 0 else 0.5
             conn_lines.append(
@@ -200,9 +200,9 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
                 f'x="{cx_frac}" y="{cy_frac}" perimeter="0"/>'
             )
 
-        # dynamic_text, kindInformations, uuid → nicht für Geometrie relevant
+        # dynamic_text, kindInformations, uuid → not relevant for geometry
 
-    # --- XML zusammenbauen -----------------------------------------------
+    # --- Assemble XML ----------------------------------------------------
     lines = [f'<shape name="{name}" w="{w}" h="{h}" aspect="fixed">']
 
     if conn_lines:
@@ -220,11 +220,11 @@ def elmt_to_shape_xml(defn: ET.Element, name: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Datei-Verarbeitung
+# File processing
 # ---------------------------------------------------------------------------
 
-def convert_file(elmt_path: str, output_path: str, lang: str = "de") -> bool:
-    """Eine .elmt-Datei → eine Stencil-XML-Datei konvertieren."""
+def convert_file(elmt_path: str, output_path: str, lang: str = "en") -> bool:
+    """Convert one .elmt file → one stencil XML file."""
     try:
         tree = ET.parse(elmt_path)
         root = tree.getroot()
@@ -238,30 +238,30 @@ def convert_file(elmt_path: str, output_path: str, lang: str = "de") -> bool:
         os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
         header = (
             '<?xml version="1.0" encoding="UTF-8"?>\n'
-            f'<!-- Quelle: {os.path.basename(elmt_path)} -->\n'
-            f'<!-- Generiert von elmt_to_stencil.py -->\n'
+            f'<!-- Source: {os.path.basename(elmt_path)} -->\n'
+            f'<!-- Generated by elmt_to_stencil.py -->\n'
         )
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(header + shape_xml + "\n")
         return True
     except Exception as e:
-        print(f"  FEHLER {elmt_path}: {e}", file=sys.stderr)
+        print(f"  ERROR {elmt_path}: {e}", file=sys.stderr)
         return False
 
 
-def convert_directory(input_dir: str, output_dir: str, lang: str = "de"):
-    """Alle .elmt-Dateien in input_dir rekursiv konvertieren; Verzeichnisstruktur spiegeln."""
+def convert_directory(input_dir: str, output_dir: str, lang: str = "en"):
+    """Convert all .elmt files in input_dir recursively; mirror directory structure."""
     elmt_files = sorted(glob.glob(
         os.path.join(input_dir, "**", "*.elmt"), recursive=True
     ))
     if not elmt_files:
-        print(f"Keine .elmt-Dateien gefunden in: {input_dir}")
+        print(f"No .elmt files found in: {input_dir}")
         return
 
-    print(f"Konvertiere {len(elmt_files)} Symbole von '{input_dir}' → '{output_dir}'")
+    print(f"Converting {len(elmt_files)} symbols from '{input_dir}' -> '{output_dir}'")
     ok = err = 0
     for src in elmt_files:
-        # Ausgabepfad: Verzeichnisstruktur relativ zu input_dir spiegeln
+        # Output path: mirror directory structure relative to input_dir
         rel = os.path.relpath(src, input_dir)
         dst = os.path.join(output_dir, Path(rel).with_suffix(".xml"))
         if convert_file(src, dst, lang):
@@ -270,15 +270,15 @@ def convert_directory(input_dir: str, output_dir: str, lang: str = "de"):
         else:
             err += 1
 
-    print(f"\n{ok} OK, {err} Fehler  →  {output_dir}")
+    print(f"\n{ok} OK, {err} errors  ->  {output_dir}")
 
 
 # ---------------------------------------------------------------------------
-# Einstiegspunkt
+# Entry point
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print(__doc__)
         sys.exit(1)
-    convert_directory(sys.argv[1], sys.argv[2], lang="de")
+    convert_directory(sys.argv[1], sys.argv[2], lang="en")

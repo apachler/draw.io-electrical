@@ -2,23 +2,23 @@
 """
 build_library.py
 
-Kompiliert draw.io Stencil-XML-Quelldateien (aus elmt_to_stencil.py) zu einer
-importierbaren draw.io-Bibliotheksdatei (.xml im mxlibrary-Format).
+Compiles draw.io stencil XML source files (from elmt_to_stencil.py) into an
+importable draw.io library file (.xml in mxlibrary format).
 
-Verwendung:
+Usage:
     python build_library.py <source_dir> <output.xml> [--stencils <stencils.xml>]
 
-Argumente:
-    source_dir      Verzeichnis mit Stencil-XML-Quelldateien (rekursiv)
-    output.xml      Ausgabe-Bibliothek fuer draw.io (Extras → Bibliothek bearbeiten)
-    --stencils      Optional: zusaetzlich kombinierte <shapes>-Stencil-Datei ausgeben
+Arguments:
+    source_dir      Directory with stencil XML source files (recursive)
+    output.xml      Output library for draw.io (Extras -> Edit Library)
+    --stencils      Optional: additionally output a combined <shapes> stencil file
 
-Beispiele:
+Examples:
     python build_library.py source/ output/IEC_Electrical.xml
     python build_library.py source/ output/IEC_Electrical.xml --stencils output/IEC_Stencils.xml
 
-draw.io-Import:
-    Extras → Bibliothek bearbeiten → Datei: output/IEC_Electrical.xml
+draw.io import:
+    Extras -> Edit Library -> File: output/IEC_Electrical.xml
 """
 
 import xml.etree.ElementTree as ET
@@ -33,13 +33,13 @@ from pathlib import Path
 
 
 # ---------------------------------------------------------------------------
-# draw.io-Komprimierung
+# draw.io compression
 # ---------------------------------------------------------------------------
 
 def compress_drawio(text: str) -> str:
     """
-    String mit Raw-Deflate komprimieren + Base64-kodieren (draw.io-Format).
-    draw.io verwendet zlib ohne Header/Checksum (wbits=-15).
+    Compress string with raw deflate + base64-encode (draw.io format).
+    draw.io uses zlib without header/checksum (wbits=-15).
     """
     c = zlib.compressobj(9, zlib.DEFLATED, -15)
     compressed = c.compress(text.encode("utf-8")) + c.flush()
@@ -47,14 +47,14 @@ def compress_drawio(text: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Stencil-XML → draw.io-Bibliotheks-Eintrag
+# Stencil XML -> draw.io library entry
 # ---------------------------------------------------------------------------
 
 def shape_to_library_entry(shape_elem: ET.Element, source_file: str) -> dict:
     """
-    Ein <shape>-Element → dict fuer das mxlibrary-JSON-Array.
+    A <shape> element -> dict for the mxlibrary JSON array.
 
-    Das <shape>-XML wird als Stencil in den mxCell-Style eingebettet:
+    The <shape> XML is embedded as a stencil in the mxCell style:
         style="shape=stencil(COMPRESSED_SHAPE_XML);..."
     """
     name   = shape_elem.get("name", Path(source_file).stem)
@@ -62,11 +62,11 @@ def shape_to_library_entry(shape_elem: ET.Element, source_file: str) -> dict:
     h      = int(shape_elem.get("h", 40))
     aspect = shape_elem.get("aspect", "fixed")
 
-    # Shape-XML serialisieren und komprimieren
+    # Serialize and compress shape XML
     stencil_xml       = ET.tostring(shape_elem, encoding="unicode")
     compressed_stencil = compress_drawio(stencil_xml)
 
-    # mxGraphModel mit mxCell aufbauen
+    # Build mxGraphModel with mxCell
     mx_xml = (
         "<mxGraphModel>"
         "<root>"
@@ -92,13 +92,13 @@ def shape_to_library_entry(shape_elem: ET.Element, source_file: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Stencil-Quelldateien einlesen
+# Load stencil source files
 # ---------------------------------------------------------------------------
 
 def load_shapes_from_dir(source_dir: str) -> list:
     """
-    Alle <shape>-XML-Dateien aus source_dir (rekursiv) laden.
-    Gibt sortierte Liste von (name, shape_elem, source_file)-Tupeln zurueck.
+    Load all <shape> XML files from source_dir (recursively).
+    Returns a sorted list of (name, shape_elem, source_file) tuples.
     """
     xml_files = sorted(glob.glob(
         os.path.join(source_dir, "**", "*.xml"), recursive=True
@@ -109,28 +109,28 @@ def load_shapes_from_dir(source_dir: str) -> list:
             tree = ET.parse(path)
             root = tree.getroot()
 
-            # Unterstuetzt sowohl einzelne <shape> als auch <shapes>-Container
+            # Supports both standalone <shape> and <shapes> container
             if root.tag == "shape":
                 shapes.append((root.get("name", Path(path).stem), root, path))
             elif root.tag == "shapes":
                 for shape in root.findall("shape"):
                     shapes.append((shape.get("name", Path(path).stem), shape, path))
             else:
-                print(f"  SKIP {path}: unbekanntes Root-Element <{root.tag}>",
+                print(f"  SKIP {path}: unknown root element <{root.tag}>",
                       file=sys.stderr)
         except Exception as e:
-            print(f"  FEHLER {path}: {e}", file=sys.stderr)
+            print(f"  ERROR {path}: {e}", file=sys.stderr)
 
     return shapes
 
 
 # ---------------------------------------------------------------------------
-# Build-Funktionen
+# Build functions
 # ---------------------------------------------------------------------------
 
 def build_mxlibrary(shapes: list, output_path: str):
     """
-    Stencil-Shapes → importierbare draw.io-Bibliothek (mxlibrary-Format).
+    Stencil shapes -> importable draw.io library (mxlibrary format).
     """
     entries = []
     for name, shape_elem, src in shapes:
@@ -139,7 +139,7 @@ def build_mxlibrary(shapes: list, output_path: str):
             entries.append(entry)
             print(f"  OK   {name}  ({os.path.basename(src)})")
         except Exception as e:
-            print(f"  FEHLER {src}: {e}", file=sys.stderr)
+            print(f"  ERROR {src}: {e}", file=sys.stderr)
 
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
@@ -147,13 +147,13 @@ def build_mxlibrary(shapes: list, output_path: str):
         f.write(json.dumps(entries, ensure_ascii=False))
         f.write("</mxlibrary>")
 
-    print(f"\n{len(entries)} Symbole → {output_path}")
+    print(f"\n{len(entries)} symbols -> {output_path}")
 
 
 def build_combined_stencils(shapes: list, output_path: str, library_name: str = "IEC_Electrical"):
     """
-    Stencil-Shapes → kombinierte <shapes>-XML-Datei (direkt in draw.io importierbar
-    ueber Extras → Stencils bearbeiten).
+    Stencil shapes -> combined <shapes> XML file (importable directly in draw.io
+    via Extras -> Edit Stencils).
     """
     root = ET.Element("shapes", name=f"mxgraph.{library_name.lower()}")
     for _name, shape_elem, _src in shapes:
@@ -167,43 +167,43 @@ def build_combined_stencils(shapes: list, output_path: str, library_name: str = 
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
         tree.write(f, encoding="utf-8", xml_declaration=False)
 
-    print(f"{len(shapes)} Shapes → {output_path}")
+    print(f"{len(shapes)} shapes -> {output_path}")
 
 
 # ---------------------------------------------------------------------------
-# Einstiegspunkt
+# Entry point
 # ---------------------------------------------------------------------------
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Baut draw.io-Bibliothek aus Stencil-XML-Quelldateien."
+        description="Builds a draw.io library from stencil XML source files."
     )
-    parser.add_argument("source_dir",  help="Verzeichnis mit Stencil-XML-Quelldateien")
-    parser.add_argument("output_xml",  help="Ausgabepfad der draw.io-Bibliothek (.xml)")
+    parser.add_argument("source_dir",  help="Directory with stencil XML source files")
+    parser.add_argument("output_xml",  help="Output path for the draw.io library (.xml)")
     parser.add_argument(
         "--stencils",
         metavar="FILE",
-        help="Optional: kombinierte <shapes>-Stencil-Datei ausgeben",
+        help="Optional: output a combined <shapes> stencil file",
     )
     parser.add_argument(
         "--name",
         default="IEC_Electrical",
-        help="Bibliotheksname (Standard: IEC_Electrical)",
+        help="Library name (default: IEC_Electrical)",
     )
     args = parser.parse_args()
 
-    print(f"Lade Stencils aus '{args.source_dir}'...")
+    print(f"Loading stencils from '{args.source_dir}'...")
     shapes = load_shapes_from_dir(args.source_dir)
     if not shapes:
-        print("Keine <shape>-Dateien gefunden.")
+        print("No <shape> files found.")
         sys.exit(1)
 
-    print(f"{len(shapes)} Shapes gefunden.\n")
-    print(f"Baue mxlibrary: {args.output_xml}")
+    print(f"{len(shapes)} shapes found.\n")
+    print(f"Building mxlibrary: {args.output_xml}")
     build_mxlibrary(shapes, args.output_xml)
 
     if args.stencils:
-        print(f"\nBaue kombinierte Stencil-Datei: {args.stencils}")
+        print(f"\nBuilding combined stencil file: {args.stencils}")
         build_combined_stencils(shapes, args.stencils, library_name=args.name)
 
 
