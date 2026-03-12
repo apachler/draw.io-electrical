@@ -10,19 +10,31 @@ draw.io-importable library. The pipeline runs in two stages:
 1. **`.elmt` → stencil XML** (`elmt_to_stencil.py`) — one human-readable `<shape>` XML file per
    `.elmt` file, mirroring the source directory structure into `build-src/`.
 2. **stencil XML → draw.io library** (`build_library.py`) — compresses each shape with raw-deflate +
-   base64 (draw.io's own format) and bundles everything into `IEC_Electrical.xml` (mxlibrary) and
-   `IEC_Stencils.xml` (combined `<shapes>`) at the repo root.
+   base64 (draw.io's own format) and writes one mxlibrary file per category into
+   `libraries/categorized/` plus matching `<shapes>` stencil files into
+   `libraries/categorized/stencils/`. With `--combined` it also writes the single-file bundle into
+   `libraries/combined/`.
 
 Only the `10_electric` subtree of the submodule is converted (IEC electrical symbols only).
 
 ## Building
 
 ```bash
-bash tools/build_iec_library.sh          # auto-detects repo root
-bash tools/build_iec_library.sh /other   # explicit repo root override
+bash tools/build_iec_library.sh                    # per-category output (default)
+bash tools/build_iec_library.sh --combined         # also build combined single-file library
+bash tools/build_iec_library.sh /other             # explicit repo root override
+bash tools/build_iec_library.sh /other --combined
 ```
 
-Outputs: `IEC_Electrical.xml` and `IEC_Stencils.xml` in the repo root.
+Default outputs in `libraries/`:
+- `categorized/IEC Electrical - *.xml` — one mxlibrary file per category
+- `categorized/stencils/IEC Electrical - *.xml` — matching `<shapes>` stencil files
+- `mcp_context.md` — shape name reference for AI/MCP use
+
+With `--combined`, also writes:
+- `combined/IEC_Electrical.xml` — single mxlibrary with all symbols
+- `combined/IEC_Stencils.xml` — single combined `<shapes>` file
+
 Intermediate stencil sources land in `build-src/` (gitignored).
 
 ### First-time setup — submodule
@@ -56,8 +68,11 @@ Do not commit changes to `libraries/` without also committing the regenerated
 # Stage 1 only
 python tools/elmt_to_stencil.py qelectrotech-elements/10_electric build-src
 
-# Stage 2 only
-python tools/build_library.py build-src IEC_Electrical.xml --stencils IEC_Stencils.xml
+# Stage 2 only — per-category (default)
+python tools/build_library.py build-src --split libraries
+
+# Stage 2 only — single combined file
+python tools/build_library.py build-src libraries/combined/IEC_Electrical.xml --stencils libraries/combined/IEC_Stencils.xml
 ```
 
 ## Regenerating preview images

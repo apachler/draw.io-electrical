@@ -11,7 +11,7 @@ IEC electrical schematic symbols for draw.io/diagrams.net, converted from the
 
 Import individual category files from `libraries/categorized/`:
 
-1. In draw.io: **File → Open Library from → This Device**
+1. In draw.io: **File → Open Library…** (desktop) or **File → Open Library from → This Device** (web)
 2. Pick one or more files from `libraries/categorized/` (e.g. `IEC Electrical - Terminals.xml`)
 3. Each file appears as a separate **"IEC Electrical - …"** panel in the sidebar
 
@@ -25,9 +25,11 @@ for a one-click import of all symbols in a single panel.
 
 To use IEC symbols with the draw.io MCP:
 
-1. Register stencils in draw.io: **Extras → Edit Stencils** → load files from `libraries/categorized/stencils/`
+1. Register stencils in draw.io (web version: **Extras → Edit Stencils**) — load files from `libraries/categorized/stencils/`
 2. Provide `libraries/mcp_context.md` as context to your AI — it contains all available shape names
 3. Reference shapes in cell styles as `shape=stencil(NAME)` where NAME is from the context file
+
+> **Note:** Stencil registration via *Extras → Edit Stencils* is available in the draw.io web version. The desktop app does not expose this menu item; use the mxlibrary files (`libraries/categorized/`) instead, which work in both web and desktop.
 
 ### Original hand-crafted library
 
@@ -52,11 +54,8 @@ In draw.io: right-click the library's title bar in the shape panel and select **
 
 ## Releases
 
-Pre-built library files are published as [GitHub Releases](../../releases). Each release includes:
-
-- `IEC_Electrical_libraries.zip` — all categorized and combined library files
-- `IEC_Electrical.xml` — combined single-file library (quick import)
-- `IEC_Stencils.xml` — combined stencils file
+Pre-built library files are published as [GitHub Releases](../../releases).
+Each release page lists all assets with descriptions of what each file is for.
 
 A **`latest`** pre-release is updated automatically on every commit to `main`.
 Versioned releases use [CalVer](https://calver.org/) in `YY.MM` format, with an optional `.N`
