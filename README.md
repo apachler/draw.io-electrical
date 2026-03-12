@@ -1,21 +1,63 @@
 # draw.io-electrical
-This is a custom library of electrical schematic symbols for draw.io/diagrams.net 
 
-![Symbols Preview](/screenshots/symbols.png)
+IEC electrical schematic symbols for draw.io/diagrams.net, converted from the
+[QElectroTech elements library](https://github.com/qelectrotech/qelectrotech-elements).
 
-## Import Instructions
-1. Download the Custom_Electrical.xml file containing all the custom symbol definitions.
-2. Open your draw.io diagram and import the xml file.
+![Symbols Preview](screenshots/symbols_iec.svg)
 
-![Import Screenshot](/screenshots/import.png)
+## Import
+
+### IEC library (converted from QElectroTech)
+
+1. Download `IEC_Electrical.xml` from this repository.
+2. In draw.io: **Extras → Edit Library → Open from File** → select `IEC_Electrical.xml`.
+
+![Import Screenshot](screenshots/import.png)
+
+### Original hand-crafted library
+
+`Custom_Electrical.xml` is a smaller, manually created symbol set included in this repo. Import it the same way if you prefer it or want both libraries loaded at once.
+
+![Custom Library Symbols](screenshots/symbols_custom.svg)
 
 ## Configuration
-The default style settings are not ideal for schematic wiring. The config.json file makes the following changes:
+
+The default draw.io style is not ideal for schematic wiring. `config.json` applies:
+
 - No arrows on connectors
 - No minimum line segment length before changing direction
 - 2pt line width
-<br/>
 
-Paste the contents of the config.json file into the configuration text box.
+In draw.io: **Extras → Edit Diagram → Configuration** → paste the contents of `config.json`.
 
-![Config Screenshot](/screenshots/config.png)
+![Config Screenshot](screenshots/config.png)
+
+## Building from source
+
+Requires Python 3 and MSYS2/Git Bash (or Linux/macOS).
+
+After cloning, initialize the submodule:
+
+```bash
+git submodule update --init --recursive
+```
+
+Then build:
+
+```bash
+bash tools/build_iec_library.sh
+```
+
+Outputs `IEC_Electrical.xml` and `IEC_Stencils.xml` in the repo root.
+
+## Regenerating symbol previews
+
+After rebuilding the libraries, regenerate the preview images with:
+
+```bash
+# IEC library preview  ->  screenshots/symbols_iec.svg
+python tools/render_preview.py
+
+# Hand-crafted library preview  ->  screenshots/symbols_custom.svg
+python tools/render_custom_preview.py
+```
