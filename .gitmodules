@@ -1,0 +1,3 @@
+[submodule "qelectrotech-elements"]
+	path = qelectrotech-elements
+	url = https://github.com/qelectrotech/qelectrotech-elements.git

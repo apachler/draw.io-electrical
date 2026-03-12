@@ -1,0 +1,14 @@
+NOTICE -- draw.io-electrical IEC Symbol Library
+
+Original work:
+  Author : bzarek
+  Source : https://github.com/bzarek/draw.io-electrical
+
+Modifications and IEC 60617 symbol additions:
+  Author : Andreas Pachler
+  Source : https://github.com/apachler/draw.io-electrical
+
+IEC symbol reference data sourced from:
+  QElectroTech Elements Collection
+  https://github.com/qelectrotech/qelectrotech-elements
+  License: see individual element files
